@@ -9,3 +9,4 @@ generated-docs
 .spago
 public
 tmp
+.firebase
