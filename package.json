@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "build": "node scripts/index.js",
+    "build": "yarn spago run -m Main",
     "watch": "yarn nodemon"
   },
   "dependencies": {

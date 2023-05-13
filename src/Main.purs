@@ -23,7 +23,9 @@ main =
     $ do
         res <- runExceptT buildSite
         case res of
-          Left err -> log $ show err
+          Left err -> do
+            _ <- liftEffect $ execSync "rm -rf ./tmp" defaultExecSyncOptions
+            log $ show err
           Right _ -> log "Done."
 
 newtype Template
