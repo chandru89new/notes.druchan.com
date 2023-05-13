@@ -1,5 +1,5 @@
 ---
-title: 'Captain'
+title: "Captain"
 date: 2023-03-21
 slug: captain
 ---

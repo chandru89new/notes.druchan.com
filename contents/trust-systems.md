@@ -1,5 +1,5 @@
 ---
-title: 'Trust systems'
+title: "Trust systems"
 date: 2016-12-09
 slug: trust-systems
 ---

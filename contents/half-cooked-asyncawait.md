@@ -1,5 +1,5 @@
 ---
-title: 'Half-cooked Async/Await'
+title: "Half-cooked Async/Await"
 date: 2018-04-25
 slug: half-cooked-asyncawait
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Reinvent the wheel'
+title: "Reinvent the wheel"
 date: 2017-07-27
 slug: reinvent-the-wheel
 ---

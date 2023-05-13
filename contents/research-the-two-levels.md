@@ -1,5 +1,5 @@
 ---
-title: 'Research — the two levels'
+title: "Research — the two levels"
 date: 2016-05-25
 slug: research-the-two-levels
 ---

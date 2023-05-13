@@ -1,5 +1,5 @@
 ---
-title: 'Dispatches From Hyd: R – Part Two'
+title: "Dispatches From Hyd: R – Part Two"
 date: 2019-04-15
 slug: dispatches-from-hyd-r-part-two
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'The fear of simplifying things'
+title: "The fear of simplifying things"
 date: 2016-09-17
 slug: the-fear-of-simplifying-things
 ---

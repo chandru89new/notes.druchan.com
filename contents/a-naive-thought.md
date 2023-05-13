@@ -1,5 +1,5 @@
 ---
-title: 'A “naive” thought'
+title: "A “naive” thought"
 date: 2016-06-24
 slug: a-naive-thought
 ---

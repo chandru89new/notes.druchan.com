@@ -1,5 +1,5 @@
 ---
-title: 'Selling is easy if...'
+title: "Selling is easy if..."
 date: 2016-05-17
 slug: selling-is-easy-if
 ---

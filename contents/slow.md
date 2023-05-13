@@ -1,5 +1,5 @@
 ---
-title: 'Slow'
+title: "Slow"
 date: 2018-03-27
 slug: slow
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Startup-Swadesh'
+title: "Startup-Swadesh"
 date: 2016-07-07
 slug: startup-swadesh
 ---

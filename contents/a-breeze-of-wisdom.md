@@ -1,5 +1,5 @@
 ---
-title: 'A Breeze of Wisdom'
+title: "A Breeze of Wisdom"
 date: 2019-08-03
 slug: a-breeze-of-wisdom
 ---

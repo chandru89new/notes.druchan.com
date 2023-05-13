@@ -1,5 +1,5 @@
 ---
-title: 'The curse of the obvious'
+title: "The curse of the obvious"
 date: 2016-10-23
 slug: the-curse-of-the-obvious
 ---

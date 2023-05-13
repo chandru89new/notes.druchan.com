@@ -1,5 +1,5 @@
 ---
-title: 'Canine Companions'
+title: "Canine Companions"
 date: 2019-05-06
 slug: canine-companions
 ---

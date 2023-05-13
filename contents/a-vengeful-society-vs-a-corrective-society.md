@@ -1,5 +1,5 @@
 ---
-title: 'A Vengeful Society vs. A Corrective Society'
+title: "A Vengeful Society vs. A Corrective Society"
 date: 2016-10-08
 slug: a-vengeful-society-vs-a-corrective-society
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Money: My simple rules'
+title: "Money: My simple rules"
 date: 2017-10-20
 slug: money-my-simple-rules
 ---

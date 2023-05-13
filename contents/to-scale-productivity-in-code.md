@@ -1,5 +1,5 @@
 ---
-title: 'To scale productivity in code'
+title: "To scale productivity in code"
 date: 2020-12-12
 slug: to-scale-productivity-in-code
 ---

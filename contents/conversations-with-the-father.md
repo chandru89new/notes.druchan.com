@@ -1,5 +1,5 @@
 ---
-title: 'Conversations with the father'
+title: "Conversations with the father"
 date: 2016-07-22
 slug: conversations-with-the-father
 ---

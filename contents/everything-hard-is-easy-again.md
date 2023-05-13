@@ -1,5 +1,5 @@
 ---
-title: 'Everything hard is easy again'
+title: "Everything hard is easy again"
 date: 2018-05-16
 slug: everything-hard-is-easy-again
 ---

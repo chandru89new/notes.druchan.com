@@ -1,5 +1,5 @@
 ---
-title: 'Example vs. Analogy'
+title: "Example vs. Analogy"
 date: 2016-06-28
 slug: example-vs-analogy
 ---

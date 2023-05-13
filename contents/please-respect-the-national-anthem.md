@@ -1,5 +1,5 @@
 ---
-title: '"Please respect the national anthem"'
+title: "'Please respect the national anthem'"
 date: 2018-03-06
 slug: please-respect-the-national-anthem
 ---

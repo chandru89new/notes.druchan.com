@@ -1,5 +1,5 @@
 ---
-title: 'Opinions against'
+title: "Opinions against"
 date: 2016-06-10
 slug: opinions-against
 ---

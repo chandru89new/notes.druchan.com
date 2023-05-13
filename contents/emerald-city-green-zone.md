@@ -1,5 +1,5 @@
 ---
-title: 'Emerald City ↔ Green Zone'
+title: "Emerald City ↔ Green Zone"
 date: 2016-06-08
 slug: emerald-city-green-zone
 ---

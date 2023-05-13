@@ -1,5 +1,5 @@
 ---
-title: 'What’s in a name'
+title: "What’s in a name"
 date: 2019-08-22
 slug: whats-in-a-name
 ---

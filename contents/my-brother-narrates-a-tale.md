@@ -1,5 +1,5 @@
 ---
-title: 'My Brother Narrates A Tale'
+title: "My Brother Narrates A Tale"
 date: 2017-10-22
 slug: my-brother-narrates-a-tale
 ---

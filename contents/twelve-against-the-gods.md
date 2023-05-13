@@ -1,5 +1,5 @@
 ---
-title: 'Twelve Against the Gods'
+title: "Twelve Against the Gods"
 date: 2016-07-29
 slug: twelve-against-the-gods
 ---

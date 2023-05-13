@@ -1,5 +1,5 @@
 ---
-title: 'Coder’s block'
+title: "Coder’s block"
 date: 2020-12-17
 slug: coders-block
 ---

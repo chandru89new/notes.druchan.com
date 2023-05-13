@@ -1,5 +1,5 @@
 ---
-title: 'Visualization & Genius'
+title: "Visualization & Genius"
 date: 2016-05-19
 slug: visualization-genius
 ---

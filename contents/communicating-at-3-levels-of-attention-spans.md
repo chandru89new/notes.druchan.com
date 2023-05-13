@@ -1,5 +1,5 @@
 ---
-title: 'Communicating at 3 levels of attention spans'
+title: "Communicating at 3 levels of attention spans"
 date: 2016-10-14
 slug: communicating-at-3-levels-of-attention-spans
 ---

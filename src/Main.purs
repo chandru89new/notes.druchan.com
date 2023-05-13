@@ -1,9 +1,9 @@
 module Main where
 
 import Prelude
-
 import Control.Monad.Except (ExceptT(..), runExceptT)
-import Control.Parallel (parTraverse_)
+import Control.Parallel (parTraverse, parTraverse_)
+import Data.Array (foldl, sortBy)
 import Data.Either (Either(..))
 import Data.String (Pattern(..), Replacement(..), replaceAll)
 import Effect (Effect)
@@ -11,17 +11,16 @@ import Effect.Aff (Aff, Error, launchAff_, try)
 import Effect.Class.Console (log)
 import Node.Encoding (Encoding(..))
 import Node.FS.Aff (readTextFile, readdir, writeTextFile)
-import Utils (blogpostTemplate, createFolderIfNotPresent, htmlOutputFolder, rawContentsFolder)
+import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, md2FormattedData, rawContentsFolder, tmpFolder)
 
-foreign import md2Html :: String -> FormattedMarkdownData
-
-type ParsedMarkdownData
-  = { frontMatter :: { title :: String, date :: String, slug :: String }, content :: String }
-
-type FormattedMarkdownData
-  = { frontMatter :: { title :: String, date :: String, slug :: String }
-    , content :: String
-    }
+main :: Effect Unit
+main =
+  launchAff_
+    $ do
+        res <- runExceptT buildSite
+        case res of
+          Left err -> log $ show err
+          Right _ -> log "Done."
 
 newtype Template
   = Template String
@@ -29,21 +28,16 @@ newtype Template
 readFileToData :: String -> ExceptT Error Aff FormattedMarkdownData
 readFileToData filePath = do
   contents <- ExceptT $ try $ readTextFile UTF8 filePath
-  pure $ md2Html contents
-  -- where
-  -- formatProcessedData :: ParsedMarkdownData -> Effect FormattedMarkdownData
-  -- formatProcessedData raw = do
-  --   dateString <- parse raw.frontMatter.date
-  --   pure $ raw { frontMatter = raw.frontMatter { date = dateString } }
+  pure $ md2FormattedData contents
 
 writeHTMLFile :: Template -> FormattedMarkdownData -> ExceptT Error Aff Unit
 writeHTMLFile template pd@{ frontMatter } =
   ExceptT
     $ do
-        res <- try $ writeTextFile UTF8 (htmlOutputFolder <> "/" <> frontMatter.slug <> ".html") (replaceContentInTemplate template pd)
+        res <- try $ writeTextFile UTF8 (tmpFolder <> "/" <> frontMatter.slug <> ".html") (replaceContentInTemplate template pd)
         _ <- case res of
           Left err -> log $ "Could not write " <> frontMatter.slug <> ".md to html (" <> show err <> ")"
-          Right _ -> log $ frontMatter.slug <> ".md -> " <> htmlOutputFolder <> "/" <> pd.frontMatter.slug <> ".html" <> " = success!"
+          Right _ -> log $ rawContentsFolder <> "/" <> frontMatter.slug <> ".md -> " <> tmpFolder <> "/" <> frontMatter.slug <> ".html" <> " = success!"
         pure res
 
 readAndWriteHTMLFile :: Template -> String -> ExceptT Error Aff Unit
@@ -57,27 +51,59 @@ getFilesAndTemplate = do
   template <- readPostTemplate
   pure { files, template }
 
-generateHTMLFiles :: Effect Unit
-generateHTMLFiles =
-  launchAff_
-    $ do
-        result <- runExceptT getFilesAndTemplate
-        ensureOutputFolder <- runExceptT (createFolderIfNotPresent htmlOutputFolder)
-        log $ show ensureOutputFolder
-        case result, ensureOutputFolder of
-          Right { files, template }, Right _ -> parTraverse_ (\f -> runExceptT $ readAndWriteHTMLFile (Template template) $ rawContentsFolder <> "/" <> f) files
-          Left err, _ -> log $ show err
-          _, Left err -> log $ show err
-        log "Done."
+generatePostsHTML :: ExceptT Error Aff Unit
+generatePostsHTML = do
+  { files, template } <- getFilesAndTemplate
+  _ <- createFolderIfNotPresent tmpFolder
+  _ <- parTraverse_ (\f -> readAndWriteHTMLFile (Template template) $ rawContentsFolder <> "/" <> f) files
+  pure unit
 
 replaceContentInTemplate :: Template -> FormattedMarkdownData -> String
 replaceContentInTemplate (Template template) pd =
   replaceAll (Pattern "{{title}}") (Replacement pd.frontMatter.title) template
-    # replaceAll (Pattern "{{content}}") (Replacement pd.content)
-    # replaceAll (Pattern "{{date}}") (Replacement $ formatDate "MMM DD, YYYY"  pd.frontMatter.date)
+    # replaceAll (Pattern "{{content}}") (Replacement $ augmentATags pd.content)
+    # replaceAll (Pattern "{{date}}") (Replacement $ formatDate "MMM DD, YYYY" pd.frontMatter.date)
+  where
+  augmentATags :: String -> String
+  augmentATags = replaceAll (Pattern "<a") (Replacement "<a target='_blank'")
 
 readPostTemplate :: ExceptT Error Aff String
 readPostTemplate = ExceptT $ try $ readTextFile UTF8 blogpostTemplate
 
+buildSite :: ExceptT Error Aff Unit
+buildSite = do
+  log "\nStarting..."
+  log "\nGenerating posts pages..."
+  postGenerationResult <- generatePostsHTML
+  log "\nGenerated posts pages: Done!"
+  log "\nGenerating archive page..."
+  _ <- createFullArchivePage
+  log "\nGenerating archive page: Done!"
+  log "\nGenerating home page: Done!"
+  log "\nGenerating home page: Done!"
 
-foreign import formatDate :: String -> String -> String 
+createFullArchivePage :: ExceptT Error Aff Unit
+createFullArchivePage = do
+  filePaths <- ExceptT $ try $ readdir rawContentsFolder
+  formattedDataArray <- filePathsToProcessedData filePaths
+  sortedArray <- pure $ sortArray formattedDataArray
+  content <- (toHTML sortedArray)
+  writeFullArchivePage content
+  where
+  filePathsToProcessedData :: Array String -> ExceptT Error Aff (Array FormattedMarkdownData)
+  filePathsToProcessedData fpaths = parTraverse (\f -> readFileToData $ rawContentsFolder <> "/" <> f) fpaths
+
+  sortArray :: Array FormattedMarkdownData -> Array FormattedMarkdownData
+  sortArray = sortBy (\a b -> if a.frontMatter.date < b.frontMatter.date then GT else LT)
+
+  toHTML :: Array FormattedMarkdownData -> ExceptT Error Aff String
+  toHTML fd = do
+    template <- ExceptT $ try $ readTextFile UTF8 archiveTemplate
+    pure $ replaceAll (Pattern "{{content}}") (Replacement $ "<ul>" <> content <> "</ul>") template
+    where
+    content = foldl fn "" fd
+
+    fn b a = b <> "<li><a href='./" <> a.frontMatter.slug <> ".html'>" <> a.frontMatter.title <> " (" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> ")" <> "</a></li>"
+
+  writeFullArchivePage :: String -> ExceptT Error Aff Unit
+  writeFullArchivePage str = ExceptT $ try $ writeTextFile UTF8 "./tmp/archive.html" str

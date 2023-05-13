@@ -1,5 +1,5 @@
 ---
-title: 'User-generated Content'
+title: "User-generated Content"
 date: 2016-09-17
 slug: user-generated-content
 ---

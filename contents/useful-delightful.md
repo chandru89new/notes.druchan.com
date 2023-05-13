@@ -1,5 +1,5 @@
 ---
-title: 'Useful + Delightful'
+title: "Useful + Delightful"
 date: 2016-10-17
 slug: useful-delightful
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Writing for people: 6 rules'
+title: "Writing for people: 6 rules"
 date: 2016-10-16
 slug: writing-for-people-6-rules
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'On money and shame'
+title: "On money and shame"
 date: 2016-06-24
 slug: on-money-and-shame
 ---

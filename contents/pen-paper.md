@@ -1,5 +1,5 @@
 ---
-title: 'Pen, paper'
+title: "Pen, paper"
 date: 2016-06-29
 slug: pen-paper
 ---

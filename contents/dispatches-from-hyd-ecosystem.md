@@ -1,5 +1,5 @@
 ---
-title: 'Dispatches From Hyd: Ecosystem'
+title: "Dispatches From Hyd: Ecosystem"
 date: 2019-03-20
 slug: dispatches-from-hyd-ecosystem
 ---

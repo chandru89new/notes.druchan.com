@@ -1,5 +1,5 @@
 ---
-title: 'Wednesdays with Albom'
+title: "Wednesdays with Albom"
 date: 2017-10-23
 slug: wednesdays-with-albom
 ---

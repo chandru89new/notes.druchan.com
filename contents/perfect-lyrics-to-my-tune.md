@@ -1,5 +1,5 @@
 ---
-title: 'Perfect lyrics to my tune'
+title: "Perfect lyrics to my tune"
 date: 2018-03-27
 slug: perfect-lyrics-to-my-tune
 ---

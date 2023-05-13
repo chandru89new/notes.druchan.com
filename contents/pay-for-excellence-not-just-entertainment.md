@@ -1,5 +1,5 @@
 ---
-title: 'Pay for excellence, not just entertainment'
+title: "Pay for excellence, not just entertainment"
 date: 2017-02-06
 slug: pay-for-excellence-not-just-entertainment
 ---

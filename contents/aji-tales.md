@@ -1,5 +1,5 @@
 ---
-title: 'Aji tales'
+title: "Aji tales"
 date: 2023-03-02
 slug: aji-tales
 ---

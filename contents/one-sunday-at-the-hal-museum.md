@@ -1,5 +1,5 @@
 ---
-title: 'One Sunday at the H.A.L Museum'
+title: "One Sunday at the H.A.L Museum"
 date: 2016-09-19
 slug: one-sunday-at-the-hal-museum
 ---

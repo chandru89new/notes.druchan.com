@@ -1,5 +1,5 @@
 ---
-title: 'Once more unto the Vim, dear friends.'
+title: "Once more unto the Vim, dear friends."
 date: 2023-03-15
 slug: once-more-unto-the-vim-dear-friends
 ---

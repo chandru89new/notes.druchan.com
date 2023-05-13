@@ -1,5 +1,5 @@
 ---
-title: 'Theories of storytelling - 1'
+title: "Theories of storytelling - 1"
 date: 2016-06-19
 slug: theories-of-storytelling-1
 ---

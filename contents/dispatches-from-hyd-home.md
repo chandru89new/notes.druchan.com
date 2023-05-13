@@ -1,5 +1,5 @@
 ---
-title: 'Dispatches From Hyd: “Home”'
+title: "Dispatches From Hyd: “Home”"
 date: 2019-03-14
 slug: dispatches-from-hyd-home
 ---

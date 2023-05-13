@@ -1,5 +1,5 @@
 ---
-title: 'The block'
+title: "The block"
 date: 2017-10-20
 slug: the-block
 ---

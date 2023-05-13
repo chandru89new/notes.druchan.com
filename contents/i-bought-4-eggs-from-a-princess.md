@@ -1,5 +1,5 @@
 ---
-title: 'I bought 4 eggs from a Princess.'
+title: "I bought 4 eggs from a Princess."
 date: 2016-09-04
 slug: i-bought-4-eggs-from-a-princess
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'My principles of design'
+title: "My principles of design"
 date: 2016-12-09
 slug: my-principles-of-design
 ---

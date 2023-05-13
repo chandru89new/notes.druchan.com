@@ -1,5 +1,5 @@
 ---
-title: 'Theory of Everything'
+title: "Theory of Everything"
 date: 2017-05-06
 slug: theory-of-everything
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'The Dying Art of "Slow" Stories'
+title: "The Dying Art of 'Slow' Stories"
 date: 2017-07-27
 slug: the-dying-art-of-slow-stories
 ---

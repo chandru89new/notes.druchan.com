@@ -1,5 +1,5 @@
 ---
-title: 'Amruta Subash'
+title: "Amruta Subash"
 date: 2017-10-20
 slug: amruta-subash
 ---

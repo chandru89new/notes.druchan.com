@@ -1,5 +1,5 @@
 ---
-title: 'Burnt Sandwiches'
+title: "Burnt Sandwiches"
 date: 2019-01-26
 slug: burnt-sandwiches
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Follow-up thoughts on carpooling'
+title: "Follow-up thoughts on carpooling"
 date: 2016-09-06
 slug: follow-up-thoughts-on-carpooling
 ---

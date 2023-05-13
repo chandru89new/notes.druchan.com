@@ -1,5 +1,5 @@
 ---
-title: 'Second-rate minds'
+title: "Second-rate minds"
 date: 2016-05-26
 slug: second-rate-minds
 ---

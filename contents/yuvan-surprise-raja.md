@@ -1,5 +1,5 @@
 ---
-title: 'Yuvan “Surprise” Raja'
+title: "Yuvan “Surprise” Raja"
 date: 2021-02-25
 slug: yuvan-surprise-raja
 ---

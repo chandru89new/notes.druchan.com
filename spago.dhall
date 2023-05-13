@@ -14,11 +14,11 @@ to generate this file without the comments in this block.
 , dependencies =
   [ "aff"
   , "argonaut-codecs"
+  , "arrays"
   , "console"
   , "effect"
   , "either"
   , "fetch"
-  , "js-date"
   , "lists"
   , "node-buffer"
   , "node-fs-aff"

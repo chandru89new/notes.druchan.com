@@ -1,5 +1,5 @@
 ---
-title: 'Nanpakal Nerathu Mayakkam'
+title: "Nanpakal Nerathu Mayakkam"
 date: 2023-03-06
 slug: nanpakal-nerathu-mayakkam
 ---

@@ -1,5 +1,5 @@
 ---
-title: '“Cho”'
+title: "“Cho”"
 date: 2017-01-29
 slug: cho
 ---

@@ -1,8 +1,13 @@
 {
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/index.js"
+  },
   "dependencies": {
     "dayjs": "^1.11.7",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
+    "purty": "^7.0.0",
     "turndown": "^7.1.2"
   }
 }

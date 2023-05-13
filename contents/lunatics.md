@@ -1,5 +1,5 @@
 ---
-title: 'Lunatics'
+title: "Lunatics"
 date: 2018-07-27
 slug: lunatics
 ---
