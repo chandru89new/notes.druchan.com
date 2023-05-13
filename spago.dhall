@@ -21,6 +21,7 @@ to generate this file without the comments in this block.
   , "fetch"
   , "lists"
   , "node-buffer"
+  , "node-child-process"
   , "node-fs-aff"
   , "parallel"
   , "prelude"

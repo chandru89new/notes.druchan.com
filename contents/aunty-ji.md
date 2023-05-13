@@ -3,9 +3,6 @@ title: "Aunty-ji"
 date: 2023-05-02
 slug: aunty-ji
 ---
-Aunty-ji
-========
-
 During my time in Vejalpur, a small little corner of Ahmedabad, i cycled through three neighbors. One of them was a middle-aged couple — the man was working with Asian Paints at the time, and the woman was a home-maker. A very typical northern-hinterland family hailing from Madhya Pradesh. For the length of my stay there, I called him “Sir”, he called me “Shekhar ji”. And “aunty ji” was met with “bhaiyaji” even though i could have very well been the age of her first-born.
 
 Sometime during their stay, their daughter came visiting. She was pregnant, although there was almost no clue that she was, given her thin frame. One day, I got a call from “aunty ji” and she said there was a book in their house that she wanted me to remove. I think it was one of those _uttara-ramayan_ copies that people believe should not be kept in the house when something auspicious happens. I dont know if I asked her why or if she proffered the information voluntarily but that was when she informed me that her daughter had given birth to a baby boy.

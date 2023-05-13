@@ -1,0 +1,48 @@
+- category: people
+  posts:
+    - aji-tales
+    - captain
+    - aunty-ji
+    - cho
+    - my-brother-narrates-a-tale
+    - perfect-rigor
+    - tales-from-a-bygone-summer
+- category: books
+  posts:
+    - perfect-rigor
+    - theory-of-everything
+- category: on products/business
+  posts:
+    - burnt-sandwiches
+- category: films/art
+  posts:
+    - every-frame-a-motif
+    - nanpakal-nerathu-mayakkam
+    - papanasam
+    - andha-naal-nyaabagam
+    - amruta-subash
+    - the-dying-art-of-slow-stories
+    - emerald-city-green-zone
+- category: music
+  posts:
+    - rahman-raja
+    - yuvan-surprise-raja
+- category: memoirs
+  posts:
+    - backyard-inhabitants
+    - canine-companions
+    - tales-from-a-bygone-summer
+    - memories
+    - one-sunday-at-the-hal-museum
+    - silence
+- category: programming
+  posts:
+    - to-scale-productivity-in-code
+    - coders-block
+    - everything-hard-is-easy-again
+    - half-cooked-asyncawait
+- category: dispatches from hyderabad
+  posts:
+    - dispatches-from-hyd-nests
+    - dispatches-from-hyd-ecosystem
+    - dispatches-from-hyd-home

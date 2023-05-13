@@ -3,9 +3,6 @@ title: "Andha Naal Nyaabagam"
 date: 2023-03-06
 slug: andha-naal-nyaabagam
 ---
-Andha Naal Nyaabagam
-====================
-
 By now, it’s clear that surprising miniscule details emerge out of everything you’ve watched if you rewatch it enough times. I’ve lost count of the number of times I’ve picked up some atomic detail from every Kamal-Crazy Mohan movie on the infinitieth rewatch. And yet, it comes as a surprise when you realize, in this [Andha Naal Nyaabagam](https://href.li/?https://www.youtube.com/watch?v=VtrnHY21zZw&ab_channel=APInternational) song from Uyarndha Manidhan, at about [0:50](https://href.li/?https://youtu.be/VtrnHY21zZw?t=47), Major Sundarrajan almost trips because his leg twists on a step as he runs towards the camera with Sivaji Ganesan.
 
 Not being privy to what happened at that time (not just because I was unborn but I’d have definitely not been in the company of Tamil cinema and theatre greats), I can only speculate as to why this slip was in the film at all.

@@ -3,9 +3,6 @@ title: "Nanpakal Nerathu Mayakkam"
 date: 2023-03-06
 slug: nanpakal-nerathu-mayakkam
 ---
-Nanpakal Nerathu Mayakkam
-=========================
-
 Note: this is not a review but more of an outpouring of thoughts that strike you when your mind is captivated by beautiful frames written, enacted and captured; maybe spoilers ahead.
 
 Some movies are bold enough to force you to walk with the characters, often in sombrely long sequence of shots where nothing happens (nothing from the point of view of a regular movie-watcher). [Nanpakal Nerathu Mayakkam](https://href.li/?https://en.wikipedia.org/wiki/Nanpakal_Nerathu_Mayakkam) is a spectacular example (and I am positive Malayalam cinema has a plethora of such examples, esp in recent times). But to do this, I would imagine, requires a boldness of a different kind.

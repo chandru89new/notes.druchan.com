@@ -24,6 +24,9 @@ tmpFolder = "./tmp"
 archiveTemplate :: String
 archiveTemplate = templatesFolder <> "/archive.html"
 
+homepageTemplate :: String
+homepageTemplate = templatesFolder <> "/index.html"
+
 createFolderIfNotPresent :: String -> ExceptT Error Aff Unit
 createFolderIfNotPresent folderName =
   ExceptT
@@ -35,12 +38,14 @@ createFolderIfNotPresent folderName =
 
 foreign import formatDate :: String -> String -> String
 
-type ParsedMarkdownData
-  = { frontMatter :: { title :: String, date :: String, slug :: String }, content :: String }
-
 type FormattedMarkdownData
-  = { frontMatter :: { title :: String, date :: String, slug :: String }
+  = { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String }
     , content :: String
+    }
+
+type Category
+  = { category :: String
+    , posts :: Array String
     }
 
 foreign import md2FormattedData :: String -> FormattedMarkdownData
@@ -48,3 +53,5 @@ foreign import md2FormattedData :: String -> FormattedMarkdownData
 foreign import htmlToMarkdown :: String -> String
 
 foreign import getEnv :: String -> String
+
+foreign import getCategoriesJson :: Unit -> Array Category

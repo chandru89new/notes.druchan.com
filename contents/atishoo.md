@@ -3,9 +3,6 @@ title: "Atishoo"
 date: 2023-05-02
 slug: atishoo
 ---
-Atishoo
-=======
-
 In many ways, I’ve never found closure after Atishoo’s sudden death that I got to know a fortnight later from her daughter. I’d often start an email to the abyss, addressed to Atishoo, telling her how much I miss her English wit and her counsel and her irreverent wisecracks about everything under the sun and so much more but they would end up as drafts or get deleted. Nothing seemed to fit the bill to accept that this person, who I knew for a very brief moment in time, is no more here.
 
 Friendships with older people – Atishoo was pushing north of sixty when I first knew her – are few and far between because it’s not often that one meets old folk who can vibe with the younger ones. But those that do are a wellspring of youth even as time and disease cripple their physicality. I was lucky to know and be befriended by Atishoo.

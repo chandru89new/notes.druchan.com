@@ -3,9 +3,6 @@ title: "Captain"
 date: 2023-03-21
 slug: captain
 ---
-Captain
-=======
-
 “Captain” was never in the army, nor into any sporting activity, and nor was he a stocky, spitting-image of “Captain” Vijayakanth (a Tamil movie veteran of the 80s and 90s). Instead, he was short at about five-and-a-half feet, skeletally-thin, and quite dark-skinned to account for the unforgiving humid heat of Madras. I knew him at a time when [Sunny](https://href.li/?https://en.wikipedia.org/wiki/Bajaj_Sunny), the two-wheeler, was in vogue and not quite coincidentally, he rode one of those. If you’ve seen Sunny, and if you’d seen Captain, you’d say it was a perfect match.
 
 Captain was, as was common in those days, the _de facto_ electrician-plus-plumber for our apartment (and a few more in the locality). He had this dingy-little shop right across the road from our colony but you couldn’t find him in his shop almost ever. On the rare afternoon that he did exist in that small, dark 5x10 half-filled with the kind of dismantled clutter you’d find in an electrician’s shop, you might find him leafing through a thin novella or a serious magazine. Yeah, he was one of those rare kinds – somewhat well-read, could dole out a good dose of English when required, could speak at length on realpolitik, wax lyrical about out-of-fashion Tamil-cinema legends and down a lot more than a few gulps of TASMAC whiskey.

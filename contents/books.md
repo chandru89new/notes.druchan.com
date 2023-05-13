@@ -1,7 +1,7 @@
 ---
 title: "Books"
 date: 2016-05-25
-slug: ive-always-held-the-belief-that-if-we-want-to
+slug: books
 ---
 I’ve always held the belief that if we want to emulate and be fruitfully inspired by the greats, we must find out where they gather their information from. Even more important is how they gather all the info they assimilate but for starters, we must start with what/where.
 

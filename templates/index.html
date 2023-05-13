@@ -5,21 +5,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Full archive — notes from druchan</title>
+  <title>notes — druchan.com</title>
   <link href="./style.css" rel="stylesheet" />
 </head>
 
 <body>
   <div>
-    <h3 id="logo">
+    <h3 id="home-page-logo">
       <a href="/">
-        &larr; notes / druchan
+        notes / druchan
       </a>
     </h3>
     <header>
-      <h1>Archive</h1>
+      <p>Where I jot down thoughts and/or narrate things infrequently.</p>
     </header>
-    <article>{{content}}</article>
+    <article>
+      <section>
+        <h3>Things I wrote recently:</h3>
+        <div>{{recent_posts}}</div>
+      </section>
+      {{posts_by_categories}}
+      <div>
+        <a href="./archive.html">See the full archive &rarr;</a>
+      </div>
+    </article>
     <footer>
       <a href="https://druchan.com">druchan.com</a>
     </footer>

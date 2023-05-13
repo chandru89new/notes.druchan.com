@@ -5,15 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{title}} — notes from druchan</title>
+  <title>{{page_title}} — notes from druchan</title>
+  <link href="./style.css" rel="stylesheet" />
 </head>
 
 <body>
   <div>
-    <h3>notes from druchan</h3>
-    <h1>{{title}}</h1>
-    <span>{{date}}</span>
-    <div>{{content}}</div>
+    <h3 id="logo">
+      <a href="/">
+        &larr; notes / druchan
+      </a>
+    </h3>
+    <header>
+      <h1>{{title}}</h1>
+      <div class="date">{{date}}</div>
+    </header>
+    <article>{{content}}</article>
+    <footer>
+      <a href="/">&larr; Blog</a>
+      <span>&bull;</span>
+      <a href="https://druchan.com">druchan.com</a>
+    </footer>
   </div>
 </body>
 
