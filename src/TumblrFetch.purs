@@ -6,7 +6,7 @@ import Control.Parallel (parTraverse_)
 import Data.Argonaut.Decode (fromJsonString)
 import Data.Either (Either(..), either)
 import Data.List (List)
-import Data.String (splitAt)
+import Data.String (Pattern(..), Replacement(..), replaceAll, splitAt)
 import Effect (Effect)
 import Effect.Aff (Aff, Error, launchAff_, try)
 import Effect.Class.Console (log)
@@ -77,7 +77,7 @@ fileDataToMarkdown :: FileData -> String
 fileDataToMarkdown { title, contents, date, slug } =
   "---\n"
     <> "title: \""
-    <> title
+    <> sanitizeTitle title
     <> "\"\n"
     <> "date: "
     <> date
@@ -87,3 +87,6 @@ fileDataToMarkdown { title, contents, date, slug } =
     <> "\n"
     <> "---\n"
     <> htmlToMarkdown contents
+
+sanitizeTitle :: String -> String
+sanitizeTitle = replaceAll (Pattern "\"") (Replacement "\'")
