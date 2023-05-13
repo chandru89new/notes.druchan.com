@@ -2,6 +2,14 @@
   "hosting": {
     "cleanUrls": true,
     "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**", "**/.spago/**"]
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "*/output/**",
+      "*/src",
+      "*/templates",
+      "*/test"
+    ]
   }
 }

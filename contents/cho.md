@@ -3,9 +3,9 @@ title: "“Cho”"
 date: 2017-01-29
 slug: cho
 ---
-The Wikipedia entry on Gay Talese \[1\], a reporter who is often mentioned when people talk about New Journalism and creative non-fiction, has a couple of phrases that remind me of Cho Ramaswamy. “Entirely happenstance” and “unintended consequence”.
+The Wikipedia entry on [Gay Talese][1], a reporter who is often mentioned when people talk about New Journalism and creative non-fiction, has a couple of phrases that remind me of Cho Ramaswamy. “Entirely happenstance” and “unintended consequence”.
 
-Although Cho’s life and his multi-faceted career (as a corporate lawyer, consultant, theatre artist, dramatist, actor, director, political commentator, politician, and perhaps for what he’s most successfully known, satirical writer) were not exactly happenstance or unintended consequence, that’s the way he liked to describe them. In an older interview \[2\] — from times when interviews on TV were probably much more sensible, gainsome to the viewer and not bereft of value — Cho was asked about his career spanning not just a long stretch of time but field too. To this, Cho simply said it was all an accident.
+Although Cho’s life and his multi-faceted career (as a corporate lawyer, consultant, theatre artist, dramatist, actor, director, political commentator, politician, and perhaps for what he’s most successfully known, satirical writer) were not exactly happenstance or unintended consequence, that’s the way he liked to describe them. [In an older interview][2] — from times when interviews on TV were probably much more sensible, gainsome to the viewer and not bereft of value — Cho was asked about his career spanning not just a long stretch of time but field too. To this, Cho simply said it was all an accident.
 
 Sure, some parts of his life were accidental happenstance. No one expected Cho to turn out into a political “seer” of sorts who dabbled in some arbitration between parties for a while. In fact, he has said on more than one occasion that his entry into journalism (through the satire magazine, _Thuglak_) happened “just like that”.
 
@@ -31,7 +31,7 @@ Cho never appeared humble. To some of his critics, he was in fact boastful of hi
 
 **Controversial opinions, unapologetically held**
 
-A few years ago, Gopalkrishna Gandhi (the grandson of M.K.Gandhi and C.Rajagopalachari) wrote a beautiful piece on Swami Vivekananda \[3\]. For much of my generation (and perhaps to the previous one too), Vivekananda is the sterling example of forward thinking. In the piece, however, Gandhi pointed out certain facts about Vivekananda that invited a closer look at Vivekananda’s thoughts. To the uninitiated, Swami Vivekananda held some condemnable thoughts on slavery and the role of women in the civic discourse. “\[They\] invite long editorial scissors” is how Gandhi describes some of Vivekananda’s thoughts that, in the modern world, sound extremely backward and downright wrong.
+A few years ago, Gopalkrishna Gandhi (the grandson of M.K.Gandhi and C.Rajagopalachari) wrote a beautiful piece on [Swami Vivekananda][3]. For much of my generation (and perhaps to the previous one too), Vivekananda is the sterling example of forward thinking. In the piece, however, Gandhi pointed out certain facts about Vivekananda that invited a closer look at Vivekananda’s thoughts. To the uninitiated, Swami Vivekananda held some condemnable thoughts on slavery and the role of women in the civic discourse. “\[They\] invite long editorial scissors” is how Gandhi describes some of Vivekananda’s thoughts that, in the modern world, sound extremely backward and downright wrong.
 
 Many of Cho’s thoughts — which he was not afraid of voicing in a public forum — do invite long editorial scissors. While not being as strong an RSS sympathizer as his colleague at _Thuglak_, Gurumurthy, he was still a strong proponent of the Hindutva agenda. He was definitely a byproduct of Brahminism and, in fact, was probably the singular voice of the Brahmins during that specific time of Tamil Nadu’s history when Periyar’s and the _Kazhagam_’s anti-Brahmin stand flourished justifiably.
 
@@ -49,8 +49,6 @@ Cho’s idolators often talk about his unbiased writing which used to be true bu
 
 I’ve heard too many people say what people usually say when talking about dead people — that there can’t be another Cho in the history of India. I wouldn’t like to repeat it for the fact is there can’t be another “whoever” for that matter. But if there is one thing that I’d like to carry to my grave, it’s the dispassion of it all. In his time, Cho did some extraordinary things. But every time he was asked to speak about them, he did so in his characteristic witty demeanor, dismissing all praise and crediting happenstance and unintended consequence for all his achievements. That, I think, is the essence of it all. Dispassion.
 
-—
-
-1: [https://en.wikipedia.org/wiki/Gay\_Talese](https://en.wikipedia.org/wiki/Gay_Talese)  
-2: [https://www.youtube.com/watch?v=wfBxXqTuWEE](https://www.youtube.com/watch?v=wfBxXqTuWEE)  
-3: [http://www.thehindu.com/news/national/reclaiming-vivekananda/article4299153.ece](http://www.thehindu.com/news/national/reclaiming-vivekananda/article4299153.ece)
+[1]: https://en.wikipedia.org/wiki/Gay_Talese
+[2]: https://www.youtube.com/watch?v=wfBxXqTuWEE
+[3]: http://www.thehindu.com/news/national/reclaiming-vivekananda/article4299153.ece
