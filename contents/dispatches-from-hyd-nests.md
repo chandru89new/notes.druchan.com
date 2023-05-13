@@ -1,6 +1,6 @@
 ---
 title: 'Dispatches From Hyd: Nests'
-date: '2019-03-16 17:45:18 GMT'
+date: 2019-03-16
 slug: dispatches-from-hyd-nests
 ---
 There was (and hopefully still is) a huge banyan tree right in the middle of an intersection a few meters off of S.G.Highway in Ahmedabad. Somewhat diagonally across was the first office of a small startup I worked with a few years back. It was a simple, one-room shop with a shutter more suited for a retail store than a tech office.

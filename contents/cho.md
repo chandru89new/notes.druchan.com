@@ -1,6 +1,6 @@
 ---
 title: '“Cho”'
-date: '2017-01-29 15:49:23 GMT'
+date: 2017-01-29
 slug: cho
 ---
 The Wikipedia entry on Gay Talese \[1\], a reporter who is often mentioned when people talk about New Journalism and creative non-fiction, has a couple of phrases that remind me of Cho Ramaswamy. “Entirely happenstance” and “unintended consequence”.

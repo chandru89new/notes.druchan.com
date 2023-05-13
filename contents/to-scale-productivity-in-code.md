@@ -1,6 +1,6 @@
 ---
 title: 'To scale productivity in code'
-date: '2020-12-12 11:02:39 GMT'
+date: 2020-12-12
 slug: to-scale-productivity-in-code
 ---
 A startup founder - let’s call him Nate - I worked with had this interesting philosophy of optimization where “automation” was a key to doing things efficiently. While PG wrote “do things that don’t scale”, Nate swung in the other direction – he would pick a thing almost only if it was scalable. And “can it be automated?” was one of the important yardsticks to see if something was scalable and, therefore, worth his time.

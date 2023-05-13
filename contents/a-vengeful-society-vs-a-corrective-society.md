@@ -1,6 +1,6 @@
 ---
 title: 'A Vengeful Society vs. A Corrective Society'
-date: '2016-10-08 16:56:26 GMT'
+date: 2016-10-08
 slug: a-vengeful-society-vs-a-corrective-society
 ---
 An online friend opened up a small discussion about capital punishment for terrorists and other hardened criminals and there was a flurry of comments exchanged as a result. I wanted to keep a repo of it somewhere — what’s better than an online journal.

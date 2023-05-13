@@ -1,6 +1,6 @@
 ---
 title: 'Dispatches From Hyd: Ecosystem'
-date: '2019-03-20 04:00:00 GMT'
+date: 2019-03-20
 slug: dispatches-from-hyd-ecosystem
 ---
 In retrospect, it’s the most obvious economic thing that happens everywhere. Where people work, a slew of businesses setup shop and an ecosystem of livelihood builds in the vicinity, supported just by the working class people. Food shops, of all other types, are the first to come up and thrive.

@@ -1,6 +1,6 @@
 ---
 title: 'Pay for excellence, not just entertainment'
-date: '2017-02-06 12:20:39 GMT'
+date: 2017-02-06
 slug: pay-for-excellence-not-just-entertainment
 ---
 Our economic systems are lopsided. A professional tennis star — like Roger Federer — gets paid millions while a professional border patrolman gets paid in the mere thousands.

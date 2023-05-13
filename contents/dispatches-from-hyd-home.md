@@ -1,6 +1,6 @@
 ---
 title: 'Dispatches From Hyd: “Home”'
-date: '2019-03-14 04:00:00 GMT'
+date: 2019-03-14
 slug: dispatches-from-hyd-home
 ---
 At about 30, you’d think pangs of “home” and the uneasiness of uncertainty would all be gone when you move to a new city that you know nothing much about.

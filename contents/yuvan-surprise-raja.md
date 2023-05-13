@@ -1,6 +1,6 @@
 ---
 title: 'Yuvan “Surprise” Raja'
-date: '2021-02-25 03:12:12 GMT'
+date: 2021-02-25
 slug: yuvan-surprise-raja
 ---
 Although politically incorrect and replete with somewhat insensitive terminology, we tend to have this “high-art” / “low-art” classification to artforms - notably music.

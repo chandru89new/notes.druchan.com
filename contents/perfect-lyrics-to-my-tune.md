@@ -1,6 +1,6 @@
 ---
 title: 'Perfect lyrics to my tune'
-date: '2018-03-27 16:35:08 GMT'
+date: 2018-03-27
 slug: perfect-lyrics-to-my-tune
 ---
 On the train ride to Chennai, I was reading Gregory Roberts’s Shantaram.

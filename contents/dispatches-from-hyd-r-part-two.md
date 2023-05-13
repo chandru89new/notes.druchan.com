@@ -1,6 +1,6 @@
 ---
 title: 'Dispatches From Hyd: R – Part Two'
-date: '2019-04-15 16:50:44 GMT'
+date: 2019-04-15
 slug: dispatches-from-hyd-r-part-two
 ---
 That initial conversation lasted about an hour.

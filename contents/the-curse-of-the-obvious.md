@@ -1,6 +1,6 @@
 ---
 title: 'The curse of the obvious'
-date: '2016-10-23 13:13:37 GMT'
+date: 2016-10-23
 slug: the-curse-of-the-obvious
 ---
 The best solutions are often the most obvious ones. Right in the midst of finding solutions, the obvious is hard to see (for most people). Ultimately, the obvious is seen and the solution dawns on everyone involved.

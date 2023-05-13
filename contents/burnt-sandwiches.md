@@ -1,6 +1,6 @@
 ---
 title: 'Burnt Sandwiches'
-date: '2019-01-26 13:32:30 GMT'
+date: 2019-01-26
 slug: burnt-sandwiches
 ---
 “It’s burnt.”

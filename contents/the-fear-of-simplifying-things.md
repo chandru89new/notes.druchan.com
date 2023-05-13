@@ -1,6 +1,6 @@
 ---
 title: 'The fear of simplifying things'
-date: '2016-09-17 19:53:00 GMT'
+date: 2016-09-17
 slug: the-fear-of-simplifying-things
 ---
 The more I work with people, the more I realize how much afraid people are when it comes to simplifying things.

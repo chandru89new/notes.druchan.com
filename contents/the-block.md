@@ -1,6 +1,6 @@
 ---
 title: 'The block'
-date: '2017-10-20 20:09:37 GMT'
+date: 2017-10-20
 slug: the-block
 ---
 For two straight days now, I’ve been trying to write unsuccessfully about why I sometimes feel lucky that my two attempts at settling down with someone, “marrying” and having kids failed. I hit a wall after about two paragraphs. And besides, I could never craft a sentence I was happy with.

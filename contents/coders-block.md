@@ -1,6 +1,6 @@
 ---
 title: 'Coder’s block'
-date: '2020-12-17 04:51:42 GMT'
+date: 2020-12-17
 slug: coders-block
 ---
 In a recent conversation, I made a comment that came out of me unconsciously. Or so I’d like to believe because it almost certainly was not a well-thought-out remark.

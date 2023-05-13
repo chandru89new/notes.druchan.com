@@ -1,6 +1,6 @@
 ---
 title: 'My Brother Narrates A Tale'
-date: '2017-10-22 18:09:02 GMT'
+date: 2017-10-22
 slug: my-brother-narrates-a-tale
 ---
 _Lunchbox_. If there was a silver-screen analogy to the way my brother (S) narrates his tales of love, life and many things in between, it would be _Lunchbox_. The beauty is not solely in the plot or the performances or the characters but very specifically in the mundane scenes: she’s packing lunch, he’s going to the office in the train, the _other_ he is doling out his history, he is out on the veranda, smoking…

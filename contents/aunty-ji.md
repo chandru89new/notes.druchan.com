@@ -1,6 +1,6 @@
 ---
 title: 'Aunty-ji'
-date: '2023-05-02 14:55:07 GMT'
+date: 2023-05-02
 slug: aunty-ji
 ---
 Aunty-ji

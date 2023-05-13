@@ -1,6 +1,6 @@
 ---
 title: 'A Breeze of Wisdom'
-date: '2019-08-03 13:05:00 GMT'
+date: 2019-08-03
 slug: a-breeze-of-wisdom
 ---
 Mostly, enlightenment has come from capsule-like tidbits of words strewn by simple folk that you read over a weekend in Bangalore.

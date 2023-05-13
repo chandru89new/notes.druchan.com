@@ -1,6 +1,6 @@
 ---
 title: 'Carpool India — Has it worked yet?'
-date: '2016-07-18 03:54:04 GMT'
+date: 2016-07-18
 slug: carpool-india-has-it-worked-yet
 ---
 There are more than a dozen carpooling startups in India.

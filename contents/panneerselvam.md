@@ -1,6 +1,6 @@
 ---
 title: 'Panneerselvam'
-date: '2017-05-06 12:22:45 GMT'
+date: 2017-05-06
 slug: panneerselvam
 ---
 _Note: I wrote this just after the death of Ms J Jayalalitha, when Mr O Panneerselvam revolted against Ms Sasikala. I decided against publishing this on Medium (or here) because I wanted some data and refinements to this article. Now, without all those, I am posting it here as it was written back then._

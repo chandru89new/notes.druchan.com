@@ -1,6 +1,6 @@
 ---
 title: 'User-generated Content'
-date: '2016-09-17 08:22:57 GMT'
+date: 2016-09-17
 slug: user-generated-content
 ---
 At work, conversations about user-generated content.

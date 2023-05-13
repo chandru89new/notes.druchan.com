@@ -1,6 +1,6 @@
 ---
 title: 'Dispatches From Hyd: R – Part One'
-date: '2019-03-24 04:00:00 GMT'
+date: 2019-03-24
 slug: dispatches-from-hyd-r-part-one
 ---
 “Do you have 5 minutes to talk, Chandru?”

@@ -1,6 +1,6 @@
 ---
 title: 'Time to retire this'
-date: '2016-10-27 11:45:51 GMT'
+date: 2016-10-27
 slug: time-to-retire-this
 ---
 Product people swear by the old, hacker-code-worthy _if it’s stupid and works, it’s not stupid_ thing. Even today.

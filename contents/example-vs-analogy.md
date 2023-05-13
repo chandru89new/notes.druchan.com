@@ -1,6 +1,6 @@
 ---
 title: 'Example vs. Analogy'
-date: '2016-06-28 06:27:32 GMT'
+date: 2016-06-28
 slug: example-vs-analogy
 ---
 There’s a big difference between an example and an analogy. The most insightful teachers do not give you examples; they give you analogies. And there’s a reason why.

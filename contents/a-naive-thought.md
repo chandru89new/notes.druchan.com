@@ -1,6 +1,6 @@
 ---
 title: 'A “naive” thought'
-date: '2016-06-24 09:01:23 GMT'
+date: 2016-06-24
 slug: a-naive-thought
 ---
 I said Elon Musk did not focus on making electric cars with the intention of getting “paid customers” and I think what I heard was a voice that thinks I’m naive in thinking that way.

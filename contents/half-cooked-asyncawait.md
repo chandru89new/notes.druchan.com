@@ -1,6 +1,6 @@
 ---
 title: 'Half-cooked Async/Await'
-date: '2018-04-25 05:21:47 GMT'
+date: 2018-04-25
 slug: half-cooked-asyncawait
 ---
 I wrote [a library that generates unique IDs](http://druchan.com/gen_id) of any reasonable character length.

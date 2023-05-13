@@ -1,6 +1,6 @@
 ---
 title: 'The cabby.'
-date: '2016-10-27 11:44:43 GMT'
+date: 2016-10-27
 slug: the-cabby
 ---
 We live in an economy where, even if we can’t buy and own a car, we can afford a cab. And, as obvious as it sounds, a cabby with it.

@@ -1,6 +1,6 @@
 ---
 title: 'Theories of storytelling - 1'
-date: '2016-06-19 03:48:14 GMT'
+date: 2016-06-19
 slug: theories-of-storytelling-1
 ---
 Steven Pressfield says nobody wants to read your shit. And in many ways that sounds very true.

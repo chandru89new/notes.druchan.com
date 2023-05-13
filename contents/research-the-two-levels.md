@@ -1,6 +1,6 @@
 ---
 title: 'Research — the two levels'
-date: '2016-05-25 07:56:06 GMT'
+date: 2016-05-25
 slug: research-the-two-levels
 ---
 Very few people go to the extent of digging into existing research — original, authentic research — when they work on something. Be it writing a story or creating a consumer product or reporting on something.

@@ -1,6 +1,6 @@
 ---
 title: 'Aji tales'
-date: '2023-03-02 16:34:06 GMT'
+date: 2023-03-02
 slug: aji-tales
 ---
 Aji tales

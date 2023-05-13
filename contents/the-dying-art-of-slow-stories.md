@@ -1,6 +1,6 @@
 ---
 title: 'The Dying Art of "Slow" Stories'
-date: '2017-07-27 11:11:18 GMT'
+date: 2017-07-27
 slug: the-dying-art-of-slow-stories
 ---
 “I like fast spy stories,” quipped my friend as we chatted about _The Night Manager_, a TV series that aired a couple of years ago but which I got around to watching only recently. I liked it but not in a jaw-dropping sense of it. My friend, on the other hand, thinks highly of the plot and the way it has been written for the screen.

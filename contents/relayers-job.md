@@ -1,6 +1,6 @@
 ---
 title: 'Relayer’s Job'
-date: '2016-09-02 07:07:04 GMT'
+date: 2016-09-02
 slug: relayers-job
 ---
 Continuing from [here](http://notes.druchan.com/post/144494764749/relayers-why-well-never-be-good-at-this).

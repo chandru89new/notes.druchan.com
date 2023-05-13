@@ -1,6 +1,6 @@
 ---
 title: 'Follow-up thoughts on carpooling'
-date: '2016-09-06 07:21:24 GMT'
+date: 2016-09-06
 slug: follow-up-thoughts-on-carpooling
 ---
 Continuing from [here](http://notes.druchan.com/post/147575404454/carpool-india-has-it-worked-yet).

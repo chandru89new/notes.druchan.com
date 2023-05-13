@@ -1,6 +1,6 @@
 ---
 title: 'On being invisible'
-date: '2016-10-16 12:43:21 GMT'
+date: 2016-10-16
 slug: on-being-invisible
 ---
 Mediocre and even good artists are people of vanity.

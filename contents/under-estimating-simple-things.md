@@ -1,6 +1,6 @@
 ---
 title: 'Under-estimating simple things'
-date: '2016-10-23 16:37:01 GMT'
+date: 2016-10-23
 slug: under-estimating-simple-things
 ---
 Sometimes, the best logos of the world look so simple that they look like they had been created in a matter of minutes.

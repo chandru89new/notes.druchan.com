@@ -1,6 +1,6 @@
 ---
 title: 'Pen, paper'
-date: '2016-06-29 07:43:06 GMT'
+date: 2016-06-29
 slug: pen-paper
 ---
 Everything begins with a pen/pencil and a paper.

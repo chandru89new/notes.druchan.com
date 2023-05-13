@@ -1,6 +1,6 @@
 ---
 title: 'Visualization & Genius'
-date: '2016-05-19 16:03:21 GMT'
+date: 2016-05-19
 slug: visualization-genius
 ---
 A once-successful now-failed genius musician/record producer is at a bar. It’s deep into the night and this is not his first drink of the night, nor the first bar he’s gone into tonight.

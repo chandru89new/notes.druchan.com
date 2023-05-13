@@ -1,6 +1,6 @@
 ---
 title: 'Design Frameworks'
-date: '2017-05-06 12:17:04 GMT'
+date: 2017-05-06
 slug: design-frameworks
 ---
 Fuck Bootstrap.

@@ -1,6 +1,6 @@
 ---
 title: 'I bought 4 eggs from a Princess.'
-date: '2016-09-04 13:31:35 GMT'
+date: 2016-09-04
 slug: i-bought-4-eggs-from-a-princess
 ---
 It’s a lazy Sunday afternoon, inching towards a breezy evening. The way it usually is here in Bengaluru.

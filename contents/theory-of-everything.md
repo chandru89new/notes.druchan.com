@@ -1,6 +1,6 @@
 ---
 title: 'Theory of Everything'
-date: '2017-05-06 12:18:04 GMT'
+date: 2017-05-06
 slug: theory-of-everything
 ---
 No, not the movie.

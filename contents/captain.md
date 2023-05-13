@@ -1,6 +1,6 @@
 ---
 title: 'Captain'
-date: '2023-03-21 11:57:14 GMT'
+date: 2023-03-21
 slug: captain
 ---
 Captain

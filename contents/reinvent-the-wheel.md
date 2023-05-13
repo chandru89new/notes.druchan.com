@@ -1,6 +1,6 @@
 ---
 title: 'Reinvent the wheel'
-date: '2017-07-27 11:05:15 GMT'
+date: 2017-07-27
 slug: reinvent-the-wheel
 ---
 “Don’t reinvent the wheel” is such a bad bad bad advice.

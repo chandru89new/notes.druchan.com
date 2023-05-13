@@ -1,6 +1,6 @@
 ---
 title: 'Backyard Inhabitants'
-date: '2017-10-20 19:38:30 GMT'
+date: 2017-10-20
 slug: backyard-inhabitants
 ---
 Reading Janaki Lenin’s _My Husband And Other Animals_ invokes two things. One, nostalgia of the silent afternoons I spent alone in the urban wilderness of our apartment’s backyard, watching a dozen different insects going about their daily routines of forage or migration or basic survival. And two, a yearning to boot out of this urban environment once and for all and disappear into a sparsely-populated village.

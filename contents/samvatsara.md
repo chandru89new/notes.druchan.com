@@ -1,6 +1,6 @@
 ---
 title: 'Samvatsara'
-date: '2018-06-10 16:05:43 GMT'
+date: 2018-06-10
 slug: samvatsara
 ---
 Stephen Spielberg once said in an interview that, at the start of the year, he watches four movies like a ritual.

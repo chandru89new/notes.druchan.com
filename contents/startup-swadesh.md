@@ -1,6 +1,6 @@
 ---
 title: 'Startup-Swadesh'
-date: '2016-07-07 04:12:32 GMT'
+date: 2016-07-07
 slug: startup-swadesh
 ---
 From a side-project that I first thought about pursuing almost a year ago:

@@ -1,6 +1,6 @@
 ---
 title: 'Andha Naal Nyaabagam'
-date: '2023-03-06 13:21:37 GMT'
+date: 2023-03-06
 slug: andha-naal-nyaabagam
 ---
 Andha Naal Nyaabagam

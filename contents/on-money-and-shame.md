@@ -1,6 +1,6 @@
 ---
 title: 'On money and shame'
-date: '2016-06-24 09:02:57 GMT'
+date: 2016-06-24
 slug: on-money-and-shame
 ---
 Why does it feel awkward to ask for money you have lent to your own kith/kin?

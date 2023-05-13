@@ -1,13 +1,8 @@
-import TurndownService from "turndown";
 import matter from "gray-matter";
+import dayjs from "dayjs";
 import MarkdownIt from "markdown-it";
 
 const md2HtmlService = new MarkdownIt();
-const turndownService = new TurndownService();
-
-const htmlToMarkdown = (htmlContent) => turndownService.turndown(htmlContent);
-
-const getEnv = (key) => process.env[key] || "";
 
 const md2Html = (string) => {
   const r = matter(string);
@@ -17,4 +12,6 @@ const md2Html = (string) => {
   };
 };
 
-export { htmlToMarkdown, getEnv, md2Html };
+const formatDate = (format) => (dateString) => dayjs(dateString).format(format);
+
+export { md2Html, formatDate };

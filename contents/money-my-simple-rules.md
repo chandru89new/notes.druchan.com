@@ -1,6 +1,6 @@
 ---
 title: 'Money: My simple rules'
-date: '2017-10-20 20:12:25 GMT'
+date: 2017-10-20
 slug: money-my-simple-rules
 ---
 *   Always know your monthly core expenses (the inevitables). These are rent, internet, electricity, and the monthly investments (insurance, RD). This will give you a sense of how much you can spend on other things.

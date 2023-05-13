@@ -1,6 +1,6 @@
 ---
 title: 'One Sunday at the H.A.L Museum'
-date: '2016-09-19 18:33:01 GMT'
+date: 2016-09-19
 slug: one-sunday-at-the-hal-museum
 ---
 Looking at life-scale models of in-service and decommissioned aircraft at the H.A.L museum is akin to strolling through a zoo for birds. Caged.

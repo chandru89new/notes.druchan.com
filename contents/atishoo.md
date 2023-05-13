@@ -1,6 +1,6 @@
 ---
 title: 'Atishoo'
-date: '2023-05-02 14:50:10 GMT'
+date: 2023-05-02
 slug: atishoo
 ---
 Atishoo

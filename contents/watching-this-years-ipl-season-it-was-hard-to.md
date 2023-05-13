@@ -1,6 +1,6 @@
 ---
 title: 'Finding those match-fixing patterns #IPL2016'
-date: '2016-06-07 07:05:15 GMT'
+date: 2016-06-07
 slug: watching-this-years-ipl-season-it-was-hard-to
 ---
   

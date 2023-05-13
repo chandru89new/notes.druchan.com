@@ -1,6 +1,6 @@
 ---
 title: 'Second-rate minds'
-date: '2016-05-26 14:05:59 GMT'
+date: 2016-05-26
 slug: second-rate-minds
 ---
 > It is a melancholy experience for a professional mathematician to find himself writing about mathematics. The function of a mathematician is to do something, to prove new theorems, to add to mathematics, and not to talk about what he or other mathematicians have done. Statesmen despise publicists, painters despise art-critics, and physiologists, physicists, or mathematicians have usually similar feelings: there is no scorn more profound, or on the whole more justifiable, than that of the men who make for the men who explain. Exposition, criticism, appreciation, is work for second-rate minds. - G.H.Hardy ([A Mathematician’s Apology](https://en.wikipedia.org/wiki/A_Mathematician%27s_Apology))

@@ -1,6 +1,6 @@
 ---
 title: 'Communicating at 3 levels of attention spans'
-date: '2016-10-14 06:29:04 GMT'
+date: 2016-10-14
 slug: communicating-at-3-levels-of-attention-spans
 ---
 We must write for three kinds of people.

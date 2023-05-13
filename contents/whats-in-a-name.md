@@ -1,6 +1,6 @@
 ---
 title: 'What’s in a name'
-date: '2019-08-22 16:14:35 GMT'
+date: 2019-08-22
 slug: whats-in-a-name
 ---
 Not more than three generations ago, one of the relatives of my maternal grandmother went by the name “Singer” Balaji. Anytime this name was uttered in the presence of someone who wasnt familiar with the name, both my mum and her mum would be quick to add, “not a singer but he worked in a company called Singer.”

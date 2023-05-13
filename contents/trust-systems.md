@@ -1,6 +1,6 @@
 ---
 title: 'Trust systems'
-date: '2016-12-09 18:04:55 GMT'
+date: 2016-12-09
 slug: trust-systems
 ---
 I’m fascinated by how simple routines can lead to fundamentally amazing things like trust.

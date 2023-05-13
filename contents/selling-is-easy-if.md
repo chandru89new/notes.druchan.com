@@ -1,6 +1,6 @@
 ---
 title: 'Selling is easy if...'
-date: '2016-05-17 16:03:05 GMT'
+date: 2016-05-17
 slug: selling-is-easy-if
 ---
 When Seth Godin creates a product or book, it’s easier for him to sell the whole idea of it. Ditto for Jason or DHH from 37Signals.

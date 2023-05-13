@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "dayjs": "^1.11.7",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "turndown": "^7.1.2"

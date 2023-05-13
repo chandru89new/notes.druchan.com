@@ -1,6 +1,6 @@
 ---
 title: 'Amruta Subash'
-date: '2017-10-20 20:16:40 GMT'
+date: 2017-10-20
 slug: amruta-subash
 ---
 A few weeks ago, I watched _Astu_, a Marathi movie about an aging father afflicted with dementia and his family that tries to cope up with it.

@@ -1,6 +1,6 @@
 ---
 title: 'Lunatics'
-date: '2018-07-27 17:35:53 GMT'
+date: 2018-07-27
 slug: lunatics
 ---
 People used to be able to calculate large sums and multiplications without the aid of a tool - like an abacus or a digital calculator. The tools (their invention, that is) definitely aided in leveling up our abilities to measure and calculate large values but prior to these, humans still did count and were good at it.

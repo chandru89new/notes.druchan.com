@@ -1,6 +1,6 @@
 ---
 title: 'Opinions against'
-date: '2016-06-10 11:54:25 GMT'
+date: 2016-06-10
 slug: opinions-against
 ---
 As we all do, there are things about this world that I don’t believe in. Things that other people - most other people - either accept as defaults of the system we live in or don’t think about but follow blindly.

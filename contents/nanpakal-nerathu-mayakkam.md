@@ -1,6 +1,6 @@
 ---
 title: 'Nanpakal Nerathu Mayakkam'
-date: '2023-03-06 13:11:33 GMT'
+date: 2023-03-06
 slug: nanpakal-nerathu-mayakkam
 ---
 Nanpakal Nerathu Mayakkam

@@ -1,6 +1,6 @@
 ---
 title: 'Conversations with the father'
-date: '2016-07-22 07:51:27 GMT'
+date: 2016-07-22
 slug: conversations-with-the-father
 ---
 We dont talk for weeks.

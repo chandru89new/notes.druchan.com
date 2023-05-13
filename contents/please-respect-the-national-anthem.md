@@ -1,6 +1,6 @@
 ---
 title: '"Please respect the national anthem"'
-date: '2018-03-06 12:33:50 GMT'
+date: 2018-03-06
 slug: please-respect-the-national-anthem
 ---
 > If you have to tell people you are powerful, you aren’t.

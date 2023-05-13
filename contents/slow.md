@@ -1,6 +1,6 @@
 ---
 title: 'Slow'
-date: '2018-03-27 14:35:35 GMT'
+date: 2018-03-27
 slug: slow
 ---
 For much of my life, I’ve tried to cook fast. I don’t like spending a lot of time, groveling through recipes. To this extent, I only cook things that can be cooked fast and easy. Aloo poha, noodles, rice (as against rotis), quick-n-easy vegetables (as against the ones that require the bi-step boil-n-fry) - these are my preferences.

@@ -1,6 +1,6 @@
 ---
 title: 'Onboarding'
-date: '2016-05-20 16:03:14 GMT'
+date: 2016-05-20
 slug: onboarding
 ---
 The current onboarding: the more I think about it, the more it sounds stupid.
