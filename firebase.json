@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "cleanUrls": true,
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**", "**/.spago/**"]
+  }
+}

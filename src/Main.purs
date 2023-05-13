@@ -14,7 +14,7 @@ import Node.Buffer (Buffer)
 import Node.ChildProcess (defaultExecSyncOptions, execSync)
 import Node.Encoding (Encoding(..))
 import Node.FS.Aff (readTextFile, readdir, writeTextFile)
-import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, getCategoriesJson, homepageTemplate, htmlOutputFolder, md2FormattedData, rawContentsFolder, tmpFolder)
+import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, getCategoriesJson, homepageTemplate, htmlOutputFolder, md2FormattedData, rawContentsFolder, templatesFolder, tmpFolder)
 import Utils as U
 
 main :: Effect Unit
@@ -83,6 +83,9 @@ buildSite = do
   log "\nGenerating home page..."
   _ <- createHomePage sortedPosts
   log "\nGenerating home page: Done!"
+  log "\nCopying 404.html..."
+  _ <- ExceptT $ try $ liftEffect $ execSync ("cp " <> templatesFolder <> "/404.html " <> tmpFolder) defaultExecSyncOptions
+  log "\nCopying 404.html: Done!"
   log "\nGenerating styles.css..."
   _ <- generateStyles
   log "\nGenerating styles.css: Done!"
