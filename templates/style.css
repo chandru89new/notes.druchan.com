@@ -88,6 +88,11 @@ article section ul {
   @apply list-none;
 }
 
+/* disabled list-disc for archive page list */
+article#archive_container ul {
+  @apply list-none;
+}
+
 blockquote {
   @apply border-l-4 border-slate-200 pl-4 space-y-4
 }
