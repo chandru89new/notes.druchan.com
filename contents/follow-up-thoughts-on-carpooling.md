@@ -3,7 +3,7 @@ title: "Follow-up thoughts on carpooling"
 date: 2016-09-06
 slug: follow-up-thoughts-on-carpooling
 ---
-Continuing from [here](http://notes.druchan.com/post/147575404454/carpool-india-has-it-worked-yet).
+Continuing from [here](http://notes.druchan.com/carpool-india-has-it-worked-yet).
 
 The other blaring reason carpooling hasn’t taken off (yet) is pool/share rides offered from Uber and Ola in most tier-1 and tier-2 cities here.
 

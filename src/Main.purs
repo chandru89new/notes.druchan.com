@@ -91,6 +91,9 @@ buildSite = do
   log "\nCopying images folder..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/images " <> tmpFolder) defaultExecSyncOptions
   log "\nCopying images folder: Done!"
+  log "\nCopying js folder..."
+  _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/js " <> tmpFolder) defaultExecSyncOptions
+  log "\nCopying js folder: Done!"
   log "\nGenerating styles.css..."
   _ <- generateStyles
   log "\nGenerating styles.css: Done!"
@@ -143,7 +146,7 @@ recentPosts n xs =
 
 createHomePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
 createHomePage sortedArrayofPosts = do
-  recentsString <- pure $ recentPosts 3 sortedArrayofPosts
+  recentsString <- pure $ recentPosts 5 sortedArrayofPosts
   template <- ExceptT $ try $ readTextFile UTF8 homepageTemplate
   categories <- pure $ (getCategoriesJson unit # convertCategoriesToString)
   contents <-
@@ -177,7 +180,8 @@ getPostsAndSort = do
   filePaths <- ExceptT $ try $ readdir rawContentsFolder
   onlyMarkdownFiles <- pure $ filter (contains (Pattern ".md")) filePaths
   formattedDataArray <- filePathsToProcessedData onlyMarkdownFiles
-  pure $ sortPosts formattedDataArray
+  removeIgnored <- pure $ filter (\f -> not f.frontMatter.ignore) formattedDataArray
+  pure $ sortPosts removeIgnored
   where
   filePathsToProcessedData :: Array String -> ExceptT Error Aff (Array FormattedMarkdownData)
   filePathsToProcessedData fpaths = parTraverse (\f -> readFileToData $ rawContentsFolder <> "/" <> f) fpaths

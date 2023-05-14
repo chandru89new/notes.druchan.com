@@ -2,6 +2,7 @@
 title: "Samvatsara"
 date: 2018-06-10
 slug: samvatsara
+ignore: true
 ---
 Stephen Spielberg once said in an interview that, at the start of the year, he watches four movies like a ritual.
 

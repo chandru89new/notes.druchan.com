@@ -1,7 +1,7 @@
 ---
-title: "Theories of storytelling - 1"
+title: "Theories of storytelling"
 date: 2016-06-19
-slug: theories-of-storytelling-1
+slug: theories-of-storytelling
 ---
 Steven Pressfield says nobody wants to read your shit. And in many ways that sounds very true.
 
@@ -13,9 +13,8 @@ One of them is the “One Single Way” which I’ll probably write about much l
 
 There are two kinds of stories:
 
-1\. Stories that need to be told - these are the stories close to your heart, your passion but stories that you are not sure people might like or want to see/hear/read about.
-
-2\. Stories that people want to hear - remember the commercial flicks with all the elements of what we Indians call “masala movies”?
+1. Stories that need to be told - these are the stories close to your heart, your passion but stories that you are not sure people might like or want to see/hear/read about.
+2. Stories that people want to hear - remember the commercial flicks with all the elements of what we Indians call “masala movies”?
 
 Over time of course, the stories people want to hear changes hue and color but the “commerciality” of it remains pretty much the same. Entertainment > infotainment > information.
 
@@ -31,12 +30,12 @@ You see when I say it this way, nobody is interested in this story (naturally; I
 
 I theorize that this is because there’s nothing in it for the average Joe in the city. He’s far removed from almost every aspect of the story.
 
-If I want Joe to see my story, I must make him \*want\* to see it on his own. And the one way to do that is to put him in the story. Make the story his. It’s \*his\* story — in some way.
+If I want Joe to see my story, I must make him *want* to see it on his own. And the one way to do that is to put him in the story. Make the story his. It’s *his* story — in some way.
 
 A majority of the cinema audiences are now in the cities. A story like the one I described above has no bearing / connectivity to a lot of the folks even if they’ve read about human-animal conflict and encroachments and poaching and whatnot. Not many know that Jim Corbett was a hunter who hunted man-eaters (and was specifically called to do so). In fact, not many know that a man called Kenneth Anderson existed in South India and was popular for many hunts. And nobody gives a shit.
 
 Not till it’s their story somehow. Not till they realize that they are part of it in a very visceral way.
 
-So, if I want to make John Doe \*want\* to hear the story, I have to find a way to make this story his. (There’s a huge difference between making the story his and making the story about him. Two very different things, sir.)
+So, if I want to make John Doe *want* to hear the story, I have to find a way to make this story his. (There’s a huge difference between making the story his and making the story about him. Two very different things, sir.)
 
 In restrospect, I think it’s all about creating something and handing over the ownership to the people that you want to be your audience.

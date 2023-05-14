@@ -5,7 +5,7 @@ import TurndownService from "turndown";
 import yaml from "js-yaml";
 import fs from "fs";
 
-const md2FormattedDataService = new MarkdownIt();
+const md2FormattedDataService = new MarkdownIt({ html: true });
 
 const md2FormattedData = (string) => {
   const r = matter(string);
@@ -15,6 +15,7 @@ const md2FormattedData = (string) => {
       tags: r.data.tags?.split(",") ?? [],
     },
     content: md2FormattedDataService.render(r.content),
+    raw: string,
   };
 };
 

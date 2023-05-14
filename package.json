@@ -2,7 +2,10 @@
   "type": "module",
   "scripts": {
     "build": "yarn spago run -m Main",
-    "watch": "yarn nodemon"
+    "watch": "yarn nodemon",
+    "deploy": "firebase deploy",
+    "clean": "rm -rf public",
+    "clean-build": "yarn clean && yarn build"
   },
   "dependencies": {
     "dayjs": "^1.11.7",

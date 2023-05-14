@@ -21,7 +21,7 @@ Back in the bus home, as I was jotting this down, I was overcome with doubt. Is 
 
 “Do not walk on the grass”. A dozen or more placards planted into the grass declare this. Sometimes, politely, with a “Please” prefixed. Sometimes, plainly. Sometimes, poetically, with invocations of beauty and eco-friendliness.
 
-But sure there are those wise specimens who’d walk straight on the grass. For photos, for a shortcut to the other foot-path, or for f\*ck’s sake, I don’t know.
+But sure there are those wise specimens who’d walk straight on the grass. For photos, for a shortcut to the other foot-path, or for f*ck’s sake, I don’t know.
 
 Ah, photos.
 

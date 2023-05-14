@@ -39,8 +39,9 @@ createFolderIfNotPresent folderName =
 foreign import formatDate :: String -> String -> String
 
 type FormattedMarkdownData
-  = { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String }
+  = { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String, ignore :: Boolean }
     , content :: String
+    , raw :: String
     }
 
 type Category

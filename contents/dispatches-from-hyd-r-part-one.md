@@ -7,7 +7,7 @@ slug: dispatches-from-hyd-r-part-one
 
 There was this visceral faux seriousness in her tone and I braced for impact: she was either going to spin an elaborate ruse to ask for money. Or worse.
 
-\*
+*
 
 I’ve heard many a tale about random, female strangers breaking the ice with my guy friends (the social ones usually). Then there is also Kirti, an introverted ex-colleague who has shared his tales of unknown women (or may be just ‘woman’) chatting him up. And I’ve wondered if that kind of a thing actually happens to people or if they’re all just bluffing through their teeth. Secretly, I knew that these things happen; perhaps not as frequently as the movies make out to be. But I also knew that this shit never happened with me and that put a dissonance between reality and perception of it.
 

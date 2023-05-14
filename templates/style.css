@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Buenard&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css");
 
 
 @tailwind base;
@@ -59,4 +60,34 @@ section h3 {
 
 .date {
   @apply text-slate-400 text-xs font-sora;
+}
+
+/* code, pre {
+  font-family: monospace;
+  @apply text-xs;
+} */
+
+code {
+  @apply font-mono text-xs px-1 py-1.5 rounded bg-slate-200 leading-5;
+}
+
+.hljs {
+  @apply rounded border border-slate-200 bg-slate-100;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+ul {
+  @apply list-disc;
+}
+
+/* disable list-disc for home page list */
+article section ul { 
+  @apply list-none;
+}
+
+blockquote {
+  @apply border-l-4 border-slate-200 pl-4 space-y-4
 }

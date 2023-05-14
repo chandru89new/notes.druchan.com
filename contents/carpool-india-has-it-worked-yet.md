@@ -14,7 +14,7 @@ In terms of carpooling, the latter seems to be true.
 
 If we try to boil down, there aren’t many reasons why carpooling hasn’t worked.
 
-1.  People don’t want strangers in their cars. People don’t want to travel with strangers. Saving money is almost always less important than dealing with the strangeness of a fellow traveller.
+1.  People don’t want strangers in _their_ cars. People don’t want to travel with strangers. Saving money is almost always less important than dealing with the strangeness of a fellow traveller.
 2.  Flexible things like time, route etc. become more rigid for everyone involved. Not many like that.
 3.  Who pays what? How much? How?
 

@@ -2,12 +2,13 @@
 title: "Opinions against"
 date: 2016-06-10
 slug: opinions-against
+ignore: true
 ---
 As we all do, there are things about this world that I don’t believe in. Things that other people - most other people - either accept as defaults of the system we live in or don’t think about but follow blindly.
 
 I expect this list to be updated somewhat frequently.
 
-**1\. Parents and motherhood = overrated.**
+**1. Parents and motherhood = overrated.**
 
 At least, on my side of the world. I’m from India and motherhood is one of the most emotional parts of everyones life. Kids are taught to revere their mother. The four primaries are, “Mata, Pita, Guru, Deivam” with God relegated to the fourth position. Mom comes first.
 
@@ -17,7 +18,7 @@ I base this on multiple facets of our life. A mother does not _bestow_ her goodw
 
 Also, you should read up on the kind of tug-of-war that happens in the foetus. Hardly qualifies as nourishing love. It’s a war where the child’s life fights with the mother’s life so much so that it’s ready to kill.
 
-**2\. Forget birthdays. I’m done.**
+**2. Forget birthdays. I’m done.**
 
 Do you know what’s our greatest stupidity? The quest to find reasons to celebrate our life. A dog doesn’t _wait_ for an occasion and then hit it off. It just starts being happy. But we try to set aside triggers to start celebrating. TGIF, start of the year (which is super arbitrary you morons), Diwali…. And birthdays are one of them.
 

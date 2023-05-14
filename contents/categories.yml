@@ -1,3 +1,27 @@
+- category: memoirs
+  posts:
+    - backyard-inhabitants
+    - canine-companions
+    - tales-from-a-bygone-summer
+    - memories
+    - one-sunday-at-the-hal-museum
+    - silence
+    - i-bought-4-eggs-from-a-princess
+- category: books
+  posts:
+    - perfect-rigor
+    - theory-of-everything
+- category: art
+  posts:
+    - every-frame-a-motif
+    - nanpakal-nerathu-mayakkam
+    - papanasam
+    - andha-naal-nyaabagam
+    - amruta-subash
+    - the-dying-art-of-slow-stories
+    - emerald-city-green-zone
+    - rahman-raja
+    - yuvan-surprise-raja
 - category: people
   posts:
     - aji-tales
@@ -7,42 +31,24 @@
     - my-brother-narrates-a-tale
     - perfect-rigor
     - tales-from-a-bygone-summer
-- category: books
-  posts:
-    - perfect-rigor
-    - theory-of-everything
-- category: on products/business
-  posts:
-    - burnt-sandwiches
-- category: films/art
-  posts:
-    - every-frame-a-motif
-    - nanpakal-nerathu-mayakkam
-    - papanasam
-    - andha-naal-nyaabagam
-    - amruta-subash
-    - the-dying-art-of-slow-stories
-    - emerald-city-green-zone
-- category: music
-  posts:
-    - rahman-raja
-    - yuvan-surprise-raja
-- category: memoirs
-  posts:
-    - backyard-inhabitants
-    - canine-companions
-    - tales-from-a-bygone-summer
-    - memories
-    - one-sunday-at-the-hal-museum
-    - silence
+    - panneerselvam
+    - whats-in-a-name
 - category: programming
   posts:
     - to-scale-productivity-in-code
     - coders-block
     - everything-hard-is-easy-again
     - half-cooked-asyncawait
+    - reinvent-the-wheel
+    - once-more-unto-the-vim-dear-friends
+    - use-interval-hook
+    - safe-vs-unsafe-js
 - category: dispatches from hyderabad
   posts:
     - dispatches-from-hyd-nests
     - dispatches-from-hyd-ecosystem
     - dispatches-from-hyd-home
+- category: on products/business
+  posts:
+    - burnt-sandwiches
+    - pen-paper

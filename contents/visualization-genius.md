@@ -21,7 +21,7 @@ Two: the capability to visualize the final picture even before the first note, t
 
 The more you think about it, the more it is clear that the only geniuses that have made it through and emerged successful are the ones capable of visualizing the whole thing even before the thing started existing in other people’s minds and then persevering through to put shit together to create the thing.
 
-\* \*
+* *
 
 There’s an old function celebrating K. Balachander (he was the chief guest there). In it, Cho speaks about K.B - their days working together on Cho’s plays, K.B directing a couple of them before washing his hands off Cho and his comic troupe because they were too funny and irresponsible.
 
@@ -31,11 +31,11 @@ Cho says, describing K.B’s talent, that K.B would visualize every single eleme
 
 Another genius, another Zeus-level capacity to visualize.
 
-\* \*
+* *
 
 In college, we were assigned who I can only imagine to be a lousy professor to teach us Sanskrit grammar. This guy was recently awarded some kind of an award too but this wasn’t for his knowledge but for his association with an organization (Sanskrit Bharati) which propagates Sanskrit throughout the country.
 
-But we were also assigned - for poetry - another professor who \*should have been\* the guy assigned to teach us Sanskrit grammar because he was this epic genius who understood Panini - the father of Sanskrit Grammar - way better than anyone I’ve met.
+But we were also assigned - for poetry - another professor who *should have been* the guy assigned to teach us Sanskrit grammar because he was this epic genius who understood Panini - the father of Sanskrit Grammar - way better than anyone I’ve met.
 
 There was this one thing he’d always say whenever his talk grazed onto grammar and grammar-related topics (which they did often, given that the man was passionate about the holy grail of Sanskrit’s grammar - Panini’s definitive book, Ashtadhyaayi). He’d say, “Panini visualized the entirety of sounds of the Sanskrit language… he visualized every miniscule detail and was able to build the links.”
 
@@ -45,7 +45,7 @@ But I digress.
 
 The point to note is visualization. There’s a reason my professor said Panini was able to visualize the entirety of sounds. Panini was an undeniable genius. And what made him the genius was his ability to visualize a thing he was about to create in exquisite (and perhaps excruciating) detail long before he created it.
 
-\* \*
+* *
 
 It’s like everyone was actually working backwards - first they conceive - in painstaking detail - the thing they want to create and then go about creating it brick by brick. All the time, the visualization is intact.
 
@@ -57,6 +57,6 @@ Before they build a product, they would first write the press-release for the pr
 
 This exercise was to approach the whole thing backwards. You visualize and figure out all the corners of the product - which is what helps you write a complete PR - and then start working backwards to build the final product.
 
-\* \*
+* *
 
 What a beautiful thing - to be able to visualize in complete detail something that doesn’t exist yet.

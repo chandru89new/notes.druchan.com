@@ -7,7 +7,7 @@ After a certain point in time, I realized that the prospect of having an animal 
 
 The other day, coming late from office, I stopped to eat from a roadside “adda”. _Bhaiya, ek egg sandwich._ Everything was INR 40 on the menu unless you chose to add extras. I sat down on a dusty, plastic stool (a seating furniture that looks very much like a barstool, only cheaper, for those of you wondering why I sat on fecal matter). And two furry dogs ambled nearby.
 
-\*
+*
 
 Many years ago, I was shit-scared of dogs any size. Man’s best friend had somehow instilled fear so strong in me that I would refuse to go anywhere near them. My stomach would sink every time my parents took me to visit a paternal aunt who had a pet called Browny because, of course, he was brown. Not that I hated Browny, but it was a hairy experience every time we visited them or stayed for long.
 
@@ -17,7 +17,7 @@ Ironically, the dog that I feared the most – Browny – turned out to be the i
 
 After that, my fear of dogs receded very quickly. The only hounds I might be wary of are huge with a sombre look on their faces.
 
-\*
+*
 
 While the chef prepared my sandwich, I decided to engage with the dogs that had come by. One of them – a big, furry guy – responded immediately. I began petting him on the head and pretty soon he was guiding my hand all over his face. Eventually he rested his face on my lap and looked at me with a smile on his face (or that’s how humans interpret it).
 
@@ -29,13 +29,13 @@ Sometime during this encounter, my thoughts went back to Bangalore, to the stree
 
 My attempts to woo them were ceaseless anyway. Parle-G was only INR 10 and my income was sufficient to allow for a daily allowance. Of the four, one got cozy enough to eat from my hand (but got pretty defensive once your hand tried to reach him to pet). The other two would sometimes be okay to fetch from my hand but other times would want nothing to do with hand-feeding: put it on the ground and be done with it, mister. The fourth, the biggest of them all and looking like a veteran of several wars, was the scaredy cat of the pack. That one wouldn’t even come close. I had to throw the biscuits a little far off for him to get his share. My brother and I called him the “Vadivelu” dog for the great comedian’s many portrayals of fake strength and eventual cowardice.
 
-\*
+*
 
 The small colony of Giriraj Society in Ahmedabad with its small lanes branching out of the main one had its own pack too. Each lane had a few canine troublemakers. In wintry mornings, you’d find them sound asleep at 10.30AM, basking in the glory of the sun. At night, somewhere some dog would let out a hesitant howl and these would pick up from where that one left and augment it. For several minutes – sometimes going into an hour – the cacophony would peak. A man sleeping on a jute cot would wake up grudgingly, take out a stick and shoo them away. Sometimes, this fix would only be temporary.
 
 I couldn’t make friends with them in the few years I lived there. Somehow, they never felt like homies.
 
-\*
+*
 
 When I moved back to Chennai recently, I made friends with another “Browny” – a burly canine that lived in the apartment premises where my maternal aunt lives. One day, I decided to pet him and he put both his front legs on me. For a canine that looked serious some of the time, he was quite playful. For the first time in years, I realize now, I had actually played with a dog and a dog had actually let me pet it.
 

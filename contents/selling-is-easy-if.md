@@ -23,7 +23,7 @@ His first expertise is not in making tools but in using them. The tool was made 
 
 You see this guy, this tool maker-turned-seller, was an expert. A leader in the tool making thing. Not just that, but he was also an expert in survival tactics (after all, that’s why he innovated and created a tool to help him in the process).
 
-Eventually, after years of wielding the tool (by which time everyone in and around town knew this guy to be this tool-wielding expert - a \*thought\* leader of those times, so to speak), he became a tool seller.
+Eventually, after years of wielding the tool (by which time everyone in and around town knew this guy to be this tool-wielding expert - a *thought* leader of those times, so to speak), he became a tool seller.
 
 Another few thousand years passed.
 
