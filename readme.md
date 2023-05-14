@@ -45,6 +45,7 @@ This will install everything required.
 title: "Title of the post in quotes"
 date: YYYY-MM-DD
 slug: slug
+ignore: true # optional. if true, the post will not be included in the final build
 ---
 blog post content here
 ```
@@ -53,6 +54,12 @@ blog post content here
 
 ```bash
 ~ yarn build
+```
+
+or
+
+```bash
+~ yarn clean-build # to do a fresh install. deletes the `public` directory and recreates it.
 ```
 
 This will build the site and output in `./public` directory.
@@ -68,6 +75,8 @@ Alternatively, you could use any other method too. Eg, using `http-server`:
 ```bash
 ~ npx http-server public
 ```
+
+Note: you would have to configure the server to serve the `html` file for a given route as the routes do not include the extension. Eg: `http://localhost:5000/books` should render `http://localhost:5000/books.html`. `firebase serve` does this automatically for you.
 
 ### Uploading/deploying to server
 
