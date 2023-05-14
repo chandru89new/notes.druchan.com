@@ -22,7 +22,8 @@
     "watch": [
       "./src",
       "./templates",
-      "./contents"
+      "./contents",
+      "./tailwind.config.js"
     ],
     "ignore": [
       "./tmp"

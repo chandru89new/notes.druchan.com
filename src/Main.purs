@@ -55,7 +55,6 @@ getFilesAndTemplate = do
 generatePostsHTML :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
 generatePostsHTML fds = do
   template <- readPostTemplate
-  _ <- createFolderIfNotPresent tmpFolder
   _ <- parTraverse_ (\f -> writeHTMLFile (Template template) f) fds
   pure unit
 
@@ -75,6 +74,7 @@ readPostTemplate = ExceptT $ try $ readTextFile UTF8 blogpostTemplate
 buildSite :: ExceptT Error Aff Unit
 buildSite = do
   log "\nStarting..."
+  _ <- createFolderIfNotPresent tmpFolder
   sortedPosts <- getPostsAndSort
   log "\nGenerating posts pages..."
   _ <- generatePostsHTML sortedPosts
@@ -88,6 +88,9 @@ buildSite = do
   log "\nCopying 404.html..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp " <> templatesFolder <> "/404.html " <> tmpFolder) defaultExecSyncOptions
   log "\nCopying 404.html: Done!"
+  log "\nCopying images folder..."
+  _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/images " <> tmpFolder) defaultExecSyncOptions
+  log "\nCopying images folder: Done!"
   log "\nGenerating styles.css..."
   _ <- generateStyles
   log "\nGenerating styles.css: Done!"
@@ -121,7 +124,9 @@ generateStyles =
   ExceptT
     $ try
     $ liftEffect
-    $ execSync "npx tailwindcss -i ./templates/style.css -o ./tmp/style.css" defaultExecSyncOptions
+    $ execSync command defaultExecSyncOptions
+  where
+  command = "npx tailwindcss -i " <> templatesFolder <> "/style.css -o " <> tmpFolder <> "/style.css"
 
 recentPosts :: Int -> Array FormattedMarkdownData -> String
 recentPosts n xs =

@@ -10,3 +10,4 @@ generated-docs
 public
 tmp
 .firebase
+firebase-debug.log
