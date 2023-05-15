@@ -66,7 +66,7 @@ replaceContentInTemplate (Template template) pd =
     # replaceAll (Pattern "{{page_title}}") (Replacement pd.frontMatter.title)
   where
   augmentATags :: String -> String
-  augmentATags = replaceAll (Pattern "<a") (Replacement "<a target='_blank'")
+  augmentATags = replaceAll (Pattern "<a ") (Replacement "<a target='_blank' ")
 
 readPostTemplate :: ExceptT Error Aff String
 readPostTemplate = ExceptT $ try $ readTextFile UTF8 blogpostTemplate
