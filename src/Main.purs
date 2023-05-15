@@ -76,34 +76,34 @@ buildSite = do
   log "\nStarting..."
   _ <- createFolderIfNotPresent tmpFolder
   sortedPosts <- getPostsAndSort
-  log "\nGenerating posts pages..."
+  log "Generating posts pages..."
   _ <- generatePostsHTML sortedPosts
   log "\nGenerating posts pages: Done!"
-  log "\nGenerating archive page..."
+  log "Generating archive page..."
   _ <- createFullArchivePage sortedPosts
-  log "\nGenerating archive page: Done!"
-  log "\nGenerating home page..."
+  log "Generating archive page: Done!"
+  log "Generating home page..."
   _ <- createHomePage sortedPosts
-  log "\nGenerating home page: Done!"
-  log "\nCopying 404.html..."
+  log "Generating home page: Done!"
+  log "Copying 404.html..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp " <> templatesFolder <> "/404.html " <> tmpFolder) defaultExecSyncOptions
-  log "\nCopying 404.html: Done!"
-  log "\nCopying images folder..."
+  log "Copying 404.html: Done!"
+  log "Copying images folder..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/images " <> tmpFolder) defaultExecSyncOptions
-  log "\nCopying images folder: Done!"
-  log "\nCopying js folder..."
+  log "Copying images folder: Done!"
+  log "Copying js folder..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/js " <> tmpFolder) defaultExecSyncOptions
-  log "\nCopying js folder: Done!"
-  log "\nGenerating styles.css..."
+  log "Copying js folder: Done!"
+  log "Generating styles.css..."
   _ <- generateStyles
-  log "\nGenerating styles.css: Done!"
-  log "\nCopying /tmp to /public"
+  log "Generating styles.css: Done!"
+  log "Copying /tmp to /public"
   _ <- createFolderIfNotPresent htmlOutputFolder
   _ <- ExceptT $ try $ liftEffect $ execSync "cp -r ./tmp/* ./public" defaultExecSyncOptions
-  log "\nCopying /tmp to /public: Done!"
-  log "\nCleaning up..."
+  log "Copying /tmp to /public: Done!"
+  log "Cleaning up..."
   _ <- ExceptT $ try $ liftEffect $ execSync "rm -rf ./tmp" defaultExecSyncOptions
-  log "\nCleaning up: Done!"
+  log "Cleaning up: Done!"
 
 createFullArchivePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
 createFullArchivePage sortedArray = do
