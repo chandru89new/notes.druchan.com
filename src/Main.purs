@@ -120,7 +120,7 @@ createFullArchivePage sortedArray = do
     fn b a = b <> "<li><a href=\"./" <> a.frontMatter.slug <> "\">" <> a.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> "</span>" <> "</li>"
 
   writeFullArchivePage :: String -> ExceptT Error Aff Unit
-  writeFullArchivePage str = ExceptT $ try $ writeTextFile UTF8 "./tmp/archive.html" str
+  writeFullArchivePage str = ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/archive.html") str
 
 generateStyles :: ExceptT Error Aff Buffer
 generateStyles =
