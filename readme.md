@@ -44,7 +44,7 @@ This will install everything required.
 ---
 title: "Title of the post in quotes"
 date: YYYY-MM-DD
-slug: slug
+slug: a-url-friendly-slug
 ignore: true # optional. if true, the post will not be included in the final build
 ---
 blog post content here
