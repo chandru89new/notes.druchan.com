@@ -5,7 +5,7 @@ slug: panneerselvam
 ---
 _Note: I wrote this just after the death of Ms J Jayalalitha, when Mr O Panneerselvam revolted against Ms Sasikala. I decided against publishing this on Medium (or here) because I wanted some data and refinements to this article. Now, without all those, I am posting it here as it was written back then._
 
-* * *
+---
 
 Before the demise of Jayalalitha (and for a few days afterwards too), Mr. Panneerselvam was a small, insignificant cog in the grand wheel.
 

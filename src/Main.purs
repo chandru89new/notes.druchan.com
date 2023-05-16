@@ -24,7 +24,7 @@ main =
         res <- runExceptT buildSite
         case res of
           Left err -> do
-            _ <- liftEffect $ execSync "rm -rf ./tmp" defaultExecSyncOptions
+            _ <- liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
             log $ show err
           Right _ -> log "Done."
 
@@ -97,12 +97,12 @@ buildSite = do
   log "Generating styles.css..."
   _ <- generateStyles
   log "Generating styles.css: Done!"
-  log "Copying /tmp to /public"
+  log $ "Copying " <> tmpFolder <> " to " <> htmlOutputFolder
   _ <- createFolderIfNotPresent htmlOutputFolder
-  _ <- ExceptT $ try $ liftEffect $ execSync "cp -r ./tmp/* ./public" defaultExecSyncOptions
+  _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> tmpFolder <> "/* " <> htmlOutputFolder) defaultExecSyncOptions
   log "Copying /tmp to /public: Done!"
   log "Cleaning up..."
-  _ <- ExceptT $ try $ liftEffect $ execSync "rm -rf ./tmp" defaultExecSyncOptions
+  _ <- ExceptT $ try $ liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
   log "Cleaning up: Done!"
 
 createFullArchivePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
