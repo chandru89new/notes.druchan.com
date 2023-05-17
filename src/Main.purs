@@ -1,6 +1,7 @@
 module Main where
 
 import Prelude
+import Cache as Cache
 import Control.Monad.Except (ExceptT(..), runExceptT)
 import Control.Parallel (parTraverse, parTraverse_)
 import Data.Array (catMaybes, filter, find, foldl, sortBy, take)
@@ -22,9 +23,9 @@ main =
   launchAff_
     $ do
         res <- runExceptT buildSite
+        _ <- try $ liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
         case res of
           Left err -> do
-            _ <- liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
             log $ show err
           Right _ -> log "Done."
 
@@ -75,15 +76,15 @@ buildSite :: ExceptT Error Aff Unit
 buildSite = do
   log "\nStarting..."
   _ <- createFolderIfNotPresent tmpFolder
-  sortedPosts <- getPostsAndSort
+  { postsToPublish, postsToRebuild } <- getPostsAndSort
   log "Generating posts pages..."
-  _ <- generatePostsHTML sortedPosts
+  _ <- generatePostsHTML postsToRebuild
   log "\nGenerating posts pages: Done!"
   log "Generating archive page..."
-  _ <- createFullArchivePage sortedPosts
+  _ <- createFullArchivePage postsToPublish
   log "Generating archive page: Done!"
   log "Generating home page..."
-  _ <- createHomePage sortedPosts
+  _ <- createHomePage postsToPublish
   log "Generating home page: Done!"
   log "Copying 404.html..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp " <> templatesFolder <> "/404.html " <> tmpFolder) defaultExecSyncOptions
@@ -101,9 +102,9 @@ buildSite = do
   _ <- createFolderIfNotPresent htmlOutputFolder
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> tmpFolder <> "/* " <> htmlOutputFolder) defaultExecSyncOptions
   log "Copying /tmp to /public: Done!"
-  log "Cleaning up..."
-  _ <- ExceptT $ try $ liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
-  log "Cleaning up: Done!"
+  log "Updating cache..."
+  _ <- ExceptT $ try $ Cache.writeCacheData
+  log "Updating cache: Done!"
 
 createFullArchivePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
 createFullArchivePage sortedArray = do
@@ -175,13 +176,16 @@ createHomePage sortedArrayofPosts = do
 
   fn2 b a = b <> "<li><a href=\"./" <> a.frontMatter.slug <> "\">" <> a.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> "</span></li>"
 
-getPostsAndSort :: ExceptT Error Aff (Array FormattedMarkdownData)
+getPostsAndSort :: ExceptT Error Aff ({ postsToPublish :: Array FormattedMarkdownData, postsToRebuild :: Array FormattedMarkdownData })
 getPostsAndSort = do
   filePaths <- ExceptT $ try $ readdir rawContentsFolder
   onlyMarkdownFiles <- pure $ filter (contains (Pattern ".md")) filePaths
+  oldCacheData <- ExceptT $ try $ Cache.readCacheData
+  newCacheData <- ExceptT $ try $ Cache.createCacheData
   formattedDataArray <- filePathsToProcessedData onlyMarkdownFiles
   removeIgnored <- pure $ filter (\f -> not f.frontMatter.ignore) formattedDataArray
-  pure $ sortPosts removeIgnored
+  removeCached <- pure $ filter (\f -> Cache.needsInvalidation oldCacheData newCacheData f.frontMatter.slug) removeIgnored
+  pure $ { postsToPublish: sortPosts removeIgnored, postsToRebuild: sortPosts removeCached }
   where
   filePathsToProcessedData :: Array String -> ExceptT Error Aff (Array FormattedMarkdownData)
   filePathsToProcessedData fpaths = parTraverse (\f -> readFileToData $ rawContentsFolder <> "/" <> f) fpaths

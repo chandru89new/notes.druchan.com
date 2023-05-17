@@ -20,6 +20,7 @@ to generate this file without the comments in this block.
   , "either"
   , "fetch"
   , "lists"
+  , "maybe"
   , "node-buffer"
   , "node-child-process"
   , "node-fs-aff"
