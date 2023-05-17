@@ -6,9 +6,9 @@ import Data.Array (filter, find, (!!))
 import Data.Either (Either(..), either, hush)
 import Data.Maybe (Maybe(..), fromMaybe)
 import Data.String (Pattern(..), Replacement(..), contains, joinWith, replace, split)
-import Effect.Aff (Aff, launchAff_, try)
+import Effect.Aff (Aff, try)
 import Effect.Class (liftEffect)
-import Effect.Class.Console (log)
+-- import Effect.Class.Console (log)
 import Node.Buffer (toString)
 import Node.ChildProcess (defaultExecSyncOptions, execSync)
 import Node.Encoding (Encoding(..))
@@ -25,7 +25,7 @@ import Utils as U
 --   slugs = [ "trust-systems", "use-interval-hook" ]
 getStat :: String -> Aff ({ slug :: String, stat :: String })
 getStat slug = do
-  buf <- try $ liftEffect $ execSync ("stat -f \"%d %i %Sp %l %Su %Sg %r %z %Sa %Sm %Sc %SB\" -n " <> U.rawContentsFolder <> "/" <> slug <> ".md") defaultExecSyncOptions
+  buf <- try $ liftEffect $ execSync ("stat -f \"%Sm %Sc\" -n " <> U.rawContentsFolder <> "/" <> slug <> ".md") defaultExecSyncOptions
   case buf of
     Left _ -> pure $ { slug, stat: "" }
     Right buffer -> do
@@ -79,8 +79,8 @@ needsInvalidation existingCacheData newCacheData slug =
       Just ocv, Just ncv -> ocv /= ncv
       _, _ -> true
 
-test =
-  launchAff_
-    $ do
-        res <- getStat "aaji"
-        log $ show res
+-- test =
+--   launchAff_
+--     $ do
+--         res <- getStat "aaji"
+--         log $ show res
