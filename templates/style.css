@@ -71,8 +71,8 @@ section h3 {
   @apply text-xs;
 } */
 
-code {
-  @apply font-mono text-xs px-1 py-1.5 rounded bg-slate-200 leading-5;
+code, li code {
+  @apply font-mono text-xs px-1 py-1 bg-slate-200 leading-5 rounded;
 }
 
 .hljs {
