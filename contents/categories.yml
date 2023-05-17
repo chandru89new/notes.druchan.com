@@ -12,6 +12,8 @@
     - perfect-rigor
     - theory-of-everything
     - wednesdays-with-albom
+    - books
+    - a-breeze-of-wisdom
 - category: art
   posts:
     - every-frame-a-motif
@@ -34,6 +36,7 @@
     - tales-from-a-bygone-summer
     - panneerselvam
     - whats-in-a-name
+    - amruta-subash
 - category: programming
   posts:
     - to-scale-productivity-in-code
@@ -44,6 +47,7 @@
     - once-more-unto-the-vim-dear-friends
     - use-interval-hook
     - safe-vs-unsafe-js
+    - should-i-learn-monads
 - category: dispatches from hyderabad
   posts:
     - dispatches-from-hyd-nests

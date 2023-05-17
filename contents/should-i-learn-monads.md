@@ -61,6 +61,6 @@ Someone asked about this on reddit today and I wanted to think about this a bit.
 
 **Also**:
 
-- [Safe vs Unsafe Javascript][/safe-vs-unsafe-js]
+- [Safe vs Unsafe Javascript](/safe-vs-unsafe-js)
 
 [monad-challenges]: https://blog.curlyfri.es/monad-challenges-purescript/
