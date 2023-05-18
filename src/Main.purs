@@ -5,8 +5,14 @@ import Cache as Cache
 import Control.Monad.Except (ExceptT(..), runExceptT)
 import Control.Parallel (parTraverse, parTraverse_)
 import Data.Array (catMaybes, filter, find, foldl, sortBy, take)
+import Data.Array as Array
 import Data.Either (Either(..))
-import Data.String (Pattern(..), Replacement(..), contains, replaceAll)
+import Data.Int (fromString)
+import Data.Map (Map)
+import Data.Map as Map
+import Data.Maybe (Maybe(..), fromMaybe)
+import Data.String (Pattern(..), Replacement(..), contains, joinWith, replaceAll, split)
+import Data.Tuple (Tuple(..))
 import Effect (Effect)
 import Effect.Aff (Aff, Error, launchAff_, try)
 import Effect.Class (liftEffect)
@@ -15,6 +21,7 @@ import Node.Buffer (Buffer)
 import Node.ChildProcess (defaultExecSyncOptions, execSync)
 import Node.Encoding (Encoding(..))
 import Node.FS.Aff (readTextFile, readdir, writeTextFile)
+import Prelude as Maybe
 import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, getCategoriesJson, homepageTemplate, htmlOutputFolder, md2FormattedData, rawContentsFolder, templatesFolder, tmpFolder)
 import Utils as U
 
@@ -81,7 +88,8 @@ buildSite = do
   _ <- generatePostsHTML postsToRebuild
   log "\nGenerating posts pages: Done!"
   log "Generating archive page..."
-  _ <- createFullArchivePage postsToPublish
+  -- _ <- createFullArchivePage postsToPublish
+  _ <- writeArchiveByYearPage postsToPublish
   log "Generating archive page: Done!"
   log "Generating home page..."
   _ <- createHomePage postsToPublish
@@ -106,23 +114,20 @@ buildSite = do
   _ <- ExceptT $ try $ Cache.writeCacheData
   log "Updating cache: Done!"
 
-createFullArchivePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
-createFullArchivePage sortedArray = do
-  content <- (toHTML sortedArray)
-  writeFullArchivePage content
-  where
-  toHTML :: Array FormattedMarkdownData -> ExceptT Error Aff String
-  toHTML fd = do
-    template <- ExceptT $ try $ readTextFile UTF8 archiveTemplate
-    pure $ replaceAll (Pattern "{{content}}") (Replacement $ "<ul>" <> content <> "</ul>") template
-    where
-    content = foldl fn "" fd
-
-    fn b a = b <> "<li><a href=\"./" <> a.frontMatter.slug <> "\">" <> a.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> "</span>" <> "</li>"
-
-  writeFullArchivePage :: String -> ExceptT Error Aff Unit
-  writeFullArchivePage str = ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/archive.html") str
-
+-- createFullArchivePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
+-- createFullArchivePage sortedArray = do
+--   content <- (toHTML sortedArray)
+--   writeFullArchivePage content
+--   where
+--   toHTML :: Array FormattedMarkdownData -> ExceptT Error Aff String
+--   toHTML fd = do
+--     template <- ExceptT $ try $ readTextFile UTF8 archiveTemplate
+--     pure $ replaceAll (Pattern "{{content}}") (Replacement $ "<ul>" <> content <> "</ul>") template
+--     where
+--     content = foldl fn "" fd
+--     fn b a = b <> "<li><a href=\"./" <> a.frontMatter.slug <> "\">" <> a.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> "</span>" <> "</li>"
+--   writeFullArchivePage :: String -> ExceptT Error Aff Unit
+--   writeFullArchivePage str = ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/archive.html") str
 generateStyles :: ExceptT Error Aff Buffer
 generateStyles =
   ExceptT
@@ -192,3 +197,61 @@ getPostsAndSort = do
 
 sortPosts :: Array FormattedMarkdownData -> Array FormattedMarkdownData
 sortPosts = sortBy (\a b -> if a.frontMatter.date < b.frontMatter.date then GT else LT)
+
+groupPostsByYear :: Array FormattedMarkdownData -> Map Int (Array FormattedMarkdownData)
+groupPostsByYear posts = foldl foldFn Map.empty posts
+  where
+  foldFn :: (Map Int (Array FormattedMarkdownData)) -> FormattedMarkdownData -> Map Int (Array FormattedMarkdownData)
+  foldFn b a =
+    let
+      updateFn v = Just $ Array.snoc (fromMaybe [] v) a
+
+      year = extractYear a.frontMatter.date
+    in
+      case year of
+        Nothing -> b
+        Just y -> Map.alter updateFn y b
+
+  extractYear dateString =
+    split (Pattern "-") dateString
+      # Array.head
+      # Maybe.map (fromString)
+      # join
+
+groupedPostsToHTML :: Map Int (Array FormattedMarkdownData) -> String
+groupedPostsToHTML groupedPosts =
+  let
+    formattedDataToHTML :: FormattedMarkdownData -> String
+    formattedDataToHTML fd = "<li><a href=\"/" <> fd.frontMatter.slug <> "\">" <> fd.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" fd.frontMatter.date <> "</span></li>"
+
+    arrayDataToHTML :: Array FormattedMarkdownData -> String
+    arrayDataToHTML fs = "<ul>" <> (map formattedDataToHTML fs # joinWith "") <> "</ul>"
+
+    mapAsList :: Array (Tuple Int (Array FormattedMarkdownData))
+    mapAsList = Map.toUnfoldable groupedPosts # sortBy (\(Tuple a1 _) (Tuple a2 _) -> if a1 > a2 then LT else GT)
+
+    tupleToString :: Tuple Int (Array FormattedMarkdownData) -> String
+    tupleToString (Tuple year fds) = "<section><h3>" <> show year <> "</h3><div>" <> arrayDataToHTML fds <> "</div></section>"
+
+    result :: String
+    result = map tupleToString mapAsList # joinWith ""
+  in
+    result
+
+writeArchiveByYearPage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
+writeArchiveByYearPage fds = do
+  contentToWrite <- pure $ groupedPostsToHTML $ groupPostsByYear fds
+  templateContents <- ExceptT $ try $ readTextFile UTF8 $ archiveTemplate
+  replacedContent <- pure $ replaceAll (Pattern "{{content}}") (Replacement contentToWrite) templateContents
+  ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/archive.html") replacedContent
+
+dummyData :: Array FormattedMarkdownData
+dummyData =
+  [ { frontMatter: { ignore: false, tags: [], date: "2023-01-01", slug: "something", title: "something" }, content: "more", raw: "fasdf" }
+  , { frontMatter: { ignore: false, tags: [], date: "2023-01-01", slug: "something", title: "something" }, content: "more", raw: "fasdf" }
+  , { frontMatter: { ignore: false, tags: [], date: "2023-01-01", slug: "something", title: "something" }, content: "more", raw: "fasdf" }
+  , { frontMatter: { ignore: false, tags: [], date: "2022-01-01", slug: "something", title: "something" }, content: "more", raw: "fasdf" }
+  , { frontMatter: { ignore: false, tags: [], date: "2022-01-01", slug: "something", title: "something" }, content: "more", raw: "fasdf" }
+  ]
+
+-- test = groupedPostsToHTML <<< groupPostsByYear

@@ -6,20 +6,20 @@ import yaml from "js-yaml";
 import fs from "fs";
 
 const md2FormattedDataService = new MarkdownIt({ html: true });
+const formatDate = (format) => (dateString) => dayjs(dateString).format(format);
 
 const md2FormattedData = (string) => {
   const r = matter(string);
   return {
     frontMatter: {
       ...r.data,
+      date: formatDate("YYYY-MM-DD")(r.data.date),
       tags: r.data.tags?.split(",") ?? [],
     },
     content: md2FormattedDataService.render(r.content),
     raw: string,
   };
 };
-
-const formatDate = (format) => (dateString) => dayjs(dateString).format(format);
 
 const turndownService = new TurndownService();
 
