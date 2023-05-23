@@ -133,11 +133,7 @@ buildSite = do
 --   writeFullArchivePage :: String -> ExceptT Error Aff Unit
 --   writeFullArchivePage str = ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/archive.html") str
 generateStyles :: ExceptT Error Aff Buffer
-generateStyles =
-  ExceptT
-    $ try
-    $ liftEffect
-    $ execSync command defaultExecSyncOptions
+generateStyles = ExceptT $ try $ liftEffect $ execSync command defaultExecSyncOptions
   where
   command = "npx tailwindcss -i " <> templatesFolder <> "/style.css -o " <> tmpFolder <> "/style.css"
 
