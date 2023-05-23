@@ -76,7 +76,7 @@ files in the `./contents` folder. Everytime you run `yarn build` or in
 `yarn watch` mode, the script will check if a file has been touched/modified and
 only those files's post pages will get re-built.
 
-If you want to fore a cache-invalidation, just remove the cache file:
+If you want to force a cache-invalidation, just remove the cache file:
 
 ```bash
 ~ rm cache
