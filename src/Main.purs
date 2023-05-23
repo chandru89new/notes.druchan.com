@@ -1,6 +1,7 @@
 module Main where
 
 import Prelude
+
 import Cache as Cache
 import Control.Monad.Except (ExceptT(..), runExceptT)
 import Control.Parallel (parTraverse, parTraverse_)
@@ -22,6 +23,7 @@ import Node.ChildProcess (defaultExecSyncOptions, execSync)
 import Node.Encoding (Encoding(..))
 import Node.FS.Aff (readTextFile, readdir, writeTextFile)
 import Prelude as Maybe
+import RssGenerator as Rss
 import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, getCategoriesJson, homepageTemplate, htmlOutputFolder, md2FormattedData, rawContentsFolder, templatesFolder, tmpFolder)
 import Utils as U
 
@@ -36,8 +38,7 @@ main =
             log $ show err
           Right _ -> log "Done."
 
-newtype Template
-  = Template String
+newtype Template = Template String
 
 readFileToData :: String -> ExceptT Error Aff FormattedMarkdownData
 readFileToData filePath = do
@@ -106,6 +107,9 @@ buildSite = do
   log "Generating styles.css..."
   _ <- generateStyles
   log "Generating styles.css: Done!"
+  log "Generating RSS feed..."
+  _ <- Rss.generateRSSFeed postsToPublish
+  log "Generating RSS feed: Done!"
   log $ "Copying " <> tmpFolder <> " to " <> htmlOutputFolder
   _ <- createFolderIfNotPresent htmlOutputFolder
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> tmpFolder <> "/* " <> htmlOutputFolder) defaultExecSyncOptions
@@ -158,7 +162,7 @@ createHomePage sortedArrayofPosts = do
   contents <-
     pure
       $ replaceAll (Pattern "{{recent_posts}}") (Replacement recentsString) template
-      # replaceAll (Pattern "{{posts_by_categories}}") (Replacement categories)
+          # replaceAll (Pattern "{{posts_by_categories}}") (Replacement categories)
   ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/index.html") contents
   where
   convertCategoriesToString :: Array U.Category -> String

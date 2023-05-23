@@ -38,16 +38,16 @@ createFolderIfNotPresent folderName =
 
 foreign import formatDate :: String -> String -> String
 
-type FormattedMarkdownData
-  = { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String, ignore :: Boolean }
-    , content :: String
-    , raw :: String
-    }
+type FormattedMarkdownData =
+  { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String, ignore :: Boolean }
+  , content :: String
+  , raw :: String
+  }
 
-type Category
-  = { category :: String
-    , posts :: Array String
-    }
+type Category =
+  { category :: String
+  , posts :: Array String
+  }
 
 foreign import md2FormattedData :: String -> FormattedMarkdownData
 
