@@ -15,6 +15,20 @@
     - books
     - a-breeze-of-wisdom
     - when-breath-becomes-air
+- category: people
+  posts:
+    - atishoo
+    - aji-tales
+    - captain
+    - aunty-ji
+    - cho
+    - my-brother-narrates-a-tale
+    - perfect-rigor
+    - tales-from-a-bygone-summer
+    - panneerselvam
+    - whats-in-a-name
+    - amruta-subash
+    - prativaadi-bhayankara-srinivas
 - category: art
   posts:
     - every-frame-a-motif
@@ -26,18 +40,6 @@
     - emerald-city-green-zone
     - rahman-raja
     - yuvan-surprise-raja
-- category: people
-  posts:
-    - aji-tales
-    - captain
-    - aunty-ji
-    - cho
-    - my-brother-narrates-a-tale
-    - perfect-rigor
-    - tales-from-a-bygone-summer
-    - panneerselvam
-    - whats-in-a-name
-    - amruta-subash
 - category: programming
   posts:
     - to-scale-productivity-in-code
@@ -50,11 +52,26 @@
     - safe-vs-unsafe-js
     - should-i-learn-monads
     - toolbuilding-mindset
+- category: bangalore days
+  posts:
+    - a-breeze-of-wisdom
+    - please-respect-the-national-anthem
+    - wednesdays-with-albom
+    - my-brother-narrates-a-tale
+    - one-sunday-at-the-hal-museum
+    - i-bought-4-eggs-from-a-princess
 - category: dispatches from hyderabad
   posts:
     - dispatches-from-hyd-nests
     - dispatches-from-hyd-ecosystem
     - dispatches-from-hyd-home
+- category: ahmedabad memoirs
+  posts:
+    - aunty-ji
+    - peace
+    - silence
+    - the-price-of-happiness
+    - unhome
 - category: on products/business
   posts:
     - burnt-sandwiches
