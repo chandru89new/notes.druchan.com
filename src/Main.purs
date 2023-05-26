@@ -87,36 +87,36 @@ buildSite = do
   { postsToPublish, postsToRebuild } <- getPostsAndSort
   log "Generating posts pages..."
   _ <- generatePostsHTML postsToRebuild
-  log "\nGenerating posts pages: Done!"
+  log "Generating posts pages: Done!\n"
   log "Generating archive page..."
   -- _ <- createFullArchivePage postsToPublish
   _ <- writeArchiveByYearPage postsToPublish
-  log "Generating archive page: Done!"
+  log "Generating archive page: Done!\n"
   log "Generating home page..."
   _ <- createHomePage postsToPublish
-  log "Generating home page: Done!"
+  log "Generating home page: Done!\n"
   log "Copying 404.html..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp " <> templatesFolder <> "/404.html " <> tmpFolder) defaultExecSyncOptions
-  log "Copying 404.html: Done!"
+  log "Copying 404.html: Done!\n"
   log "Copying images folder..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/images " <> tmpFolder) defaultExecSyncOptions
-  log "Copying images folder: Done!"
+  log "Copying images folder: Done!\n"
   log "Copying js folder..."
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> templatesFolder <> "/js " <> tmpFolder) defaultExecSyncOptions
-  log "Copying js folder: Done!"
+  log "Copying js folder: Done!\n"
   log "Generating styles.css..."
   _ <- generateStyles
-  log "Generating styles.css: Done!"
+  log "Generating styles.css: Done!\n"
   log "Generating RSS feed..."
   _ <- Rss.generateRSSFeed postsToPublish
-  log "Generating RSS feed: Done!"
+  log "Generating RSS feed: Done!\n"
   log $ "Copying " <> tmpFolder <> " to " <> htmlOutputFolder
   _ <- createFolderIfNotPresent htmlOutputFolder
   _ <- ExceptT $ try $ liftEffect $ execSync ("cp -r " <> tmpFolder <> "/* " <> htmlOutputFolder) defaultExecSyncOptions
-  log "Copying /tmp to /public: Done!"
+  log "Copying /tmp to /public: Done!\n"
   log "Updating cache..."
   _ <- ExceptT $ try $ Cache.writeCacheData
-  log "Updating cache: Done!"
+  log "Updating cache: Done!\n"
 
 -- createFullArchivePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
 -- createFullArchivePage sortedArray = do
