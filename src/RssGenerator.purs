@@ -30,7 +30,7 @@ generateRSSFeed fds = do
   feedItemsString <- pure $ generateFeedItemString feedItemTemplate fds
   lastUpdated <- pure $ getLastUpdated (head fds)
   updatedFeedContents <- pure $ replaceFeedContents feedItemsString lastUpdated templateContents
-  ExceptT $ try $ writeTextFile UTF8 (Utils.htmlOutputFolder <> "/feed.xml") updatedFeedContents
+  ExceptT $ try $ writeTextFile UTF8 (Utils.tmpFolder <> "/feed.xml") updatedFeedContents
 
 generateFeedItemString :: String -> Array FormattedMarkdownData -> String
 generateFeedItemString template = foldl fn ""
