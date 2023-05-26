@@ -40,18 +40,6 @@
     - emerald-city-green-zone
     - rahman-raja
     - yuvan-surprise-raja
-- category: programming
-  posts:
-    - to-scale-productivity-in-code
-    - coders-block
-    - everything-hard-is-easy-again
-    - half-cooked-asyncawait
-    - reinvent-the-wheel
-    - once-more-unto-the-vim-dear-friends
-    - use-interval-hook
-    - safe-vs-unsafe-js
-    - should-i-learn-monads
-    - toolbuilding-mindset
 - category: bangalore days
   posts:
     - a-breeze-of-wisdom

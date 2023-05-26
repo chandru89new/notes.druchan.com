@@ -5,9 +5,9 @@ import TurndownService from "turndown";
 import yaml from "js-yaml";
 import fs from "fs";
 
-const md2FormattedDataService = new MarkdownIt({ html: true });
 const formatDate = (format) => (dateString) => dayjs(dateString).format(format);
 
+const md2FormattedDataService = new MarkdownIt({ html: true });
 const md2FormattedData = (string) => {
   const r = matter(string);
   return {
