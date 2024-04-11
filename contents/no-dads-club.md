@@ -14,11 +14,11 @@ Contrastingly, the image of my father etched in my mind has been that of a disci
 
 —
 
-With his passing, I join [my maternal cousins](https://notes.druchan.com/tales-from-a-bygone-summer) in the no-dads-club. I was thinking about that on the third day since his demise, on the drive to drop my cat off at a boarding.
+On the third day from when he died, I was driving to drop-off my cat at a boarder's. As I drove, I realized that with his passing, I join [my maternal cousins](https://notes.druchan.com/tales-from-a-bygone-summer) in the no-dads-club. In some sense, we lost our respective fathers in the reverse sequence of elderness — the youngest of us lost our dad first and the oldest lost his last.
 
 My dad's last dad-like thing that I saw him do was to help, advice and participate in a fatherly-figure-like capacity at my maternal cousin's wedding in Bangalore. His very actions came as a major surprise to all of us given the mechanics of that wedding.
 
-Yet, his last vengeful act of non-compliance was one of the reasons why I had to abandon the idea of marrying a person I had grown fond of.
+Yet, his last vengeful act of non-cooperation was one of the reasons why I had to abandon the idea of marrying a person I had grown fond of.
 
 Dad was an expert at nursing a grudge. This was great when he was on the ethically-right side of the aisle: grudge became grit, vengeance became a fight for justice. But when he was on the other side, it was very unbecoming of a human, a nasty sight.
 
