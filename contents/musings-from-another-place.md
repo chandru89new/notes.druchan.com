@@ -1,7 +1,7 @@
 ---
-title: "Weekly Dispatch #1"
+title: "Musings from another place"
 date: 2024-11-17
-slug: weekly-dispatch-1
+slug: musings-from-another-place
 ---
 
 _Bite-sized musings from over the week._
