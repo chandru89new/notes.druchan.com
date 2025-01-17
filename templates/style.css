@@ -26,6 +26,10 @@ a {
   @apply text-lime-600 hover:text-lime-900 transition;
 }
 
+article > a, article > *:not(section) a {
+  @apply border-b border-dotted border-lime-600 hover:border-lime-900 transition;
+}
+
 ul {
   @apply space-y-2 sm:space-y-1;
 }
@@ -62,7 +66,23 @@ footer {
   @apply text-sm sm:text-base pt-4 mt-4 mb-10 border-t flex gap-x-3;
 }
 
-section h3 {
+article h2 {
+  @apply text-2xl font-semibold;
+}
+article h3 {
+  @apply text-xl font-semibold;
+}
+article h4 {
+  @apply text-lg font-semibold;
+}
+article h5 {
+  @apply text-base font-semibold;
+}
+article h6 {
+  @apply text-base font-semibold;
+}
+
+section h3, article section h3 {
   @apply font-fraunces font-semibold mb-1 uppercase text-xs text-slate-400;
 }
 
@@ -105,3 +125,4 @@ article#archive_container ul {
 blockquote {
   @apply border-l-4 border-slate-200 pl-4 space-y-4 text-slate-500;
 }
+
