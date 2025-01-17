@@ -43,6 +43,8 @@ And apparently, there were many lighter moments through the arguments and rejoin
 >
 > Justice Sinha (amidst laughter): Is it also vice-versa?
 
+The background here is that the Election Commission had granted the use of a cow-and-a-calf symbol for Mrs Gandhi's Congress party, but a statute says a religious symbol cannot be used/granted; Bhushan and co. were arguing that because of the symbol's use, the election can be construed to be invalid from the start. Whether the symbolism of a cow was religious or not got the pandits involved in the case.
+
 ---
 
 At one point, the respondent (Indira Gandhi's lawyers) started questioning some very basic tenents and foundations of the country's political structure.

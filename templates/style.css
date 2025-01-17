@@ -123,6 +123,6 @@ article#archive_container ul {
 }
 
 blockquote {
-  @apply border-l-4 border-slate-200 pl-4 space-y-4 text-slate-500;
+  @apply border-l-4 border-slate-200 pl-4 space-y-4 text-slate-500 text-sm leading-relaxed;
 }
 
