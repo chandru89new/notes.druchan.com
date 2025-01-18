@@ -1,33 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,600;1,400;1,600&family=Prata&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,100..900,50;1,9..144,100..900,50&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css");
 
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
 
-::root {
-  --body-text-color: ;
-}
-
 html {
   @apply text-[16px] md:text-[20px];
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold;
+}
+
 body {
-  font-family: "Fraunces", "Buenard", "Sora", system-ui, -apple-system,
+  font-family: "Fraunces", "Atkinson Hyperlegible", system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue", serif;
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 300;
-  @apply bg-slate-50 text-slate-800 p-10 max-w-[700px] leading-relaxed;
+  @apply bg-slate-50 text-slate-800 p-5 md:p-10 max-w-[700px] leading-relaxed dark:bg-slate-700 dark:text-slate-200;
 }
 
 a {
-  @apply text-lime-600 hover:text-lime-900 transition;
+  @apply text-lime-600 hover:text-lime-900 dark:hover:text-lime-700 transition;
 }
 
-article > a, article > *:not(section) a {
-  @apply border-b border-dotted border-lime-600 hover:border-lime-900 transition;
+article:not(#archive_container) a {
+  /* @apply border-b-lime-600 hover:border-b-lime-900 dark:border-b-lime-700; */
+  @apply border-b border-dotted border-b-lime-500 hover:border-b-lime-900 dark:border-b-lime-700;
 }
 
 ul {
@@ -35,7 +41,7 @@ ul {
 }
 
 h1 {
-  @apply font-semibold tracking-tight text-3xl mt-6;
+  @apply font-semibold tracking-tight text-3xl;
 }
 
 #logo,
@@ -44,9 +50,8 @@ h1 {
   font-family: "Fraunces", serif;
 }
 
-#home-page-logo,
 #home-page-logo a {
-  @apply font-semibold tracking-tight text-3xl;
+  @apply block font-semibold tracking-tight text-3xl;
   font-family: "Fraunces", serif;
 }
 
@@ -59,30 +64,14 @@ article {
 }
 
 header {
-  @apply mt-3 mb-4 pb-4 border-b;
+  @apply mt-3 mb-4 pb-4 border-b dark:border-b-slate-600;
 }
 
 footer {
-  @apply text-sm sm:text-base pt-4 mt-4 mb-10 border-t flex gap-x-3;
+  @apply text-sm sm:text-base pt-4 mt-4 mb-10 border-t flex gap-x-3 dark:border-t-slate-600;
 }
 
-article h2 {
-  @apply text-2xl font-semibold;
-}
-article h3 {
-  @apply text-xl font-semibold;
-}
-article h4 {
-  @apply text-lg font-semibold;
-}
-article h5 {
-  @apply text-base font-semibold;
-}
-article h6 {
-  @apply text-base font-semibold;
-}
-
-section h3, article section h3 {
+section h3 {
   @apply font-fraunces font-semibold mb-1 uppercase text-xs text-slate-400;
 }
 
@@ -97,23 +86,23 @@ section h3, article section h3 {
 
 code,
 li code {
-  @apply font-mono text-xs px-1 py-1 bg-slate-200 leading-5 rounded;
+  @apply font-mono text-xs px-1 py-1 bg-slate-200 dark:bg-slate-800 leading-5 rounded;
 }
 
 .hljs {
-  @apply rounded border border-slate-200 bg-slate-100;
+  @apply rounded border border-slate-200 bg-slate-100 dark:border-slate-900 dark:bg-slate-800 dark:text-slate-400;
 }
 
 ol {
   @apply list-decimal;
 }
 
-ul {
-  @apply list-disc;
+article:not(#archive_container) ul {
+  @apply list-disc ml-4;
 }
 
 /* disable list-disc for home page list */
-article section ul {
+section ul {
   @apply list-none;
 }
 
@@ -121,8 +110,14 @@ article section ul {
 article#archive_container ul {
   @apply list-none;
 }
-
-blockquote {
-  @apply border-l-4 border-slate-200 pl-4 space-y-4 text-slate-500 text-sm leading-relaxed;
+article#archive_container ul li {
+  @apply whitespace-nowrap overflow-x-visible;
 }
 
+blockquote {
+  @apply border-l-4 border-slate-200 dark:border-slate-600 pl-4 space-y-4 text-slate-500 text-sm dark:text-slate-400 leading-relaxed;
+}
+
+hr {
+  @apply border-slate-200 dark:border-slate-600;
+}

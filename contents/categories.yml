@@ -62,6 +62,14 @@
     - silence
     - the-price-of-happiness
     - unhome
+- category: programming
+  posts:
+    - toolbuilding-mindset
+    - everything-hard-is-easy-again
+    - summer-of-elm
+    - coders-block
+    - should-i-learn-monads
+    - once-more-unto-the-vim-dear-friends
 - category: on products/business
   posts:
     - burnt-sandwiches
