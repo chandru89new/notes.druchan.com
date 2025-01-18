@@ -149,7 +149,7 @@ recentPosts n xs =
 
 createHomePage :: Array FormattedMarkdownData -> ExceptT Error Aff Unit
 createHomePage sortedArrayofPosts = do
-  recentsString <- pure $ recentPosts 1 sortedArrayofPosts
+  recentsString <- pure $ recentPosts 3 sortedArrayofPosts
   template <- ExceptT $ try $ readTextFile UTF8 homepageTemplate
   categories <- pure $ (getCategoriesJson unit # convertCategoriesToString)
   contents <-
