@@ -11,7 +11,7 @@ import Data.Int (fromString)
 import Data.Map (Map)
 import Data.Map as Map
 import Data.Maybe (Maybe(..), fromMaybe)
-import Data.String (Pattern(..), Replacement(..), contains, joinWith, length, replaceAll, split)
+import Data.String (Pattern(..), Replacement(..), contains, joinWith, replaceAll, split)
 import Data.Tuple (Tuple(..))
 import Effect (Effect)
 import Effect.Aff (Aff, Error, launchAff_, try)
