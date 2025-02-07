@@ -190,7 +190,7 @@ createHomePage sortedArrayofPosts = do
   convertCategoriesToString :: Array U.Category -> String
   convertCategoriesToString = foldl fn ""
 
-  fn b a = b <> "<section><h3 class=\"category\">" <> a.category <> "</h3>" <> descriptionToString a.description <> "<ul>" <> renderPosts a.posts <> "</ul></section>"
+  fn b a = b <> "<section><h3 class=\"category\">" <> a.category <> "</h3>" <> "<ul>" <> renderPosts a.posts <> "</ul></section>"
 
   renderPosts :: Array String -> String
   renderPosts posts = foldl fn2 "" (filteredPosts posts)
@@ -206,9 +206,6 @@ createHomePage sortedArrayofPosts = do
       # sortPosts
 
   fn2 b a = b <> "<li><a href=\"./" <> a.frontMatter.slug <> "\">" <> a.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> "</span></li>"
-
-  descriptionToString :: String -> String
-  descriptionToString desc = if length desc == 0 then "" else "<p class='italic text-slate-600 dark:text-slate-700 text-sm'>" <> desc <> "</p>"
 
 getPostsAndSort :: ExceptT Error Aff ({ postsToPublish :: Array FormattedMarkdownData, postsToRebuild :: Array FormattedMarkdownData })
 getPostsAndSort = do

@@ -50,7 +50,6 @@ type FormattedMarkdownData
 
 type Category
   = { category :: String
-    , description :: String
     , posts :: Array String
     }
 
