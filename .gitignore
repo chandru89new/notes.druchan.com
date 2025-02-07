@@ -12,4 +12,4 @@ public
 tmp
 .firebase
 firebase-debug.log
-cache
+.cache
