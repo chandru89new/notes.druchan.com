@@ -2,8 +2,9 @@
   "type": "module",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "build": "yarn spago run -m Main",
-    "watch": "yarn nodemon",
+    "build": "spago run -a \"build\"",
+    "new": "sh newpost.sh",
+    "watch": "nodemon",
     "deploy": "firebase deploy",
     "clean": "rm cache && rm -rf public",
     "clean-build": "yarn clean && yarn build"

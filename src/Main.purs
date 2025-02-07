@@ -1,18 +1,17 @@
 module Main where
 
 import Prelude
-
 import Cache as Cache
 import Control.Monad.Except (ExceptT(..), runExceptT)
 import Control.Parallel (parTraverse, parTraverse_)
-import Data.Array (catMaybes, filter, find, foldl, sortBy, take)
+import Data.Array (catMaybes, drop, filter, find, foldl, head, sortBy, take)
 import Data.Array as Array
 import Data.Either (Either(..))
 import Data.Int (fromString)
 import Data.Map (Map)
 import Data.Map as Map
 import Data.Maybe (Maybe(..), fromMaybe)
-import Data.String (Pattern(..), Replacement(..), contains, joinWith, replaceAll, split)
+import Data.String (Pattern(..), Replacement(..), contains, joinWith, length, replaceAll, split)
 import Data.Tuple (Tuple(..))
 import Effect (Effect)
 import Effect.Aff (Aff, Error, launchAff_, try)
@@ -22,23 +21,53 @@ import Node.Buffer (Buffer)
 import Node.ChildProcess (defaultExecSyncOptions, execSync)
 import Node.Encoding (Encoding(..))
 import Node.FS.Aff (readTextFile, readdir, writeTextFile)
+import Node.Process (argv)
 import Prelude as Maybe
 import RssGenerator as Rss
-import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, getCategoriesJson, homepageTemplate, htmlOutputFolder, md2FormattedData, rawContentsFolder, templatesFolder, tmpFolder)
+import Utils (FormattedMarkdownData, archiveTemplate, blogpostTemplate, createFolderIfNotPresent, formatDate, getCategoriesJson, homepageTemplate, htmlOutputFolder, md2FormattedData, newPostTemplate, rawContentsFolder, templatesFolder, tmpFolder)
 import Utils as U
 
 main :: Effect Unit
-main =
-  launchAff_
-    $ do
-        res <- runExceptT buildSite
-        _ <- try $ liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
-        case res of
-          Left err -> do
-            log $ show err
-          Right _ -> log "Done."
+main = do
+  args <- argv
+  cmd <- pure $ mkCommand args
+  case cmd of
+    NewPost slug -> do
+      res <- runExceptT $ createNewPost slug
+      case res of
+        Left err -> log $ "Could not create a new post: " <> show err
+        Right _ -> log $ "Created new post. Happy writing."
+    Invalid -> log "Invalid command. Try `build` or `new {slug}`."
+    Build ->
+      launchAff_
+        $ do
+            res <- runExceptT buildSite
+            _ <- try $ liftEffect $ execSync ("rm -rf " <> tmpFolder) defaultExecSyncOptions
+            case res of
+              Left err -> do
+                log $ show err
+              Right _ -> log "Done."
 
-newtype Template = Template String
+newtype Template
+  = Template String
+
+data Command
+  = Build
+  | NewPost String
+  | Invalid
+
+instance showCommand :: Show Command where
+  show Build = "Build"
+  show (NewPost _) = "NewPost"
+  show Invalid = "Invalid"
+
+mkCommand :: Array String -> Command
+mkCommand xs = case head (drop 2 xs) of
+  Just "build" -> Build
+  Just "new" -> case head $ drop 3 xs of
+    Just slug -> NewPost slug
+    _ -> Invalid
+  _ -> Invalid
 
 readFileToData :: String -> ExceptT Error Aff FormattedMarkdownData
 readFileToData filePath = do
@@ -155,13 +184,13 @@ createHomePage sortedArrayofPosts = do
   contents <-
     pure
       $ replaceAll (Pattern "{{recent_posts}}") (Replacement recentsString) template
-          # replaceAll (Pattern "{{posts_by_categories}}") (Replacement categories)
+      # replaceAll (Pattern "{{posts_by_categories}}") (Replacement categories)
   ExceptT $ try $ writeTextFile UTF8 (tmpFolder <> "/index.html") contents
   where
   convertCategoriesToString :: Array U.Category -> String
   convertCategoriesToString = foldl fn ""
 
-  fn b a = b <> "<section><h3 class=\"category\">" <> a.category <> "</h3><ul>" <> renderPosts a.posts <> "</ul></section>"
+  fn b a = b <> "<section><h3 class=\"category\">" <> a.category <> "</h3>" <> descriptionToString a.description <> "<ul>" <> renderPosts a.posts <> "</ul></section>"
 
   renderPosts :: Array String -> String
   renderPosts posts = foldl fn2 "" (filteredPosts posts)
@@ -177,6 +206,9 @@ createHomePage sortedArrayofPosts = do
       # sortPosts
 
   fn2 b a = b <> "<li><a href=\"./" <> a.frontMatter.slug <> "\">" <> a.frontMatter.title <> "</a> &mdash; <span class=\"date\">" <> formatDate "MMM DD, YYYY" a.frontMatter.date <> "</span></li>"
+
+  descriptionToString :: String -> String
+  descriptionToString desc = if length desc == 0 then "" else "<p class='italic text-slate-600 dark:text-slate-700 text-sm'>" <> desc <> "</p>"
 
 getPostsAndSort :: ExceptT Error Aff ({ postsToPublish :: Array FormattedMarkdownData, postsToRebuild :: Array FormattedMarkdownData })
 getPostsAndSort = do
@@ -251,4 +283,5 @@ dummyData =
   , { frontMatter: { ignore: false, tags: [], date: "2022-01-01", slug: "something", title: "something" }, content: "more", raw: "fasdf" }
   ]
 
--- test = groupedPostsToHTML <<< groupPostsByYear
+createNewPost :: String -> ExceptT Error Effect Buffer
+createNewPost slug = ExceptT $ try $ execSync ("cp " <> newPostTemplate <> " " <> rawContentsFolder <> "/" <> slug <> ".md") defaultExecSyncOptions

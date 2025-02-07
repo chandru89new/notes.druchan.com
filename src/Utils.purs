@@ -3,6 +3,7 @@ module Utils where
 import Prelude
 import Control.Monad.Except (ExceptT(..))
 import Data.Either (Either(..))
+import Data.Maybe (Maybe)
 import Effect.Aff (Aff, Error, try)
 import Node.FS.Aff (mkdir, readdir)
 
@@ -17,6 +18,9 @@ rawContentsFolder = "./contents"
 
 blogpostTemplate :: String
 blogpostTemplate = templatesFolder <> "/post.html"
+
+newPostTemplate :: String
+newPostTemplate = templatesFolder <> "/post.md"
 
 tmpFolder :: String
 tmpFolder = "./tmp"
@@ -38,16 +42,17 @@ createFolderIfNotPresent folderName =
 
 foreign import formatDate :: String -> String -> String
 
-type FormattedMarkdownData =
-  { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String, ignore :: Boolean }
-  , content :: String
-  , raw :: String
-  }
+type FormattedMarkdownData
+  = { frontMatter :: { title :: String, date :: String, slug :: String, tags :: Array String, ignore :: Boolean }
+    , content :: String
+    , raw :: String
+    }
 
-type Category =
-  { category :: String
-  , posts :: Array String
-  }
+type Category
+  = { category :: String
+    , description :: String
+    , posts :: Array String
+    }
 
 foreign import md2FormattedData :: String -> FormattedMarkdownData
 
