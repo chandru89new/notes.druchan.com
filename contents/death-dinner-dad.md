@@ -35,7 +35,9 @@ And in his death, even those emotions dissipated, leaving me with mere facts.
 
 Every once in a while, I remember that I have no video or audio recordings of my father. To be clear, there is no regret involved in this. Not surprising. I do not seem to have a craving for such memorabilia and it's very much a trait I inherited completely from my father.
 
-Perhaps that, in the grand scheme of things, was his gift to me: a weird variation of an Indian stoic, bound in _sāmsārika_<sup>2</sup> vagaries and forever reaching for the hermitic asymptote.
+Perhaps that trait — a weird variation of an Indian stoic, bound in _sāmsārika_<sup>2</sup> vagaries and forever reaching for the hermitic asymptote — was his unintended gift to me.
+
+That, and the last, unexpected family dinner.
 
 —
 
