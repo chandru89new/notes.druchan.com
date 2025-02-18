@@ -120,3 +120,7 @@ blockquote {
 hr {
   @apply border-slate-200 dark:border-slate-600;
 }
+
+.footnote {
+  @apply text-xs;
+}
