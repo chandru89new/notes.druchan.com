@@ -25,7 +25,7 @@ But now, I no longer seem to care.
 
 \*
 
-In an inter-school drama competition, our team won some award and I, one of the actors in the troupe, got a book on Ramayana by R.S.Sarma. In this translation, Sarma writes of the time when Ravana lays slain and Ravana's wife asks Rama to allow for proper final rites as is to be accorded a king. Rama's reply, in Sarma's words, was, "In death, all enmity ends."<sup>1</sup> Somehow, that sentiment tattooed itself on a young, impressionable mind.
+In an inter-school drama competition, our team won some award and I, one of the actors in the troupe, got a book on Ramayana by D.S.Sarma. In this translation, Sarma writes of the time when Ravana lays slain and Ravana's wife asks Rama to allow for proper final rites as is to be accorded a king. Rama's reply, in Sarma's words, was, "In death, all enmity ends."<sup>1</sup> Somehow, that sentiment tattooed itself on a young, impressionable mind.
 
 It would be wrong (not to mention anything of the melodrama) to characterize the anger and resentment I had for my dad in the intervening years as "enmity" but it was close enough as an emotion. By my early thirties, anger gave way to a state of dispassion about him that I had comfortably resigned to, maintaining a reasonable mental and physical distance.
 
