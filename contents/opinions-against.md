@@ -2,8 +2,9 @@
 title: "Opinions against"
 date: 2016-06-10
 slug: opinions-against
-ignore: true
+status: draft
 ---
+
 As we all do, there are things about this world that I don’t believe in. Things that other people - most other people - either accept as defaults of the system we live in or don’t think about but follow blindly.
 
 I expect this list to be updated somewhat frequently.

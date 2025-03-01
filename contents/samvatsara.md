@@ -2,8 +2,9 @@
 title: "Samvatsara"
 date: 2018-06-10
 slug: samvatsara
-ignore: true
+status: draft
 ---
+
 Stephen Spielberg once said in an interview that, at the start of the year, he watches four movies like a ritual.
 
 Like him, we are prone to watch some movies over and over again every year. There are some books we re-read a few times every year or so. While this phenomenon is quite common, what we usually do when revisiting these movies and books is skip scenes and chapters and entire sections of the work. Not always, but mostly. Despite this obvious fast-forward, snapshot-like experience of a revisit, we treat these revisits as whole.

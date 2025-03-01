@@ -2,7 +2,7 @@
 title: "Justifying a paragraph of text: Part 1"
 date: 2023-06-06
 slug: text-justify
-# ignore: true
+# status: draft
 ---
 
 Following-up on the [leetcode stuff I was doing recently](/int-to-roman), I decided to pick up another Leetcode problem. This time, [text justification algorithm](https://leetcode.com/problems/text-justification/).

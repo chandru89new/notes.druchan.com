@@ -2,8 +2,9 @@
 title: "A “naive” thought"
 date: 2016-06-24
 slug: a-naive-thought
-ignore: true
+status: draft
 ---
+
 I said Elon Musk did not focus on making electric cars with the intention of getting “paid customers” and I think what I heard was a voice that thinks I’m naive in thinking that way.
 
 I think this is our problem both within the world of startups in 2016 and in general. As humans.
@@ -18,7 +19,7 @@ There’s a popular saying that I love. Artists don’t do things to make money.
 
 May be not all founders want to be Musk or Jobs. And I think that’s only good. Not everyone can be. But somewhere, they all want, aspire or crave to be in that league. The stature of Jobs or Musk is a much-coveted thing that founders would love to have.
 
-To believe Musk when he says that he has a genuine interest in breaking the gas paradigm and shifting the entire race to electric is suddenly seen as naive. Musk made sh*tloads of money and in fact he had a very clear vision about making money because he made luxury electric cars first.
+To believe Musk when he says that he has a genuine interest in breaking the gas paradigm and shifting the entire race to electric is suddenly seen as naive. Musk made sh\*tloads of money and in fact he had a very clear vision about making money because he made luxury electric cars first.
 
 But it was because he wanted money to make even bigger, better, ambitious things. The goal was always about something far greater than both money and wealth. The goal was even bigger than making ideas come alive. The goal was pursuing ideas that would change the direction of our human race.
 

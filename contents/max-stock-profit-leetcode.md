@@ -2,7 +2,7 @@
 title: "Another Leetcode episode in Purescript"
 date: 2023-06-09
 slug: max-stock-profit-leetcode
-# ignore: true
+# status: draft
 ---
 
 Lately, I've been enjoying solving some Leetcode problems [as][leet1] [is][leet2] [clear][leet3] [from my ramblings here][leet4].

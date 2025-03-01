@@ -2,9 +2,10 @@
 title: "Relayers / Why We’ll Never Be Good At This"
 date: 2016-05-17
 slug: relayers-why-well-never-be-good-at-this
-ignore: true
+status: draft
 ---
-We’re talking to online sellers but who are we?  
+
+We’re talking to online sellers but who are we?
 
 We don’t sell things online. We don’t know what’s going on when people try to sell things online through their shops (or through marketplaces like Etsy).
 

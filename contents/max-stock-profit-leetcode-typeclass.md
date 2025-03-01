@@ -2,7 +2,7 @@
 title: "Defining a valid trade using typeclass"
 date: 2023-06-10
 slug: max-stock-profit-leetcode-typeclass
-# ignore: true
+# status: draft
 ---
 
 [In the last note posted](/max-stock-profit-leetcode), we "implicitly" defined some valid trades.

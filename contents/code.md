@@ -2,7 +2,7 @@
 title: Code test
 date: 2023-05-18
 slug: code
-ignore: true
+status: draft
 ---
 
 ```js
@@ -12,10 +12,10 @@ const md2FormattedData = (string) => {
     frontMatter: {
       ...r.data,
       tags: r.data.tags?.split(",") ?? [],
-      ignore: r.data.ignore ? true : false,
+      ignore: r.data.ignore ? true : false
     },
     content: md2FormattedDataService.render(r.content),
-    raw: string,
+    raw: string
   };
 };
 ```
