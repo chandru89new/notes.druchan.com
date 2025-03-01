@@ -2,7 +2,7 @@
 title: $title
 date: $date
 slug: $slug
-ignore: $ignore
+status: draft
 ---
 
 Write your post here.
