@@ -47,7 +47,7 @@ const Page = () => {
 };
 ```
 
-You can see where this is going to be a problem: your app is going to have so many pages, making so many calls to the API, and writing this fektch.then(r => r.json()).then(...) is going to be a chore.
+You can see where this is going to be a problem: your app is going to have so many pages, making so many calls to the API, and writing this fetch.then(r => r.json()).then(...) is going to be a chore.
 
 So you build an abstraction. We will skip a few steps ahead and have ourself an async fetch wrapper - a wrapper that does three things:
 
