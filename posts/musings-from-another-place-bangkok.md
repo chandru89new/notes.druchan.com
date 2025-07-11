@@ -1,7 +1,7 @@
 ---
-title: "Musings from another place"
+title: "Musings from another place — Bangkok"
 date: 2024-11-17
-slug: musings-from-another-place
+slug: musings-from-another-place-bangkok
 ---
 
 _Bite-sized musings from over the week._
