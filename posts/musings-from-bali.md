@@ -15,7 +15,7 @@ Unlike the strong, heady Siamese scents, Balinese-Indonesian aromas, at least in
 
 As if to accentuate and complement the food aromas, thousands of incenses from the *canang sari* — a beautiful little leaf-tray of daily offerings — serve up wafts of inexplicably-pleasant-smelling smoke. It has rained overnight, fading out with mild drizzles in the early hours, so the midday walk for lunch under cloudy-skies with these different aromas "hits different".
 
-![](./images/bali/2.jpg)
+![](./images/bali/2.JPG)
 
 The *canang sari* itself is a dichotomous mix of ritualistic tradition and macroeconomic commerce. Materially, it's a small square tray made out of banana leaf (or coconut leaf), filled with flowers of different colours and then some more items: a small morsel of rice, a toffee, a cookie, a couple of incense sticks, etc. Women clad in traditional Balinese-Hindu attire would carry dozens of these and go around placing them.
 
