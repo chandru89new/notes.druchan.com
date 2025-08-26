@@ -18,4 +18,4 @@ The greatest blessing in this grief is that there are folks like Tamal, like Jig
 
 \*
 
-[आप मरने वाले हो डॉक्टर साब, मैं नहीं मरने वाला ... मैं था, मैं हूँ, मैं रहूंगा |](https://www.youtube.com/watch?v=5QSZhddiHZc&ab_channel=RR)
+[आप मरने वाले हो डॉक्टर साब, मैं नहीं मरने वाला ... मैं था, मैं हूँ, मैं ही रहूंगा |](https://www.youtube.com/watch?v=5QSZhddiHZc&ab_channel=RR)
