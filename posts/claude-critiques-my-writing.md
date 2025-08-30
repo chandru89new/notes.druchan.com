@@ -2,14 +2,14 @@
 title: "Claude critiques my writing"
 date: 2025-08-31
 slug: claude-critiques-my-writing
-status: unlisted
+status: published
 ---
 
 One thing I am unnecessarily proud of is my writing on this blog. This is a tale of undoing that pride.
 
 \*
 
-[Claude Code](https://anthropic.com/claude-code) is marketed as an AI tool that can help you write code, fix bugs, and supercharge productivity as a programmer. It works when you run it in the folder that contains all your "source" files. It is amazing as an everyday tool where I invoke it as a pair programming buddy, as a senior expert for strategy, as a troubleshooter, an an extra pair of eyes for code review and so on.
+[Claude Code](https://anthropic.com/claude-code) is marketed as an AI tool that can help you write code, fix bugs, and supercharge productivity as a programmer. It works when you run it in the folder that contains all your "source" files. It is amazing as an everyday tool. I invoke it as a pair programming buddy, a senior expert for strategy, a troubleshooter, an extra pair of eyes for code review and so on.
 
 Underneath the actual program of Claude Code is the large-language-model AI that can do much more than just write code or fix bugs or supercharge your productivity. For all intents and purposes, it's the same AI that we use on [claude.ai](https://claude.ai), which can write poetry just as well as it can write an entire prototype of a web application.
 
@@ -37,7 +37,7 @@ Since I am not Donald Trump looking for perennial praise from my minions, I refi
 
 And the floodgates of "ouch, that hurt" opened up.
 
-Claude, in going through my posts, found an [older write-up about writing clearly](https://notes.druchan.com/writing-for-people-6-rules) and [communication](https://notes.druchan.com/communicating-at-3-levels-of-attention-spans) and decided to use them as the yardstick to measure all other writing.
+Claude, in going through my posts, found an [older write-up about clear writing](https://notes.druchan.com/writing-for-people-6-rules) and [communication](https://notes.druchan.com/communicating-at-3-levels-of-attention-spans) and decided to use them as yardsticks to measure all other writing.
 
 Here's some of the choice criticisms it reported:
 
@@ -47,7 +47,7 @@ Here's some of the choice criticisms it reported:
 - Pretentious vocabulary and complex sentence structure. The writing suffers from what could be called "intellectual peacocking", using complex phrases when simpler words could be clearer.
 - Many posts start with throat-clearing rather than hooks.
 
-I watched as it used that yardstick to whack my writing:
+I watched as it used those yardsticks to whack my writing:
 
 - Use your "communicating at 3 levels" principle: lead with what skimmers need to know. Stick to one main idea per paragraph.
 - Apply your own design principle: "Be concise. Everywhere. In everything."
@@ -84,7 +84,7 @@ Claude decided to shine a negative light on things that I personally think makes
 
 Of particular beauty is her ability to abstract and connect disparate ideas without expending too many words to explain or justify such abstractions and connections. Claude took issue with that: "excessive abstraction without grounding" and "weak connective tissue between ideas", it complained.
 
-Claude also stabbed at the writing with a "purple prose" critique: "the ornate language often says less than simpler phrasing would." This is true, Maria's writing is very ornate and that's very intentional. The ornamentation is not a dressing, it's very much part of the message.
+Claude also stabbed the writing with a "purple prose" critique: "the ornate language often says less than simpler phrasing would." This is true, Maria's writing is very ornate and that's very intentional. The ornamentation is not a dressing, it's very much part of the message.
 
 "The ending trails off into vague spirituality; the reader is left with pretty words but no clear sense of what they've learned." This sounded like the complaint I've heard from one too many layman movie-critiques who are unable to process vague, non-conclusive, open-ended climaxes.
 
@@ -141,4 +141,4 @@ Somers is a fabulous writer, and a human one at that.
 
 Claude, and all other GPTs today, are smart as hell. But not human.
 
-Human or not, Claude dethroned the ego and replaced it with all-too-familiar imposter-syndrome in its place.
+Human or not, Claude dethroned the ego and replaced it with an all-too-familiar imposter-syndrome.
