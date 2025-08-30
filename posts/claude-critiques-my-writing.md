@@ -140,3 +140,5 @@ Somers weaves between that "institutional story" and Wolfram's profile (because 
 Somers is a fabulous writer, and a human one at that.
 
 Claude, and all other GPTs today, are smart as hell. But not human.
+
+Human or not, Claude dethroned the ego and replaced it with all-too-familiar imposter-syndrome in its place.
