@@ -16,6 +16,4 @@ Somewhere, this transcends the grosser notions of mourning the death of a celebr
 
 The greatest blessing in this grief is that there are folks like Tamal, like Jignesh, like my brother who are just as poetically affected by it. There is no isolation here, only camaraderie and a shared understanding of the inexplicability of grief. And it is true of a million others. In a weird cathartic way, the mourning sheds more light on the good fortune of having witnessed someone like Irrfan craft beauty in every way they could. Maybe mourning is another way of celebrating his lifetime.
 
-\*
-
 [आप मरने वाले हो डॉक्टर साब, मैं नहीं मरने वाला ... मैं था, मैं हूँ, मैं ही रहूंगा |](https://www.youtube.com/watch?v=5QSZhddiHZc&ab_channel=RR)

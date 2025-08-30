@@ -11,11 +11,11 @@ I moved out and lived alone, having dinners by myself for such a long time, I fo
 
 The very last time my parents and I had a meal together was at a local restaurant — a cheap dinner of _idlis_ — on the way to take an MRI scan for my father. Later that night, he collapsed unannounced and was declared dead in the next ten or so minutes.
 
-\*
+<div class="separator"></div>
 
 Mere days after I wrote [No Dad's Club](./no-dads-club), I happened upon a beautiful piece of eulogy written by someone for their father. Comparisons ensued for writing lends itself to be compared. A brief pang of guilt followed: was I being ungrateful in my non-eulogy? Several moments of introspection happened. And a sense of calm returned. Two very different sons wrote about two very different fathers in two very different cultures.
 
-\*
+<div class="separator"></div>
 
 In the months after his death, resentment reigned supreme in my mother's wailings. But I could never partake in that emotion and that, unbeknownst to her, riled her up even more. She took my innate silence and natural aloofness to mean that I resented this new chapter I was thrust into by my dad's sudden demise and when I corrected her version, she got argumentative. I think she has been unable to come to terms with the idea that I carry no emotion for my father, and by extension, have not much to feel about his unplanned absence.
 
@@ -23,7 +23,7 @@ While he was alive, I resented being compared to him in all of the negative qual
 
 But now, I no longer seem to care.
 
-\*
+<div class="separator"></div>
 
 In an inter-school drama competition, our team won some award and I, one of the actors in the troupe, got a book on Ramayana by D.S.Sarma. In this translation, Sarma writes of the time when Ravana lays slain and Ravana's wife asks Rama to allow for proper final rites as is to be accorded a king. Rama's reply, in Sarma's words, was, "In death, all enmity ends."<sup>1</sup> Somehow, that sentiment tattooed itself on a young, impressionable mind.
 
@@ -31,7 +31,7 @@ It would be wrong (not to mention anything of the melodrama) to characterize the
 
 And in his death, even those emotions dissipated, leaving me with mere facts.
 
-\*
+<div class="separator"></div>
 
 Every once in a while, I remember that I have no video or audio recordings of my father. To be clear, there is no regret involved in this. Not surprising. I do not seem to have a craving for such memorabilia and it's very much a trait I inherited completely from my father.
 

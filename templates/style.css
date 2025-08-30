@@ -134,3 +134,11 @@ hr {
 strong {
   font-weight: 600;
 }
+
+div.separator {
+  @apply my-5 justify-center flex py-8 md:py-10;
+}
+div.separator::after {
+  content: "*";
+  @apply block justify-center text-center;
+}

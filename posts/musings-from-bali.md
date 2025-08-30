@@ -9,7 +9,7 @@ status: published
 
 For reasons unknown to me, Bali feels simultaneously familiar and foreign. As I meander through the roads circumscribing the Ubud Palace and the sprawling central market area, everything and everyone I see is both alien and familiar. It has been a good five days since I checked into this wonderful little place in central Ubud — smack in the middle of a street so narrow that it would barely fit two bikes plying across and yet, every now and then, a car would snake its way through and deposit a couple of tourists like me  — but my brain refuses to register that I am thousands of miles away, on a foreign parcel of an island, surrounded by tourists and hosts that speak a million different tongues.
 
-\*
+<div class="separator"></div>
 
 Unlike the strong, heady Siamese scents, Balinese-Indonesian aromas, at least in Ubud, are soft, welcoming and quite appetising. I've walked the sidewalks a plethora of times now. Not once have I not salivated as a dozen different aromas from whatever *umamic* spices are being concocted in the scores of restaurant kitchens dotting central Ubud reach my olfactory apparatus.
 
@@ -25,7 +25,7 @@ Accompanying each of these were the incense sticks — sometimes two for each. C
 
 At different times, I try (and fail because, well, distractions) to mentally calculate the economic value of the production, distribution and consumption of the hundreds of thousands (if not millions) of *canang sari*s across Bali. It must be a humongous number.
 
-\*
+<div class="separator"></div>
 
 Walking down Jalan Dewisita<sup>2</sup>, I spotted a couple of *canang sari*s that had what looked like a cigarette. *Could that actually be a cigarette in the daily offering?* A Brahmin upbringing has its effects: one forgets that what is taboo in an offering is very subjective. Few paces down and suddenly, in true Baader-Meinhof fashion, I started spotting cigarette-laden *canang sari*s all over the place. 
 
@@ -33,7 +33,7 @@ So, yeah, cigarettes as part of the daily offering is a thing. Because the daily
 
 It was only much later that I remembered entire cultures in my very own home-ground (read, South India/Tamil Nadu) where offerings of local and international liquor are common to certain deities.
 
-\*
+<div class="separator"></div>
 
 ![](./images/bali/3.jpg)
 
@@ -41,7 +41,7 @@ The courtesy of the hosts is unbelievable. Every shopkeeper, server, cook, helpe
 
 Finding graciousness and courtesy in rural quarters is not uncommon across the world. But the same cannot be said of urban and semi-urban spaces, especially the ones with all temperamental-kinds of tourists. Yet, here I am, waited in earnest, served with kindness, and looked after with benevolence. Maybe some of it is learned, practiced, perfected charade. And maybe a lot of it is just innate, and springs forth naturally.
 
-\*
+<div class="separator"></div>
 
 ![](./images/bali/4.jpg)
 
@@ -53,7 +53,7 @@ The family temple, I later learn over coffee with a local, is out of bounds for 
 
 In this, and in many other things like names and myths, Balinese Hinduism strikes a familiar tone. And yet, the religion in practice and the many nuances of the culture appear very alien. It is Hinduism from a parallel universe. Sometimes, it felt like everyday religion was more private than it is in India. Yet, Bali is overrun by temples and temple-related entities. Familiar patriarchal tropes exist here — people tell you (especially if you're a woman) to dress appropriately and to not enter the temple premise if you are menstruating while hypocritically chain-smoking a pack within that same temple premise. Tradition, religion, architecture, capitalism, arbitrary abandoning of rules to accommodate tourist dollars, equally arbitrary enforcement of other rules to appease local sentiments, everything melts into one giant, island-sized pot of economic gold.
 
-\*
+<div class="separator"></div>
 
 Both Ubud in Central Bali and Canggu in South Bali are crowded. As someone who abhors crowds, I found it particularly amusing that it has taken me three decades to realise that there are gradations of "crowd" and that I might just like one kind and detest the other. 
 

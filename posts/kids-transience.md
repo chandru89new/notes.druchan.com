@@ -26,7 +26,7 @@ A pause. And then she said:
 
 "Don't worry, I will tell her that Umesh _mama_ should also be allowed in. She will listen to me."
 
-\*
+<div class="separator"></div>
 
 There's of course the realization that when I write of kids, it's from the lens of having to only contend with a handful of hours or days being with them full-time. It tends to paint a different picture but for what it's worth, it's okay.
 

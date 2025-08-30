@@ -7,7 +7,7 @@ status: published
 
 One thing I am unnecessarily proud of is my writing on this blog. This is a tale of undoing that pride.
 
-\*
+<div class="separator"></div>
 
 [Claude Code](https://anthropic.com/claude-code) is marketed as an AI tool that can help you write code, fix bugs, and supercharge productivity as a programmer. It works when you run it in the folder that contains all your "source" files. It is amazing as an everyday tool. I invoke it as a pair programming buddy, a senior expert for strategy, a troubleshooter, an extra pair of eyes for code review and so on.
 
@@ -74,7 +74,7 @@ Claude went on to call my writing "inconsistent literary voice" and — in a bea
 
 _Unearned profundity_ has stayed with me since.
 
-\*
+<div class="separator"></div>
 
 Whatever little aesthetic exists in my writing comes primarily from two writers. One of them is Maria Popova, who runs (among a hundred things), the [Marginalian](https://www.themarginalian.org/) (erstwhile-Brainpickings). What if I ask Claude to critique one of her essays?
 
@@ -121,7 +121,7 @@ And it went on to summarise the writing style as, _promising but underdeveloped.
 
 And in the most damning (and probably very true) indictment: _the author needs to stop performing depth and start actually going deep._
 
-\*
+<div class="separator"></div>
 
 What does it mean to be critiqued by an AI? How much humanesque-subjectivity does a statistical algorithm bring to the idea of literary criticism? When it critiques, should we think of it as some kind of a mathematically-dense-proof-of-intelligence doing what an English professor would do or, in reductionist terms, is it just a probability machine constructing a lifeless but semantically-meaningful criticism a few tokens at a time? Or both? Critique of the written (nay, typed) word is fine — the artefacts to be critiqued are in the AI/LLM's own native medium, words. What about critique of a painting? Or music? Or a game? Or a feature-length movie?
 
@@ -129,7 +129,7 @@ And more such thoughts arose in what seems like vindication of Claude's quip abo
 
 I do not know. The scientific way to approach this is just as dense as the philosophical way so I am going to park this for later.
 
-\*
+<div class="separator"></div>
 
 As a parting shot, since I wrote this piece following a variant of the McPhee method as [narrated by Somers](https://jsomers.net/blog/the-mcphee-method), I asked Claude to critique Somer's own writing, a piece on Stephen Wolfram and how we do science ([The Scientific Paper is Obsolete](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/)).
 
@@ -143,7 +143,7 @@ Claude, and all other GPTs today, are smart as hell. But not human.
 
 Human or not, Claude dethroned the ego and replaced it with an all-too-familiar imposter-syndrome.
 
-\*
+<div class="separator"></div>
 
 I would be remiss if I did not ask Claude to critique this write-up as well from the very confines of the aesthetic lens I've been yapping about.
 
