@@ -1,6 +1,6 @@
 ---
 title: "Claude critiques my writing"
-date: 2025-08-30
+date: 2025-08-31
 slug: claude-critiques-my-writing
 status: unlisted
 ---
