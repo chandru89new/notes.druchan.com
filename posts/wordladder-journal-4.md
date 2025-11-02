@@ -9,7 +9,7 @@ status: published
 - Free monad is a recursive data structure that appears to be used in situations where we want to "continue" doing some effects after computing something. These are typically called continuations, and there is a specific style of programming called "continuation passing style" and the Free monad, a data structure, can capture that idea in a type-safe way. A free monad looks like this:
 
 ```haskell
-data Free f a = Pure a | Free f (Free f a)
+data Free f a = Pure a | Free (f (Free f a))
 ```
 
 - Wrapping or using this for my `GameEffect`, and building a structure here quickly became quite complex. And besides, when trying to understand or see how this could play out when running one effect spans more effects, it felt almost impossible to do that without adding more complexities.

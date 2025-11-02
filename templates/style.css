@@ -36,6 +36,13 @@ article:not(#archive_container) a {
   @apply border-b border-dotted border-b-lime-500 hover:border-b-lime-900 dark:border-b-lime-700;
 }
 
+article:not(#archive_container) h3 a,
+article:not(#archive_container) h4 a,
+article:not(#archive_container) h5 a,
+article:not(#archive_container) h6 a {
+  @apply text-slate-800! dark:text-slate-200! border-b-slate-800! dark:border-b-slate-200!;
+}
+
 ul {
   @apply space-y-2 sm:space-y-1;
 }

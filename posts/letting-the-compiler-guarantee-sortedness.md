@@ -11,7 +11,7 @@ I woke up and found myself mulling over a "gotcha" that I left unaddressed back 
 
 The tl;dr of the problem is you're given a list of stock prices for subsequent days and you have to find the maximum profit possible if you bought and sold the stock at most twice. That is, if you had a stock price list of `[ 3, 1, 0, 0, 1, 2, 3 ]`, the best you can do is buy on the 4th day (for ₹0) and then sell it on 7th day for ₹3, you make a profit of ₹3. (There are some constraints here: you can only buy or sell on a given day; you cannot buy more unless you sell etc. [Check out the writeup for more info](https://notes.druchan.com/max-stock-profit-leetcode))
 
-**SortedArray type is not all that safe**
+###### SortedArray type is not all that safe
 
 The solution I managed to cook up worked well but one of the flaws it had was something to do with sorted arrays. In the solution, I needed a _sorted_ array of elements (elements here being some kind of pairs/tuples). In order to ensure some of the functions only allowed a sorted array (and guaranteed this at the type-level), I created a new type called `SortedArray` which, parameterized, looked like this:
 
@@ -55,7 +55,7 @@ toSorted xs = SortedArray (sort xs)
 
 You could, at this point, go: what's that `Ord a` thingy?
 
-**Custom data types are not really sortable... unless we tell the compiler so**
+###### Custom data types are not really sortable... unless we tell the compiler so
 
 The key function here is the `sort` which is the default "array sort". The expression `sort xs` works only because we tell the compiler, through the annotation, that whatever elements we're dealing with in the array are "orderable" (through that `Ord a` constraint in the type declaration).
 
@@ -105,7 +105,7 @@ With these small changes, I could refactor pertinent bits of the code to get a t
 
 <div class="separator"></div>
 
-**Mucking about in other languages**
+###### Mucking about in other languages
 
 Typically, these posts conclude with a sentence or two about how great this typeclass-supported polymorphism is and how you could reap the benefits mostly in languages like Haskell/Purescript (or OCaml and maybe Rust).
 
@@ -117,7 +117,7 @@ Some allow you to "auto-derive" the sorting if the underlying types already have
 
 In these implementations, a pattern emerges. We define a custom compare function for the custom data type, then that is passed to the constructor.
 
-**Are you passing the comparator implicitly or explicitly?**
+###### Are you passing the comparator implicitly or explicitly?
 
 When I say that's passed to the constructor, there are two ways this happens. Either it's explicit: that is, the custom compare function is passed as an argument to the constructor. Or it's implicit: the custom compare function is nowhere in the construction arguments but because a comparison method is available and associated with the datatype, the compiler (or the runtime) knows what to do, how to sort etc.
 
@@ -228,7 +228,7 @@ There is one pitfall though.
 
 <div class="separator"></div>
 
-**What does it even mean to "compare" two things?**
+###### What does it even mean to "compare" two things?
 
 It is mostly straightforward if we think of numbers. Comparison is greater-than or less-than or equal-to. Booleans can be compared too if we assume True > False.
 
@@ -368,7 +368,7 @@ Arguably, these are edge-cases. It's not often that one needs multiple strategie
 
 <div class="separator"></div>
 
-**But it's just a wrapper! I shouldn't have to rewrite all methods**
+###### But it's just a wrapper! I shouldn't have to rewrite all methods
 
 The `SortedArray` is merely a wrapper around `Array`. But because of the wrapping, any time I want to use an Array-like function (eg `head`, or `tail` or `!!` which is an operator to access the element at an index), I have to re-implement it. Like this:
 
