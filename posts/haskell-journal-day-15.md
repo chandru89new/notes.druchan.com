@@ -2,14 +2,7 @@
 title: Haskell Journal - Day 15
 date: 2024-11-04
 slug: haskell-journal-day-15
+status: unlisted
 ---
 
-- One of the next things I decided to do was to set up the entire `rdigest` workflow somewhere it could run on a schedule and produce digest files as output. I didn’t think much about this initially; I simply discussed with ChatGPT the shortest and easiest way to host the digest files (just plain HTML with some in-built styling). My thought process was to work backward: first, get the digest HTML files hosted and served from somewhere (I decided on GitHub Pages as the easiest solution), and then figure out how to update/produce daily digests using a cron job. I assumed GitHub Actions would suffice for the task.
-
-- The hosting bit worked fine, except I didn’t have an `index.html` file, so GitHub Pages threw a 404 error until I created and uploaded one to the repository. The Action/Workflow file was also generated within seconds, as ChatGPT seemed to have anticipated my next move. However, what didn’t work was that the binary failed to run—a cryptic exit code `137` abruptly terminated the runner, and the entire action quit. I spent some time tinkering with troubleshooting options, but my efforts were half-hearted. By this time, other complications had surfaced. For example: "How would I update the feeds list if I wanted to add a new feed?"
-
-- I decided to pause my efforts on this and form better ideas around how to transfer the entire experience to "the cloud" so that `rdigest` would be available to me wherever I go, even if I don’t have access to my personal machine.
-
-- In some aimless meandering through threads on the Haskell channel on the Functional Programming Slack, I stumbled upon a link to [Gabriella Gonzalez's talk on Monad Transformers](https://www.youtube.com/watch?v=w9ExsWcoXPs&ab_channel=OST%E2%80%93OstschweizerFachhochschule). `rdigest` had gone through a phase where I experimented with monad transformers (`ReaderT` and `ExceptT`), but I had to abandon that work due to my poor understanding of transformers at the time. The talk rekindled my interest in them, and I’ve been considering revisiting the idea of transforming the app to use `ReaderT` at the very least. Gonzalez mentioned avoiding `ExceptT` in favor of lazy `IO`, and I find myself inclined to agree with that perspective.
-
-- I also happened to read some reiterations on the beauty of domain modeling through types and the functional-core/imperative-shell concept. I couldn’t help but recognize that my code is an unabridged mishmash of functional and imperative directives. A lot of it feels imperative to me, and I think I might benefit—sooner rather than later—from taking a closer look at the structure of the code. Refining (or even refactoring) the app to clearly delineate between `IO a` functions and pure ones seems worthwhile. The app currently has a heavy effectful stance because it involves substantial reading and writing to the database and the file system, along with `fetch`-like calls. At the same time, it also includes a host of purely functional operations. Clearly separating these would likely improve the maintainability and clarity of the codebase.
+[Moved here](/haskell-journal-1#day-15)
