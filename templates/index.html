@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>notes — druchan.com</title>
+  <title>{{ siteName }}</title>
   <link href="./style.css" rel="stylesheet" />
   <link href="./images/favicon.png" rel="icon" />
   <script data-host="https://app.microanalytics.io" data-dnt="false" src="https://app.microanalytics.io/js/script.js"
@@ -25,7 +25,13 @@
     <article id="archive_container">
       <section>
         <h3>Most recently</h3>
-        <div>{{recent_posts}}</div>
+        <div>
+          <ul>
+            {% for post in allPosts %}{% if loop.index <= 5 %} <li><a href="./{{ post.slug }}">{{ post.title }}</a>
+              &mdash; <span class="date">{{ post.date }}</span></li>
+              {% endif %}{% endfor %}
+          </ul>
+        </div>
       </section>
       <section>
         <h3>Archives</h3>
@@ -33,14 +39,208 @@
           <a href="./archive">See the full archive &rarr;</a>
         </div>
       </section>
-      {{posts_by_categories}}
+      <section>
+        <h3>Memoirs</h3>
+        <ul>
+          {% set memoirSlugs = [
+          "backyard-inhabitants",
+          "canine-companions",
+          "tales-from-a-bygone-summer",
+          "albums-in-the-age-of-reels",
+          "memories",
+          "one-sunday-at-the-hal-museum",
+          "silence",
+          "i-bought-4-eggs-from-a-princess"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in memoirSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>People</h3>
+        <ul>
+          {% set peopleSlugs = [
+          "atishoo",
+          "aji-tales",
+          "captain",
+          "aunty-ji",
+          "cho",
+          "no-dads-club",
+          "my-brother-narrates-a-tale",
+          "perfect-rigor",
+          "tales-from-a-bygone-summer",
+          "panneerselvam",
+          "whats-in-a-name",
+          "amruta-subash",
+          "prativaadi-bhayankara-srinivas"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in peopleSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Books</h3>
+        <ul>
+          {% set booksSlugs = [
+          "books-that-stayed-1",
+          "the-case-that-shook-india",
+          "perfect-rigor",
+          "theory-of-everything",
+          "wednesdays-with-albom",
+          "books",
+          "a-breeze-of-wisdom",
+          "when-breath-becomes-air"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in booksSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Travelogue</h3>
+        <ul>
+          {% set travelogueSlugs = [
+          "musings-from-bali",
+          "musings-from-another-place-bangkok",
+          "of-foothills-valleys-and-peaks",
+          "one-sunday-at-the-hal-museum",
+          "silence"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in travelogueSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Art</h3>
+        <ul>
+          {% set artSlugs = [
+          "every-frame-a-motif",
+          "nanpakal-nerathu-mayakkam",
+          "papanasam",
+          "andha-naal-nyaabagam",
+          "amruta-subash",
+          "the-dying-art-of-slow-stories",
+          "emerald-city-green-zone",
+          "rahman-raja",
+          "yuvan-surprise-raja"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in artSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Bangalore Days</h3>
+        <ul>
+          {% set bangaloreDaysSlugs = [
+          "a-breeze-of-wisdom",
+          "please-respect-the-national-anthem",
+          "wednesdays-with-albom",
+          "my-brother-narrates-a-tale",
+          "one-sunday-at-the-hal-museum",
+          "i-bought-4-eggs-from-a-princess"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in bangaloreDaysSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Dispatches from Hyderabad</h3>
+        <ul>
+          {% set dispatchesHydSlugs = [
+          "dispatches-from-hyd-nests",
+          "dispatches-from-hyd-ecosystem",
+          "dispatches-from-hyd-home"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in dispatchesHydSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Ahmedabad Memoirs</h3>
+        <ul>
+          {% set ahmedabadMemoirsSlugs = [
+          "aunty-ji",
+          "peace",
+          "silence",
+          "the-price-of-happiness",
+          "unhome"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in ahmedabadMemoirsSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Programming</h3>
+        <ul>
+          {% set programmingSlugs = [
+          "toolbuilding-mindset",
+          "everything-hard-is-easy-again",
+          "summer-of-elm",
+          "coders-block",
+          "should-i-learn-monads",
+          "once-more-unto-the-vim-dear-friends"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in programmingSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>On Products/Business</h3>
+        <ul>
+          {% set productsBusinessSlugs = [
+          "burnt-sandwiches",
+          "pen-paper"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in productsBusinessSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
     </article>
     <footer>
       <a href="/archive">archive</a>
       <span>&bull;</span>
       <a href="/feed.xml">rss feed</a>
       <span>&bull;</span>
-      <a href="https://druchan.com">druchan.com</a>
+      <a href="https://druchan.com" target="_blank">druchan.com</a>
     </footer>
   </div>
 </body>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Archives — notes from druchan</title>
+  <title>Archives — {{ siteName }}</title>
   <link href="./style.css" rel="stylesheet" />
   <link href="./images/favicon.png" rel="icon" />
   <script data-host="https://app.microanalytics.io" data-dnt="false" src="https://app.microanalytics.io/js/script.js"
@@ -22,14 +22,26 @@
     <header>
       <h1>Archive</h1>
     </header>
-    <article id="archive_container">{{content}}</article>
+    <article id="archive_container">
+      {% for group in postsByYear %}
+      <section>
+        <h3>{{ group.year }}</h3>
+        <ul>
+          {% for post in group.posts %}
+          <li><a href="/{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </article>
     <footer>
-      <a href="/">&larr; blog</a>
+      <a href="/archive">archive</a>
       <span>&bull;</span>
       <a href="/feed.xml">rss feed</a>
       <span>&bull;</span>
-      <a href="https://druchan.com">druchan.com</a>
+      <a href="https://druchan.com" target="_blank">druchan.com</a>
     </footer>
+
   </div>
 </body>
 
