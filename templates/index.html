@@ -40,6 +40,44 @@
         </div>
       </section>
       <section>
+        <h3>Generative AI</h3>
+        <ul>
+          {% set aiSlugs = [
+          "claude-critiques-my-writing",
+          "ai-productivity-kool-aid",
+          "claude-vscode-extension-learnings"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in aiSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
+        <h3>Programming</h3>
+        <ul>
+          {% set programmingSlugs = [
+          "letting-the-compiler-guarantee-sortedness",
+          "toolbuilding-mindset",
+          "wordladder-journal-1",
+          "haskell-journal-1",
+          "everything-hard-is-easy-again",
+          "summer-of-elm",
+          "coders-block",
+          "should-i-learn-monads",
+          "once-more-unto-the-vim-dear-friends"
+          ] %}
+
+          {% for post in allPosts %}
+          {% if post.slug in programmingSlugs %}
+          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section>
         <h3>Memoirs</h3>
         <ul>
           {% set memoirSlugs = [
@@ -200,40 +238,7 @@
           {% endfor %}
         </ul>
       </section>
-      <section>
-        <h3>Programming</h3>
-        <ul>
-          {% set programmingSlugs = [
-          "toolbuilding-mindset",
-          "everything-hard-is-easy-again",
-          "summer-of-elm",
-          "coders-block",
-          "should-i-learn-monads",
-          "once-more-unto-the-vim-dear-friends"
-          ] %}
 
-          {% for post in allPosts %}
-          {% if post.slug in programmingSlugs %}
-          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </section>
-      <section>
-        <h3>On Products/Business</h3>
-        <ul>
-          {% set productsBusinessSlugs = [
-          "burnt-sandwiches",
-          "pen-paper"
-          ] %}
-
-          {% for post in allPosts %}
-          {% if post.slug in productsBusinessSlugs %}
-          <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </section>
     </article>
     <footer>
       <a href="/archive">archive</a>

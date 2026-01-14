@@ -40,7 +40,7 @@ article:not(#archive_container) h3 a,
 article:not(#archive_container) h4 a,
 article:not(#archive_container) h5 a,
 article:not(#archive_container) h6 a {
-  @apply text-slate-800! dark:text-slate-200! border-b-slate-800! dark:border-b-slate-200!;
+  @apply text-slate-800! dark:text-slate-200! border-none!;
 }
 
 ul {
