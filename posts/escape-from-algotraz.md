@@ -9,33 +9,39 @@ Note: This is a work in progress.
 
 ## Contents
 
-**I. INTRO**  
+[**I. INTRO**](#i.-intro)  
 a. Who am I?  
 b. What is this guide about?  
 c. The ground truth
 
-**II. THREE FUNDAMENTALS**  
+[**II. FOUR FUNDAMENTALS**](#ii.-four-fundamentals)  
 a. Stream vs. Batch  
-b. "Done" for the day  
-c. Be constraint-driven
+b. "Pull" notifications  
+c. "Done" for the day  
+d. Be constraint-driven
 
-**III. STREAM VS BATCH**  
+[**III. STREAM VS BATCH**](#iii.-stream-vs-batch)  
 a. Infinite streams are bad  
 b. Batch your consumption  
 c. Different kinds of batching
 
-**IV. "DONE" FOR THE DAY**  
+[**IV. "PULL" NOTIFICATIONS**](#iv.-"pull"-notifications)  
+a. The addictive _ding_  
+b. Who gets the right to distract you?  
+c. Adding friction helps
+
+[**V. "DONE" FOR THE DAY**](#v.-"done"-for-the-day)  
 a. Closure as a physiological need  
 b. "Newspaper" model  
 c. Streams don't close. Batch can.
 
-**V. BE CONSTRAINT-DRIVEN**  
+[**VI. BE CONSTRAINT-DRIVEN**](#vi.-be-constraint-driven)  
 a. Constrains are good  
 b. Time constrains  
 c. Quantity constrains  
 d. Activity constraints
 
-**VI. CLOSING THOUGHTS**  
+[**VII. CLOSING THOUGHTS**](#vii.-closing-thoughts)  
 a. Build your protocol  
 b. Rules > Habits  
 c. Devaluing FOMO
@@ -73,7 +79,7 @@ Notice what user-experience is made easy. Those are the things that are generall
 
 ---
 
-## II. THE THREE FUNDAMENTALS
+## II. FOUR FUNDAMENTALS
 
 ### a. Stream vs. Batch
 
@@ -83,7 +89,15 @@ The counterpoint to this is to "batch" consume content and abandon the stream.
 
 Streaming hacks our brains, dulls our cognitive abilities and causes fatigue. Batching hands us back the control of what we consume, how much we consume, and when we consume it.
 
-### b. "Done" for the day
+### b. "Pull" notifications
+
+_todo:_
+
+- _push_ notifications distract. the _ding_ is addictive.
+- turn off almost all notifications. define and keep essentials (alarm, phone/sms, specific calendar events, real/physical emergency)
+- fundamental idea: add friction to letting yourself be distracted
+
+### c. "Done" for the day
 
 There was an internet where you scrolled down a few times and then you reached the end. There was no more content to see for the day so you went back to do something else. This is no longer the case.
 
@@ -91,7 +105,7 @@ The feeling of closure is necessary for us to lessen (or get rid of) the informa
 
 The best analogy is to think of old-school, print newspapers (or even print magazines). You picked one, skimmed through the headlines, read more of what you were interested in, and then that's it. Done.
 
-### c. Be constraint-driven
+### d. Be constraint-driven
 
 Constraint-driven consumption is the antidote to losing time to online digital content. The lack of a "cap" on time or quantity of content consumed leads to all kinds of issues dealing with digital consumption.
 
@@ -131,7 +145,23 @@ The other kind is to batch by quantum of links. Suppose you have a bunch of link
 
 ---
 
-## IV. "DONE" FOR THE DAY
+## IV. "PULL" NOTIFICATIONS
+
+### a. The addictive _ding_
+
+_todo_
+
+### b. Who gets the right to distract you?
+
+_todo_
+
+### c. Adding friction helps
+
+_todo_
+
+---
+
+## V. "DONE" FOR THE DAY
 
 ### a. Closure as a physiological need
 
@@ -160,3 +190,39 @@ The fundamental bit of insight is this: streams do not close. So by their very d
 Batching, by it's nature, lends itself to the idea of "done"-ness. The goal is not to necessarily catch up on every piece of digital content that comes your way (or shows up on your radar). The goal is to consume a chunk, or a quantum of content with focus. This may be a batch of 15 longform content, or a 30-minute scroll down a social feed.
 
 Batching helps modify the infinite stream nature of digital content landscape today into the old-school print newspaper model to give us a sense of closure and reduce (if not eliminate) the content overwhelm.
+
+---
+
+## VI. BE CONSTRAINT-DRIVEN
+
+### a. Constraints are good.
+
+_todo_
+
+### b. Time-constraints
+
+_todo_
+
+### c. Quantity-constraints
+
+_todo_
+
+### d. Activity-constraints
+
+_todo_
+
+---
+
+## VII. CLOSING THOUGHTS
+
+### a. Build your protocol
+
+_todo_
+
+### b. Rules > Habits
+
+_todo_
+
+### c. Devalue FOMO
+
+_todo_

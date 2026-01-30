@@ -27,7 +27,7 @@
         <h3>Most recently</h3>
         <div>
           <ul>
-            {% for post in allPosts %}{% if loop.index <= 5 %} <li><a href="./{{ post.slug }}">{{ post.title }}</a>
+            {% for post in allPosts %}{% if loop.index <= 1 %} <li><a href="./{{ post.slug }}">{{ post.title }}</a>
               &mdash; <span class="date">{{ post.date }}</span></li>
               {% endif %}{% endfor %}
           </ul>
@@ -45,7 +45,9 @@
           {% set aiSlugs = [
           "claude-critiques-my-writing",
           "ai-productivity-kool-aid",
-          "claude-vscode-extension-learnings"
+          "claude-vscode-extension-learnings",
+          "6-aphorisms-ai-assisted-programming",
+          "llm-as-compiler"
           ] %}
 
           {% for post in allPosts %}
