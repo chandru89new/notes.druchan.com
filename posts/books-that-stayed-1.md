@@ -29,3 +29,10 @@ _Zen Flesh..._ is lots of Buddhist stories, lots of koans and one religious text
 
 _**A Book of Simple Living**, Ruskin Bond_  
 In [an earlier post](https://notes.druchan.com/a-breeze-of-wisdom) about this: "...is not a self-help book but a rather beautiful, often poetic and mostly pagan work of words. Words that slow down time and expand space so immensely that there’s this inexplicable feeling that everything is alright." and I think that's enough said.
+
+<div class="separator"></div>
+
+In this series:
+
+- Books that stayed - N°1 (current)
+- [Books that stayed - N°2](/books-that-stayed-2)
