@@ -1,17 +1,17 @@
 ---
 title: Programming rites of passage
-date: 2026-02-02
+date: 2026-02-01
 slug: prog-rites-of-passage
-status: unlisted
+status: published
 ---
 
-Much to my sadistic little delight, I [read this morning that vibe-coding (and other similar variations of LLM-driven software building) does not help you acquire skills or learn much](https://arxiv.org/pdf/2601.20245).
+Much to my sadistic little delight, I read this morning that vibe-coding (and other similar variations of LLM-driven software building) [does not help you acquire skills or learn much](https://arxiv.org/pdf/2601.20245).
 
 > LLMs, on the other hand, are trying to give you the sharpest, closest solution possible. When learning through an LLM (especially around bug triangulation, troubleshooting etc), there is hardly any room or potential for ancillary learning.
 >
 > Although I have no data on this, I tend to believe that ancillary learning plays a crucial role in our growth as developers and engineers. This is probably true for every other line of work/study.
 >
-> - [from an earlier writeup](/claude-vscode-extension-learnings#what-about-ancillary-learning%3F)
+> [from an earlier writeup](/claude-vscode-extension-learnings#what-about-ancillary-learning%3F)
 
 Some months back, as I was refining [vāk](https://github.com/chandru89new/vaak) (my custom blog builder that runs my blog and is used by a grand total of 1 user), I was thinking about the fact that almost every decent programmer I know of has gone through this programmer's rite of passage that involves reinventing, for play and more, many little technologies that already have robust implementations.
 
