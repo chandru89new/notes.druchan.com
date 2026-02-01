@@ -149,3 +149,8 @@ div.separator::after {
   content: "*";
   @apply block justify-center text-center;
 }
+
+a[target="_blank"]::after {
+  content: "↗";
+  @apply text-xs ml-1;
+}
