@@ -2,7 +2,7 @@
 title: Functional programming in an LLM world
 date: 2026-02-03
 slug: fp-in-llm-world
-status: unlisted
+status: published
 ---
 
 A twenty-something and their ChatGPT has produced a code artefact that is currently in production. Somewhere deep in the code soup, there is this utility function...
