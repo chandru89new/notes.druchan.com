@@ -5,7 +5,7 @@ slug: elm-lucide
 status: published
 ---
 
-[Lucide icons](https://lucide.dev) is a superset of [Feather icons](https://feathericons.com). It has some really wonderful icons for interface design and is one of the most popular icon sets today.
+[Lucide icons](https://lucide.dev) is one of the most popular icon sets today. It has some really wonderful icons for interface design.
 
 In the past, for my Elm projects, I've used Feather icons. In new Elm projects, I wanted to use Lucide Icons, only to discover that there is no Elm package to import and use Lucide icons. I was surprised: the Elm ecosystem, even if niche, pretty much supports all modern / contemporary libraries and tools. So not finding an Elm Lucide package was very surprising.
 
