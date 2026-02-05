@@ -27,11 +27,19 @@
         <h3>Most recently</h3>
         <div>
           <ul>
-            {% for post in allPosts %}{% if loop.index <= 1 %} <li><a href="./{{ post.slug }}">{{ post.title }}</a>
+            {% for post in allPosts %}{% if loop.index <= 5 %} <li><a href="./{{ post.slug }}">{{ post.title }}</a>
               &mdash; <span class="date">{{ post.date }}</span></li>
               {% endif %}{% endfor %}
           </ul>
         </div>
+      </section>
+      <section>
+        <h3>Collections</h3>
+        <ul>
+          {% for collection in collections %}
+          <li><a href="./collection-{{ collection.slug }}">{{ collection.name }}</a></li>
+          {% endfor %}
+        </ul>
       </section>
       <section>
         <h3>Archives</h3>
@@ -39,7 +47,7 @@
           <a href="./archive">See the full archive &rarr;</a>
         </div>
       </section>
-      <section>
+      <!-- <section>
         <h3>Generative AI</h3>
         <ul>
           {% set aiSlugs = [
@@ -150,7 +158,7 @@
       <section>
         <h3>Travelogue</h3>
         <ul>
-          {% set travelogueSlugs = [
+          {% set TravelogueSlugs = [
           "musings-from-bali",
           "musings-from-another-place-bangkok",
           "of-foothills-valleys-and-peaks",
@@ -159,7 +167,7 @@
           ] %}
 
           {% for post in allPosts %}
-          {% if post.slug in travelogueSlugs %}
+          {% if post.slug in TravelogueSlugs %}
           <li><a href="./{{ post.slug }}">{{ post.title }}</a> &mdash; <span class="date">{{ post.date }}</span></li>
           {% endif %}
           {% endfor %}
@@ -239,7 +247,7 @@
           {% endif %}
           {% endfor %}
         </ul>
-      </section>
+      </section> -->
 
     </article>
     <footer>

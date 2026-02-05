@@ -2,7 +2,9 @@
 title: "Theory of Everything"
 date: 2017-05-06
 slug: theory-of-everything
+collections: Books
 ---
+
 No, not the movie.
 
 The journey through a Stephen Hawkings book is an interesting one for me — albeit, it has always ended up with me being sad.

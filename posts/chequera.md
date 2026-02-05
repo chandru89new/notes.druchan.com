@@ -2,7 +2,7 @@
 title: "Is it time for another side-project yet?"
 date: 2025-02-16
 slug: chequera
-ignore: false
+collections: Project journal
 ---
 
 So, back in November of 2023, [I wrote briefly](./js-promise-to-purescript-aff-ffi) about working on a tool that would extract SQL query blocks (from markdown files) and run them in [Steampipe](https://steampipe.io) to test if they work or not. Typical of side-projects, it got abandoned after a while.

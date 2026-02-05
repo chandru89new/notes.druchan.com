@@ -2,6 +2,7 @@
 title: "Of foothills, valleys and peaks"
 date: 2024-08-18
 slug: of-foothills-valleys-and-peaks
+collections: Musings from elsewhere
 ---
 
 _A scattering of thoughts._

@@ -2,6 +2,7 @@
 title: "No Dads' Club"
 date: 2024-04-11
 slug: no-dads-club
+collections: People, Memoir
 ---
 
 An interesting dynamic emerged as condolence messages and calls and visits poured in after my father's death.

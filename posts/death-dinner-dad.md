@@ -2,7 +2,7 @@
 title: "Death, dinner, Dad."
 date: 2025-02-18
 slug: death-dinner-dad
-ignore: false
+collections: Memoir
 ---
 
 We stopped having family dinners (or any meal for that matter) about two decades ago. I can't remember the last time we all sat down to have a meal together under normal, peaceful circumstances. A vague fog of a memory remains of a time in the early 2000s when my parents and I had dinners together, always filled with contagious laughter at the expense of my maternal grandfather who would feature prominently in my mom's dinner-time narratives. The tides of time and human fallacies began chipping away — and then eventually broke apart — the familial bonds, and at some point we stopped having meals together just around the time we stopped being a family.

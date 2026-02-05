@@ -2,14 +2,16 @@
 title: "Tales from a bygone summer"
 date: 2014-09-17
 slug: tales-from-a-bygone-summer
+collections: Memoir, People
 ---
+
 This is a re-telling of sorts. My brother’s subtle but personally poignant and emotional recounting of our hey days, if one may call it that, has a briefer account of the tale that follows here. If you’d like to read it with context, you should [go here](http://wordswithheld.blogspot.in/2014/09/chennai-days.html).
 
 His narration is brief (to honor the importance of the theme of the write-up). But unbeknownst to him, I remember this tale better that he seems to. I thought I’d varnish it with my side of the narration.
 
 PROLOGUE
 
-In India - particularly the south - when a lizard falls on you, it is an omen. Good or bad depends on which part of your body the poor fellow landed on and there are [legends](http://en.m.wikipedia.org/wiki/Legend_(chart)) for this. Any sexagenarian from the 90s (or octagenarian from today) would list out the legend but in my case, I found out the nuances of these silly little things on the back of a daily-sheet calendar - the one where you forget to tear off the date-sheet for about a week and then tear them in bulk on one fine morning.
+In India - particularly the south - when a lizard falls on you, it is an omen. Good or bad depends on which part of your body the poor fellow landed on and there are [legends](<http://en.m.wikipedia.org/wiki/Legend_(chart)>) for this. Any sexagenarian from the 90s (or octagenarian from today) would list out the legend but in my case, I found out the nuances of these silly little things on the back of a daily-sheet calendar - the one where you forget to tear off the date-sheet for about a week and then tear them in bulk on one fine morning.
 
 Again, in India, when it’s summer, you abandon your house and travel anywhere between a dozen kilometers and a thousand to visit your relatives. Depending on how close the bonding is, you - along with your mom or dad or both (but mostly mom in a patriarchal family system) - stay with your relatives for a few days. To me, this was almost always my _mausi_ (aunt; mother’s sister), followed only by my _mami_ (aunt; mother’s sister-in-law). It so happened that this particular summer, my mausi’s daughter (let’s call her P) and my mami’s son (let’s call him S) came visiting me (let’s call me U).
 
@@ -35,8 +37,7 @@ All of this happens in no more than a fraction of a second.
 
 At the end of this fraction of a second, the lizard’s nowhere to be found and my sister is sobbing, shaking, slightly traumatized and utterly inconsolable.
 
-ACT TWO
-_A little later…_
+ACT TWO _A little later…_
 
 You’ll probably tag this as a sexist reference but to a man, there is nothing as uncomfortable as watching a girl sobbing. It comes in a variety of people: a mother, a sister, a friend, a girlfriend, a daughter… why, even a random stranger. But when a girl cries, it is definitely uncomfortable. When the girl happens to be the sister you care for, it is slightly gut-wrenching.
 

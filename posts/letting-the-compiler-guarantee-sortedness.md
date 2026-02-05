@@ -3,6 +3,7 @@ title: "Letting the compiler guarantee sortedness"
 date: 2025-09-29
 slug: letting-the-compiler-guarantee-sortedness
 status: published
+collections: Functional programming
 ---
 
 It's not often that I wake up on a Sunday and the first thing my brain thinks of is a leetcode problem from two years ago. In fact, it's never. Until today.

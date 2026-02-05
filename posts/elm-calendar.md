@@ -2,6 +2,7 @@
 title: "How to render a basic calendar UI in Elm"
 slug: elm-calendar
 date: 2023-07-31
+collections: Escapades in Elm, Programming, Functional Programming
 ---
 
 The beauty of a language like [Elm](https://elm-lang.org) (and other lambda-calculus / functional programming inspired languages) is that **there's very little transformation involved in going from an idea to code. And that seems to have a big impact on getting things done.**

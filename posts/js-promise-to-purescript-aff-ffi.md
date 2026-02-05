@@ -2,6 +2,7 @@
 title: "Going from Promises to Aff in Purescript"
 date: 2023-11-28
 slug: js-promise-to-purescript-aff-ffi
+collections: Functional programming
 ---
 
 The other day, I was fooling around with an idea that has come up often in my chats with [Jon Udell](https://en.wikipedia.org/wiki/Jon_Udell) at work. We do not have a good test suite that can verify and flag errors in the hundreds / thousands of example queries listed on [Steampipe Hub](https://hub.steampipe.io) and – since a lot many weeks had passed since I wrote some program for fun – I decided to take a shot at this. I chose Purescript.

@@ -2,6 +2,7 @@
 title: "Safe vs Unsafe JavaScript"
 date: 2020-12-20
 slug: safe-vs-unsafe-js
+collections: Functional programming, Programming
 ---
 
 > TLDR: Try to catch errors early, convert errors into "data" that can safely be passed around without the fear of your app crashing. JavaScript does not provide built-in mechanisms like `Either` to do this but you can build a trivial one yourself. Make programs safe.

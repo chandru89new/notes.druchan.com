@@ -3,6 +3,7 @@ title: Books that stayed - N°2
 date: 2026-02-01
 slug: books-that-stayed-2
 status: published
+collections: Books that stayed (series)
 ---
 
 _**Stories of the True**, Jeyamohan (Transl. Priyamvada)_  

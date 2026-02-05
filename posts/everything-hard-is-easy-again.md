@@ -2,6 +2,7 @@
 title: "Everything hard is easy again"
 date: 2018-05-16
 slug: everything-hard-is-easy-again
+collections: Programming
 ---
 
 When I read [Frank Chimero’s piece](https://frankchimero.com/writing/everything-easy-is-hard-again/) on the state of web dev, I was ecstatic that someone with so much clout and know-how wrote exactly about the frustrations I was feeling - but more in the sense of not being able to make sense of all this `npm install` shit that seems to be the start of every tutorial these days than as someone working (sometimes) as a web dev.

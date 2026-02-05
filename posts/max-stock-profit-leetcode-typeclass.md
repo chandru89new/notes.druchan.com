@@ -2,6 +2,7 @@
 title: "Defining a valid trade using typeclass"
 date: 2023-06-10
 slug: max-stock-profit-leetcode-typeclass
+collections: Functional programming
 # status: draft
 ---
 

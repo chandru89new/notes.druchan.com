@@ -1,8 +1,10 @@
 ---
-title: 'Silence'
+title: "Silence"
 date: 2013-11-17
 slug: silence
+collections: Musings from elsewhere, Memoir
 ---
+
 Some people are afraid of silences. Of solitude. Of emptiness. Of nothingness.
 
 There is this single long stretch of road that connects a tiny desert right in the middle of Rann of Kutch and the rest of Gujrat. On a hot, sultry day in mid-October, the Rann is filled with water as far as the eye can see. Further west, Flamingos will be poised in the Rann, meditating on the still waters standing on one leg. In the East, tiny little towns will be half-way through their post-lunch nap while a handful of shepherds guide their flock back home from rich pastures.

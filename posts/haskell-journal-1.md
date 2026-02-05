@@ -2,6 +2,7 @@
 title: Haskell Journal
 date: 2024-11-27
 slug: haskell-journal-1
+collections: Functional programming, Project journal
 ---
 
 - [Day 1](#day-1) - _Oct 7, 2024_

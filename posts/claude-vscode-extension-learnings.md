@@ -2,7 +2,7 @@
 title: "Claude, RTFM For Me: Building a VS Code Extension in the Age of LLMs"
 date: 2025-02-07
 slug: claude-vscode-extension-learnings
-ignore: false
+collections: LLM in software engineering, Project journal
 ---
 
 ###### TLDR

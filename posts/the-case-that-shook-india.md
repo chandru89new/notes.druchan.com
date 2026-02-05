@@ -2,7 +2,7 @@
 title: "The Case That Shook India"
 date: 2025-01-17
 slug: the-case-that-shook-india
-ignore: false
+collections: Books
 ---
 
 [The Case That Shook India][book] has been lying in my <abbr title="To be read">TBR</abbr> list forever. After several weeks of a barren reading landscape (the last book I read was [K. Hariharan's biography on Kamal Haasan][khbook]), I decided to pick this up and it has been a joyride.

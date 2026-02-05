@@ -2,7 +2,9 @@
 title: "My Brother Narrates A Tale"
 date: 2017-10-22
 slug: my-brother-narrates-a-tale
+collections: People
 ---
+
 _Lunchbox_. If there was a silver-screen analogy to the way my brother (S) narrates his tales of love, life and many things in between, it would be _Lunchbox_. The beauty is not solely in the plot or the performances or the characters but very specifically in the mundane scenes: she’s packing lunch, he’s going to the office in the train, the _other_ he is doling out his history, he is out on the veranda, smoking…
 
 Back in the days when we lived under the same roof, my brother and I would exchange thoughts, ideas and stories from our daily living — a practice that began several years back via email. As if writing a play, he would begin by narrating the setup, and building the story, inching meticulously towards the crux of the tale, but always meandering away from the plot half-a-dozen times for back-stories and character-build-ups. A few months of this, I was fed up. Not of the stories, of course, but of the overstretched narration. I wouldn’t have _not_ wanted to listen, for his tales are always peppered with a sort of self-deprecating hilarity and some very interesting moments of human psychology and observation. But lengthy, nevertheless. _Cut to the chase,_ I’d reprimand. On some days, he’d begin, “So there’s this guy I told you about…,” and I would stop him right then and declare, “I’ll give you 5 minutes to narrate the whole thing. That’s it.”

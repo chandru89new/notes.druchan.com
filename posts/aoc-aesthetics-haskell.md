@@ -2,7 +2,7 @@
 title: Advent of Code and Aesthetics
 date: 2024-12-12
 slug: aoc-aesthetics-haskell
-ignore: false
+collections: Programming, Project journal
 ---
 
 Over the last few days, I've been solving [Advent of Code 2024](https://adventofcode.com/2024/) puzzles in Haskell. This is only my second time hurting my brain by trying to come up with solutions for AoC ([last time was in 2021](https://github.com/chandru89new/elm-aoc), when I used Elm; I barely made it to Day #15 before giving up).

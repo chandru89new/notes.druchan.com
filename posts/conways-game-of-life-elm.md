@@ -2,6 +2,7 @@
 title: "Cellular Automata in Elm: Build Conway's Game of Life"
 slug: conways-game-of-life-elm
 date: 2023-08-01
+collections: Escapades in Elm, Programming, Functional Programming, Project journal
 ---
 
 Cellular automata is a fun topic and Conway's Game of Life is a very popular cellular automaton.

@@ -3,6 +3,7 @@ title: "AI Productivity Kool-Aid"
 date: 2025-08-08
 slug: ai-productivity-kool-aid
 status: published
+collections: "LLM in Software Engineering"
 ---
 
 A polarised world is usually a disaster but the entertainment-quotient is enormous. And so, as much as I dislike the kind of polarisation that's happening in my small little world of software developers about AI and LLM-driven software engineering, I tell you, it is incessantly entertaining.

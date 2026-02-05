@@ -3,6 +3,7 @@ title: Bringing 1600+ Lucide icons into Elm
 date: 2026-02-04
 slug: elm-lucide
 status: published
+collections: Escapades in Elm, Project journal
 ---
 
 [Lucide icons](https://lucide.dev) is one of the most popular icon sets today. It has some really wonderful icons for interface design.

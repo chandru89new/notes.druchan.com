@@ -154,3 +154,14 @@ a[target="_blank"]::after {
   content: "↗";
   @apply text-xs ml-1;
 }
+
+.collection-corner {
+  @apply text-xs italic mt-1;
+}
+
+#collection div {
+  @apply mb-1.5;
+}
+#collection a {
+  @apply border-0!;
+}

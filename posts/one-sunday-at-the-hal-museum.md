@@ -2,7 +2,9 @@
 title: "One Sunday at the H.A.L Museum"
 date: 2016-09-19
 slug: one-sunday-at-the-hal-museum
+collections: Memoir
 ---
+
 Looking at life-scale models of in-service and decommissioned aircraft at the H.A.L museum is akin to strolling through a zoo for birds. Caged.
 
 The technological marvel that flying is — flying with panache and gusto — the work of our forefathers in the late 50s and early 60s has mostly gone unnoticed in the eye of the public. Today, with multiple back-to-back MiG failures and with very few news-making forays into indigenous fighter planes and technologies, H.A.L and our entire aircraft capabilities seem non-existent but apparently, it wasn’t so just thirty, forty or fifty years back.
@@ -21,7 +23,7 @@ Back in the bus home, as I was jotting this down, I was overcome with doubt. Is 
 
 “Do not walk on the grass”. A dozen or more placards planted into the grass declare this. Sometimes, politely, with a “Please” prefixed. Sometimes, plainly. Sometimes, poetically, with invocations of beauty and eco-friendliness.
 
-But sure there are those wise specimens who’d walk straight on the grass. For photos, for a shortcut to the other foot-path, or for f*ck’s sake, I don’t know.
+But sure there are those wise specimens who’d walk straight on the grass. For photos, for a shortcut to the other foot-path, or for f\*ck’s sake, I don’t know.
 
 Ah, photos.
 

@@ -3,6 +3,7 @@ title: Books that stayed - N°1
 date: 2025-08-28
 slug: books-that-stayed-1
 status: published
+collections: Books that stayed (series)
 ---
 
 "Books that stayed" is (hopefully) a series of brief notes about books, short stories, and novellas that "put a dent", that I think about often and a few that I re-read once in a while. This is the first instalment.

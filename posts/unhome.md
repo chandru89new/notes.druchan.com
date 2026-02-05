@@ -2,6 +2,7 @@
 title: "Unhome"
 date: 2013-07-06
 slug: unhome
+collections: Memoir
 ---
 
 There comes a point when you think well, this is it. You want to drop everything, lock that door from outside, bid the farewells with broad smiles and a heavy heart and go back.

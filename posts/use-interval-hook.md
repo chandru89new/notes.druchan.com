@@ -2,6 +2,7 @@
 title: "Building a useInterval hook from scratch"
 date: 2023-02-09
 slug: use-interval-hook
+collections: Programming
 ---
 
 **TL;DR**:

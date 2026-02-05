@@ -2,7 +2,9 @@
 title: "Masha Gessen's Perfect Rigor"
 date: 2014-09-17
 slug: perfect-rigor
+collections: People
 ---
+
 The first time I heard about Grigory Perelman had been in 2012, through _Sujan_, but I have since forgotten all about it. I stumbled on this extraordinary mathematician's story most recently in March 2014 when the good folks of HN upvoted and brought to the front page [a _New Yorker_ article](http://www.newyorker.com/archive/2006/08/28/060828fa_fact2) about him.
 
 That article pointed me to _Perfect Rigour_, an unofficial biography of Perelman. That the author, Masha Gessen (a mathematician herself), never met Perelman did not stop me from purchasing the outrageously-costly book. Perelman's character was that of intrigue: he shunned almost every award that came his way, he shunned publicity ruthlessly, he shunned relationships with his own fraternity to the point of turning into what appears from the outside to be a reclusive, reticent and, often, impolite personality.

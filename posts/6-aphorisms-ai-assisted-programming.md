@@ -3,6 +3,7 @@ title: "6 Aphorisms for AI-assisted Pragmatic Programming"
 date: 2026-01-16
 slug: 6-aphorisms-ai-assisted-programming
 status: published
+collections: LLM in Software Engineering, Programming
 ---
 
 _Short aphorisms on AI-assisted (and sometimes AI-driven) software engineering._

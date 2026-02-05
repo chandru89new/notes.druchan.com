@@ -2,6 +2,7 @@
 title: "Inexplicable Grief of an Unknown Kind"
 date: 2025-08-26
 slug: inexplicable-grief-of-an-unknown-kind
+collections: Memoir
 ---
 
 Every once in a while, my brain decides to remember Irrfan and inexplicably, clouds of grief gather around and I have tears. Five years have gone by since he died, another "gone too soon" artist, and nothing makes sense — neither the grief over a stranger nor the incessant nature of it.

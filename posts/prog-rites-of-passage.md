@@ -3,6 +3,7 @@ title: Programming rites of passage
 date: 2026-02-02
 slug: prog-rites-of-passage
 status: published
+collections: Programming
 ---
 
 Much to my sadistic little delight, I read this morning that vibe-coding (and other similar variations of LLM-driven software building) [does not help you acquire skills or learn much](https://arxiv.org/pdf/2601.20245).

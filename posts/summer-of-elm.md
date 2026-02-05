@@ -2,6 +2,7 @@
 title: "Summer of Elm"
 date: 2023-05-15
 slug: summer-of-elm
+collections: Escapades in Elm
 ---
 
 It's very likely that I'll come off as an [Elm](https://elm-lang.org)-fanboy in these notes. I don't think of myself as one for I've seen some of the limitations of this beautiful language, but I have to confess I do become quite enamoured when writing about (or writing in) the language.

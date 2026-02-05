@@ -2,7 +2,9 @@
 title: "Wednesdays with Albom"
 date: 2017-10-23
 slug: wednesdays-with-albom
+collections: Books
 ---
+
 For a long time, _Tuesdays with Morrie_ lay in my bag completely unattended. I had to go visit my brother one weekend and I took the book out to return it to him. He asked, “Did you finish it?” and I said no. He said, “Then why don’t you keep it and finish it?” I think I mumbled some baseless excuse and left the book on the table. I knew I’d never get around to start it, much less finish it, because I was going through one of those lazy zero-reading timeperiods.
 
 After brunch that day, he went to Blossoms and I had the whole afternoon to do nothing. I picked up _Tuesdays with Morrie_ again, assuming – wrongly, of course – that I’d finish the book in that afternoon.

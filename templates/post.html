@@ -24,7 +24,14 @@
       <h1>{{ title }}</h1>
       <div class="date">{{ date }}</div>
     </header>
-    <article>{{ content | safe }}</article>
+    <article>
+      {{ content | safe }}
+      <div class="collection-corner">
+        In
+        {% for collection in collections %}
+        <a href="collection-{{collection.slug}}">{{collection.name}}</a>{% if loop.index < collections.length %}, {%
+          endif %}{% endfor %}</div>
+    </article>
     <footer>
       <a href="/archive">archive</a>
       <span>&bull;</span>

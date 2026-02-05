@@ -2,6 +2,7 @@
 title: "A tool-building mindset"
 slug: toolbuilding-mindset
 date: 2022-12-17
+collections: Programming
 ---
 
 Everyone uses tools to build things.
@@ -33,8 +34,8 @@ const Page = () => {
       method: "get",
       headers: {
         authorization: "Bearer " + TOKEN,
-        ["content-type"]: "application/json",
-      },
+        ["content-type"]: "application/json"
+      }
       //...other options
     })
       .then((r) => r.json())
@@ -61,7 +62,7 @@ The code for the wrapper might look something like this:
 const fetchWrapper = (url, options) => {
   return fetch(url, {
     ...DEFAULT_OPTIONS,
-    ...options,
+    ...options
   })
     .then((r) => {
       return r.ok ? Promise.resolve(r.json()) : Promise.reject(r.statusText);
@@ -75,7 +76,7 @@ The two explicit Promise.rejects enable us to use the fetchWrapper like this:
 ```jsx
 useEffect(() => {
   fetchWrapper({
-    url: "/something",
+    url: "/something"
   })
     .then((res) => {
       setData(res);
@@ -135,23 +136,23 @@ This is not relevant for this talk but here's how the code might look. Again, th
 const fetchWrapper = (url, options) => {
   return fetch(url, {
     ...DEFAULT_OPTIONS,
-    ...options,
+    ...options
   })
     .then((r) => {
       return r.ok
         ? Promise.resolve({
             data: r.json(),
-            error: null,
+            error: null
           })
         : Promise.resolve({
             data: null,
-            error: r.statusText,
+            error: r.statusText
           });
     })
     .catch((e) =>
       Promise.resolve({
         data: null,
-        error: e.toString(),
+        error: e.toString()
       })
     );
 };

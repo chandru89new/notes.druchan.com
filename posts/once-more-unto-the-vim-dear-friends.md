@@ -2,6 +2,7 @@
 title: "Once more unto the Vim, dear friends."
 date: 2023-03-15
 slug: once-more-unto-the-vim-dear-friends
+collections: Programming
 ---
 
 Ages ago, I fell in love with Vim just because I knew how to quit the editor with :q or :wq and could switch between insert and normal modes. But of course like all “beginner’s luck” tales, this ended badly, exacerbated by the fact that I turned on vim-bindings on the IDE I was using at the time too enthusiastically with no clue of all the different problems that this would have brought along. Mostly because I didnt know over 90% of Vim’s grammar, and muscle memory was all about classic IDE-style shortcuts.

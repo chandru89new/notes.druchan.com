@@ -3,6 +3,7 @@ title: Functional programming in an LLM world
 date: 2026-02-03
 slug: fp-in-llm-world
 status: published
+collections: Functional programming, LLM in software engineering
 ---
 
 A twenty-something and their ChatGPT has produced a code artefact that is currently in production. Somewhere deep in the code soup, there is this utility function...
@@ -162,7 +163,7 @@ But **imagine having to write tests to ensure somewhere in the codebase a functi
 
 \*
 
-Functional programming is not an easy paradigm to master. The steep learning curve (and the monads) have kept a lot of people away, and in fact driven them (back) into the arms of OOP.
+Functional programming is not an easy paradigm to master. The steep learning curve ([and the monads](/should-i-learn-monads)) have kept a lot of people away, and in fact driven them (back) into the arms of OOP.
 
 But with LLMs, the slope of this curve can come down drastically. **Generative AI for code and engineering reduces the need for absolute mastery in a functional language but allows us to reap the benefits of the guarantees and safety**. It's not yet a perfect balance but it has the best chance of getting there.
 

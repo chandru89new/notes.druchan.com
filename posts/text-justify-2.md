@@ -3,6 +3,7 @@ title: "Justifying a paragraph of text: Part 2"
 date: 2023-06-07
 slug: text-justify-2
 # status: draft
+collections: Functional programming
 ---
 
 Read [part one here](/text-justify).

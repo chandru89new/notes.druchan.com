@@ -2,6 +2,7 @@
 title: "Integer to Roman: Purescript version"
 date: 2023-06-05
 slug: int-to-roman
+collections: Functional programming
 ---
 
 Decided to pick a Leetcode puzzle last night to solve in Purescript.

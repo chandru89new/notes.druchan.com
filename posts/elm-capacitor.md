@@ -2,6 +2,7 @@
 title: "Building mobile apps using Elm and Capacitor"
 date: 2023-08-15
 slug: elm-capacitor
+collections: Escapades in Elm, Programming, Functional Programming
 ---
 
 Native mobile app dev is still largely object-oriented driven (Kotlin, Java etc). Languages like Kotlin now have a lot of functional programming paradigms supported out of the box (e.g. Arrow).

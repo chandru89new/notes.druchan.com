@@ -2,6 +2,7 @@
 title: "Musings from another place — Bangkok"
 date: 2024-11-17
 slug: musings-from-another-place-bangkok
+collections: Musings from elsewhere
 ---
 
 _Bite-sized musings from over the week._

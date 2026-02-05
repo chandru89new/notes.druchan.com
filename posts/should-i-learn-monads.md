@@ -2,6 +2,7 @@
 title: "'Should I Learn Monads?'"
 date: 2021-12-06
 slug: should-i-learn-monads
+collections: Functional programming, Programming
 ---
 
 Someone asked about this [on reddit](https://www.reddit.com/r/functionalprogramming/comments/r9r7gf/should_i_learn_about_monads/) today and I wanted to think about this a bit.

@@ -2,7 +2,9 @@
 title: "What’s in a name"
 date: 2019-08-22
 slug: whats-in-a-name
+collections: Memoir
 ---
+
 Not more than three generations ago, one of the relatives of my maternal grandmother went by the name “Singer” Balaji. Anytime this name was uttered in the presence of someone who wasnt familiar with the name, both my mum and her mum would be quick to add, “not a singer but he worked in a company called Singer.”
 
 On the way back home today, I saw a huge showroom of “Singer”, the tailoring machine manufacturing company. This was the first time in my life that I noticed this company which had so far only lived as a reference point to “Singer” Balaji. I was under the impression that the company, like many, had folded a long time ago, back when the world was still in greyscale.

@@ -2,6 +2,7 @@
 title: "Canine Companions"
 date: 2019-05-06
 slug: canine-companions
+collections: Memoir
 ---
 
 After a certain point in time, I realized that the prospect of having an animal companion was too thin for me to day-dream about a home with a cat or a dog. Cat, mostly. The detached, zen-like existence is preferable to hyperactiveness.

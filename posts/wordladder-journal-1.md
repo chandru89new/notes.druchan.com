@@ -3,6 +3,7 @@ title: Wordladder Journal
 date: 2025-10-05
 slug: wordladder-journal-1
 status: published
+collections: Project journal
 ---
 
 - [Episode 1](#episode-1) - _Oct 01, 2025_

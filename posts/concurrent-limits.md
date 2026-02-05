@@ -2,6 +2,7 @@
 title: "A Thousand Splendid Promises – Concurrency with Limits in Javascript"
 date: 2023-08-04
 slug: concurrent-limits
+collections: Programming
 ---
 
 Update: the solution is not quite what the problem expects. See if you can find the issue.

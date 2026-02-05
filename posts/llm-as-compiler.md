@@ -3,6 +3,7 @@ title: "LLM, the compiler."
 date: 2026-01-30
 slug: llm-as-compiler
 status: published
+collections: Programming, LLM in software engineering
 ---
 
 "The new lingua franca of programming is English."
