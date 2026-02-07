@@ -66,12 +66,12 @@ In a strongly-typed functional language, changes are a delight to make. I often 
 
 I picked up a few PureScript/Haskell skills along the way. Prior to working on vāk, I kept away from monad transformers and hadn't really worked with concurrency. I hadn't architected anything larger than a script that solved LeetCode problems. Building vāk on PureScript gave me a chance to do all of that and more.
 
-\*
+<div class="separator"></div>
 
 In the last few weeks, when I updated the program to use Nunjucks, I used Claude Code as an assistant to implement many of the changes. PureScript is notoriously niche so LLMs do not always get things right as often as they do when writing Python or TypeScript. But they do get you close enough.
 
 I continue to like the satisfaction of writing things myself than relying on an agent (except for work where dictates of productivity and releasing a feature trump personal artisanal satisfaction), so I tend to _ideate_ with Claude Code and then implement things by hand. Features, bugs, optimisations: I follow the same simple rule.
 
-\*
+<div class="separator"></div>
 
 A few of the hobbyist programs I build get used often, fewer still give me an opportunity to tinker with for a long time. vāk happens to be one that allows for both. It's one of those [home-cooked software](https://www.robinsloan.com/notes/home-cooked-app/) things that I keep trying to _generalise_ for no reason.
