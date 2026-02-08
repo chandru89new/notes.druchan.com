@@ -31,7 +31,7 @@ The rest of the program was close to a smooth-sail with the occasional jitters (
 
 One area that I need to improve on is handling IO errors. I had [similar issues](./haskell-journal-day-5) in my other project.
 
-In a revamp of [vāk](https://github.com/chandru89new/vaak), the custom Node script that generates my blog, I converted a whole lot of `ExcepT` functions into simple `IO`s, simplifying the app considerably. All of those `IO`s got rolled up at the outer-edge of the app into an `ExceptT`. This made the app lose a lot of lifting into the `Except/IO Either` monad, and simplified the functions.
+In a revamp of [vāk](https://vaak.druchan.cokm), the custom Node script that generates my blog, I converted a whole lot of `ExcepT` functions into simple `IO`s, simplifying the app considerably. All of those `IO`s got rolled up at the outer-edge of the app into an `ExceptT`. This made the app lose a lot of lifting into the `Except/IO Either` monad, and simplified the functions.
 
 I decided to adopt the same here. And it was fairly OK. But there were a couple of foot-guns that I inadvertently triggered and had to write some patches. I think the most critical learning here is that unlike Elm which guarantees runtime-safety, Haskell (and PureScript) do not. Yes the comparison is probably not fair but it's a note-to-self so it's okay. In order to get to runtime-safety in Haskell/PureScript, I'd probably have to lean more into the `ExceptT` monad transformer for any `IO` so that every `IO` is safely wrapped and handled higher up the stack. (update: after a couple of hours of late-night tinkering, `chequera v3.0` does this.)
 

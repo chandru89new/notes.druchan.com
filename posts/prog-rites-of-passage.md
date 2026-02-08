@@ -14,7 +14,7 @@ Much to my sadistic little delight, I read this morning that vibe-coding (and ot
 >
 > [from an earlier writeup](/claude-vscode-extension-learnings#what-about-ancillary-learning%3F)
 
-Some months back, as I was refining [vāk](https://github.com/chandru89new/vaak) (my custom blog builder that runs my blog and is used by a grand total of 1 user), I was thinking about the fact that almost every decent programmer I know of has gone through this programmer's rite of passage that involves reinventing, for play and more, many little technologies that already have robust implementations.
+Some months back, as I was refining [vāk](https://vaak.druchan.cokm) (my custom blog builder that runs my blog and is used by a grand total of 1 user), I was thinking about the fact that almost every decent programmer I know of has gone through this programmer's rite of passage that involves reinventing, for play and more, many little technologies that already have robust implementations.
 
 The ordering may be off (I will touch upon that later) but it goes like this:
 
