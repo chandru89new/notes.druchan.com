@@ -6,7 +6,7 @@ status: published
 collections: Project journal
 ---
 
-Some time back, in a routine cleanup of my many drafts, I found one where I "introduced" [vāk](https://vaak.druchan.cokm), the blogging script/tool I use to run my blog. I never quite finished that draft. I am certain I must've dissuaded myself from writing it by thinking, "no one's going to read it anyway."
+Some time back, in a routine cleanup of my many drafts, I found one where I "introduced" [vāk](https://vaak.druchan.com), the blogging script/tool I use to run my blog. I never quite finished that draft. I am certain I must've dissuaded myself from writing it by thinking, "no one's going to read it anyway."
 
 About a couple of days back, I introduced a new feature to vāk: collections. Collections is just "tags" in some other shape. Testing this new feature is how I stumbled on the old, unfinished draft introducing my custom blogging tool.
 
@@ -52,7 +52,7 @@ Then, I wrote a bunch of functions that generally converted a given Markdown fil
 
 A few iterations later, broad contours of the system were ready. I had one repo to rule them all: the blog, the content, the published website etc.
 
-About a year ago, I split the tool into it's own repo and called it vāk. ([Why vāk?](https://vaak.druchan.cokm?tab=readme-ov-file#colophon)).
+About a year ago, I split the tool into it's own repo and called it vāk. ([Why vāk?](https://vaak.druchan.com?tab=readme-ov-file#colophon)).
 
 <div class="separator"></div>
 
