@@ -4,4 +4,4 @@ set -e
 export SITE_URL="https://notes.druchan.com"
 export SITE_NAME="notes / druchan"
 vaak=/Users/chandrashekharv/Documents/projects/vāk/dist/app.cjs
-$vaak build
+$vaak ${@:-build}
