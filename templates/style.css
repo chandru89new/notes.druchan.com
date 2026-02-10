@@ -24,7 +24,7 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   font-weight: 300;
-  @apply bg-slate-50 text-slate-800 py-5 mx-auto px-5 md:px-0 md:max-w-[550px] leading-relaxed dark:bg-slate-700 dark:text-slate-200;
+  @apply bg-slate-50 text-slate-800 py-5 mx-auto px-5 md:px-0 md:max-w-[65ch] leading-relaxed dark:bg-slate-700 dark:text-slate-200;
 }
 
 a {
