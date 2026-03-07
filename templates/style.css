@@ -127,7 +127,7 @@ article#archive_container ul li {
 }
 
 blockquote {
-  @apply border-l-4 border-slate-200 dark:border-slate-600 pl-4 space-y-4 text-slate-500 text-sm dark:text-slate-400 leading-relaxed;
+  @apply border-l-4 border-slate-200 dark:border-slate-600 pl-4 space-y-4 text-slate-500 text-base dark:text-slate-400 leading-relaxed;
 }
 
 hr {
