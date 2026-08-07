@@ -24,6 +24,12 @@ jobs:
             https://github.com/chandru89new/vaak/releases/latest/download/vaak.cjs
           chmod +x vaak.cjs
 
+      - name: Install Tailwind CSS CLI
+        run: |
+          curl -fsSL -o tailwindcss \
+            https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
+          chmod +x tailwindcss
+
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
