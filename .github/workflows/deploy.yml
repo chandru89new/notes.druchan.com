@@ -31,7 +31,7 @@ jobs:
         env:
           SITE_NAME: "notes / druchan"
           SITE_URL: https://notes.druchan.com
-        run: vaak.cjs build
+        run: ./vaak.cjs build
 
       - name: Write service account key
         run: echo '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}' > "$RUNNER_TEMP/gcp-key.json"
