@@ -31,7 +31,7 @@ jobs:
           chmod +x tailwindcss
 
       - name: Install Firebase CLI
-        run: npm install -g firebase-tools
+        run: curl -sL https://firebase.tools | bash
 
       - name: Add workspace to PATH
         run: echo "$PWD" >> $GITHUB_PATH
