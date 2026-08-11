@@ -1,9 +1,9 @@
 ---
 title: Re:Paper 001 — Can Programming Be Liberated From von Neumann Style?
 date: 2026-08-07
-slug: papers-of-note-001
+slug: re-paper-001
 status: published
-collections: "Re:Paper"
+collections: "Re-Paper"
 ---
 
 _Re:Paper_ is a pet project where I get to read interesting papers from the past and share my thoughts/impressions. It's not too dissimilar to book reviews, except for papers or talks that get published as papers.
