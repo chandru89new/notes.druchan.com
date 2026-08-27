@@ -12,7 +12,7 @@ For 003, I have [Animal Cultures: How We've Only Seen the Tip of the Iceberg](ht
 
 <div class="separator"></div>
 
-When [Jane Goodall](https://en.wikipedia.org/wiki/Jane_Goodall) found the chimps strip leaves off a twig and use it to fish for ants from holes in the earth, she wrote to her mentor, who promptly said of this event, "Now we must redefine _tool_, redefine _man_ or accept chimpanzees are humans."
+When [Jane Goodall](https://en.wikipedia.org/wiki/Jane_Goodall) saw the chimps stripping leaves off a twig and use it to fish for ants from holes in the earth, she wrote to her mentor, who promptly said of this event, "Now we must redefine _tool_, redefine _man_ or accept chimpanzees are humans."
 
 At the time, we were of the opinion that what differentiated humans from the rest of the animal kingdom was tool-use.
 
