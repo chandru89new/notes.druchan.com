@@ -2,7 +2,7 @@
 title: "Re:Paper 004 — The Political Uses of Madness"
 date: 2026-09-07
 slug: re-paper-004
-status: unlisted
+status: published
 collections: "Re-Paper"
 ---
 
