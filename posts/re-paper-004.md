@@ -8,7 +8,7 @@ collections: "Re-Paper"
 
 _Re:Paper_ is a pet project where I get to read interesting papers from the past and share my thoughts/impressions. It's not too dissimilar to book reviews, except for papers. Or paper-like things (a talk that gets published, an essay from an academic, etc.)
 
-For 003, I have [The Political Uses of Madness](https://archive.org/details/ThePoliticalUsesOfMadness) from Daniel Ellsberg.
+For 004, I have [The Political Uses of Madness](https://archive.org/details/ThePoliticalUsesOfMadness) from Daniel Ellsberg.
 
 <div class="separator"></div>
 
