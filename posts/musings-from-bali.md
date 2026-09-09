@@ -20,7 +20,7 @@ As if to accentuate and complement the food aromas, thousands of incenses from t
 
 The _canang sari_ itself is a dichotomous mix of ritualistic tradition and macroeconomic commerce. Materially, it's a small square tray made out of banana leaf (or coconut leaf), filled with flowers of different colours and then some more items: a small morsel of rice, a toffee, a cookie, a couple of incense sticks, etc. Women clad in traditional Balinese-Hindu attire would carry dozens of these and go around placing them.
 
-Everywhere you go, there are dozens of these placed because everything is divine. On paper, in rituals and perhaps in places not as smitten with the dictates of free market tourism, the Tri Hita Karana<sup>1</sup> persists and so the _canang_ is found aplenty at the entrances to shops, houses and temples, on idols across the landscape, on tables and cash registers, in pots holding plants sacred and otherwise, on trees and tree branches, and I spotted one tucked neatly in the gap between the registration plate and the body of a speeding Yamaha bike.
+Everywhere you go, there are dozens of these placed because everything is divine. On paper, in rituals and perhaps in places not as smitten with the dictates of free market tourism, the Tri Hita Karana[^1] persists and so the _canang_ is found aplenty at the entrances to shops, houses and temples, on idols across the landscape, on tables and cash registers, in pots holding plants sacred and otherwise, on trees and tree branches, and I spotted one tucked neatly in the gap between the registration plate and the body of a speeding Yamaha bike.
 
 Accompanying each of these were the incense sticks — sometimes two for each. Collectively, these acted like a centralised room-scent except the room was the size of a big town. What Changi Airport in Singapore achieved through ingenious use of technology and architecture, the Balinese accomplished through casually- and abundantly-placed *agarbatti*s.
 
@@ -28,7 +28,7 @@ At different times, I try (and fail because, well, distractions) to mentally cal
 
 <div class="separator"></div>
 
-Walking down Jalan Dewisita<sup>2</sup>, I spotted a couple of *canang sari*s that had what looked like a cigarette. _Could that actually be a cigarette in the daily offering?_ A Brahmin upbringing has its effects: one forgets that what is taboo in an offering is very subjective. Few paces down and suddenly, in true Baader-Meinhof fashion, I started spotting cigarette-laden *canang sari*s all over the place.
+Walking down Jalan Dewisita[^2], I spotted a couple of *canang sari*s that had what looked like a cigarette. _Could that actually be a cigarette in the daily offering?_ A Brahmin upbringing has its effects: one forgets that what is taboo in an offering is very subjective. Few paces down and suddenly, in true Baader-Meinhof fashion, I started spotting cigarette-laden *canang sari*s all over the place.
 
 So, yeah, cigarettes as part of the daily offering is a thing. Because the daily offering is for the divine and humans who had passed away essentially pass away into the divine and if some of those humans were fond of a puff or two during their lifetimes, the daily offerings had a personalised touch in the form of the very tobacco they'd have fondly smoked.
 
@@ -64,7 +64,6 @@ Canggu was less crowded; at best, it was the beaches that were crowded. Yet, an 
 
 ![](./images/bali/6.jpg)
 
----
+[^1]: Tri Hita Karana is a Balinese concept of the three pillars of life: harmony between humans, humans and the environment, and humans and the divine.
 
-<sup>1</sup> <small>Tri Hita Karana is a Balinese concept of the three pillars of life: harmony between humans, humans and the environment, and humans and the divine.</small>  
-<sup>2</sup> <small>Jalan Dewisita is street in central Ubud.</small>
+[^2]: Jalan Dewisita is street in central Ubud.

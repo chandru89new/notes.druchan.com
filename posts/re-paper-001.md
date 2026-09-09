@@ -35,7 +35,7 @@ The first thing to know is that these incensed debates on programming languages 
 
 > Discussions about programming languages often resemble medieval debates about the number of angels that can dance on the head of a pin instead of exciting contests between fundamentally differing concepts.
 
-Backus's primary dig is at what he terms as the "von Neumann-style" of programming that has its intellectual genesis in the _von Neumann architecture_<sup>1</sup>.
+Backus's primary dig is at what he terms as the "von Neumann-style" of programming that has its intellectual genesis in the _von Neumann architecture_.
 
 All the way from Assembly to Fortran (which Backus created/spearheaded), this architecture has influenced how we think about programming and how people think about the syntax and structures of a programming language.
 

@@ -28,14 +28,12 @@ My settings also prevent Claude from directly affecting the files even in auto-m
 
 At the end, it's all a diff, yes, and sometimes the summation of those diffs is large for a pull request. But I cannot start from a large diff and work through its parts; instead, I like to start from small diffs and accumulate them.
 
-The corollary to this feels true too. If you've had to review a reasonably mid/large-sized pull request, specifically in the traditional interface of GitHub or others, you are looking at a mishmash of changes. Some changes to a file make no sense unless you correlate them to a change several files down the list. (eg, a modification in a function, or a new function exported). Commits used to be a good way to chunk-up the changes in logical batches. Each commit told a story of a change, a subsequent commit improved upon it, fixed a bug in the previous one, or added a new chunk of feature/fix. But people seldom use commits that way now.<sup>1</sup>
+The corollary to this feels true too. If you've had to review a reasonably mid/large-sized pull request, specifically in the traditional interface of GitHub or others, you are looking at a mishmash of changes. Some changes to a file make no sense unless you correlate them to a change several files down the list. (eg, a modification in a function, or a new function exported). Commits used to be a good way to chunk-up the changes in logical batches. Each commit told a story of a change, a subsequent commit improved upon it, fixed a bug in the previous one, or added a new chunk of feature/fix. But people seldom use commits that way now.[^1]
 
-So, I ask Claude to pull the PR patch (the diff of the PR that we see on GitHub) and chunk it into related changes<sup>2</sup>. This gives me a better sense of the changes in logical sequence and also, smaller chunks of diffs to review. It's not always a beneficial activity: sometimes, I just have to look at the whole thing in context. But when it works, it works very well.
+So, I ask Claude to pull the PR patch (the diff of the PR that we see on GitHub) and chunk it into related changes[^2]. This gives me a better sense of the changes in logical sequence and also, smaller chunks of diffs to review. It's not always a beneficial activity: sometimes, I just have to look at the whole thing in context. But when it works, it works very well.
 
 What does all of this mean? Lowered gains in productivity. It's funny how often we treat lowered gains as a loss but relatively, it's still some gains. What I trade that deficit for is lot more clarity about the work I do, about the code change that goes upstream, and definitely far less strain on the brain to grok stuff others write.
 
-\*
+[^1]: Let's say you make three commits (A, B, C) as part of a changeset. Turns out A had a bug. We used to update A. We don't do that now; we just write a new commit D. This breaks the "commit as a story of logically-grouped changes".
 
-<sup>1</sup> Let's say you make three commits (A, B, C) as part of a changeset. Turns out A had a bug. We used to update A. We don't do that now; we just write a new commit D. This breaks the "commit as a story of logically-grouped changes".
-
-<sup>2</sup> It is certainly insane how "smart" LLMs can be in this regard. Claude can split a large PR into the most logical series of commits/patches and reconstruct a better story than what the developer did.
+[^2]: It is certainly insane how "smart" LLMs can be in this regard. Claude can split a large PR into the most logical series of commits/patches and reconstruct a better story than what the developer did.
