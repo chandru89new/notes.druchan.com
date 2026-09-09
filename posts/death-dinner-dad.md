@@ -25,7 +25,7 @@ But now I no longer seem to care.
 
 <div class="separator"></div>
 
-In an inter-school drama competition, our team won some award and I, one of the actors in the troupe, got a book on Ramayana by D.S.Sarma. In this translation, Sarma writes of the time when Ravana lays slain and Ravana's wife asks Rama to allow for proper final rites as is to be accorded a king. Rama's reply, in Sarma's words, was, "In death, all enmity ends."<sup>1</sup> Somehow, that sentiment tattooed itself on a young, impressionable mind.
+In an inter-school drama competition, our team won some award and I, one of the actors in the troupe, got a book on Ramayana by D.S.Sarma. In this translation, Sarma writes of the time when Ravana lays slain and Ravana's wife asks Rama to allow for proper final rites as is to be accorded a king. Rama's reply, in Sarma's words, was, "In death, all enmity ends."[^1] Somehow, that sentiment tattooed itself on a young, impressionable mind.
 
 It would be wrong (not to mention anything of the melodrama) to characterize the anger and resentment I had for my dad in the intervening years as "enmity" but it was close enough as an emotion. By my early thirties, anger gave way to a state of dispassion about him that I had comfortably resigned to, maintaining a reasonable mental and physical distance.
 
@@ -35,10 +35,10 @@ And in his death, even those emotions dissipated, leaving me with mere facts.
 
 Every once in a while, I remember that I have no video or audio recordings of my father. To be clear, there is no regret involved in this. Not surprising. I do not seem to have a craving for such memorabilia and it's very much a trait I inherited completely from my father.
 
-Perhaps that trait — a weird variation of an Indian stoic, bound in _sāmsārika_<sup>2</sup> vagaries and forever reaching for the hermitic asymptote — was his unintended gift to me.
+Perhaps that trait — a weird variation of an Indian stoic, bound in _sāmsārika_[^2] vagaries and forever reaching for the hermitic asymptote — was his unintended gift to me.
 
 That, and the last unexpected family dinner.
 
-—
+[^1]: Possibly inspired by Shakespeare.
 
-<span class="footnote"><sup>1</sup> Possibly inspired by Shakespeare.</span> <br /><span class="footnote"><sup>2</sup> Worldly.</span>
+[^2]: Means "worldly".

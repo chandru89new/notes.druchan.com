@@ -6,7 +6,7 @@
 @import "tailwindcss";
 
 html {
-  @apply text-[16px] md:text-[18px];
+    @apply text-[16px] md:text-[18px];
 }
 
 h1,
@@ -15,80 +15,91 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-semibold;
-  font-family: "Fraunces", serif;
+    @apply font-semibold;
+    font-family: "Fraunces", serif;
 }
 
 body {
-  font-family: "Baskervville", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
-  font-weight: 300;
-  @apply bg-slate-50 text-slate-800 py-5 mx-auto px-5 md:px-0 md:max-w-[65ch] leading-relaxed dark:bg-slate-700 dark:text-slate-200;
+    font-family:
+        "Baskervville",
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    font-weight: 300;
+    @apply bg-slate-50 text-slate-800 py-5 mx-auto px-5 md:px-0 md:max-w-[65ch] leading-relaxed dark:bg-slate-700 dark:text-slate-200;
 }
 
 a {
-  @apply text-lime-600 hover:text-lime-900 dark:hover:text-lime-700 transition;
+    @apply text-lime-600 hover:text-lime-900 dark:hover:text-lime-700 transition;
 }
 
 article:not(#archive_container) a {
-  /* @apply border-b-lime-600 hover:border-b-lime-900 dark:border-b-lime-700; */
-  @apply border-b border-dotted border-b-lime-500 hover:border-b-lime-900 dark:border-b-lime-700;
+    /* @apply border-b-lime-600 hover:border-b-lime-900 dark:border-b-lime-700; */
+    @apply border-b border-dotted border-b-lime-500 hover:border-b-lime-900 dark:border-b-lime-700;
 }
 
 article:not(#archive_container) h3 a,
 article:not(#archive_container) h4 a,
 article:not(#archive_container) h5 a,
 article:not(#archive_container) h6 a {
-  @apply text-slate-800! dark:text-slate-200! border-none!;
+    @apply text-slate-800! dark:text-slate-200! border-none!;
 }
 
-ul {
-  @apply space-y-2 sm:space-y-1;
+ul,
+ol {
+    @apply space-y-2 sm:space-y-1;
 }
 
 h1 {
-  @apply font-semibold tracking-tight text-3xl;
+    @apply font-semibold tracking-tight text-3xl;
 }
 
 #logo,
 #logo a {
-  @apply text-slate-400;
-  font-family: "Fraunces", serif;
+    @apply text-slate-400;
+    font-family: "Fraunces", serif;
 }
 
 #home-page-logo a {
-  @apply block font-semibold tracking-tight text-3xl;
-  font-family: "Fraunces", serif;
+    @apply block font-semibold tracking-tight text-3xl;
+    font-family: "Fraunces", serif;
 }
 
 article {
-  @apply space-y-6;
+    @apply space-y-6;
 }
 
 #date {
-  @apply text-sm text-slate-500;
+    @apply text-sm text-slate-500;
 }
 
 header {
-  @apply mt-1 mb-4 pb-4 border-b border-b-slate-200 dark:border-b-slate-600;
+    @apply mt-1 mb-4 pb-4 border-b border-b-slate-200 dark:border-b-slate-600;
 }
 
 header p {
-  font-family: Fraunces, serif;
+    font-family: Fraunces, serif;
 }
 footer {
-  @apply text-sm sm:text-base pt-4 mt-4 mb-10 border-t flex gap-x-3 dark:border-t-slate-600;
+    @apply text-sm sm:text-base pt-4 mt-4 mb-10 border-t flex gap-x-3 dark:border-t-slate-600;
 }
 
 section h3 {
-  @apply font-semibold mb-1 uppercase text-xs text-slate-400;
-  font-family: "Fraunces", serif;
+    @apply font-semibold mb-1 uppercase text-xs text-slate-400;
+    font-family: "Fraunces", serif;
 }
 
 .date {
-  @apply text-slate-400 text-xs;
-  font-family: "Fraunces", serif;
+    @apply text-slate-400 text-xs;
+    font-family: "Fraunces", serif;
 }
 
 /* code, pre {
@@ -98,70 +109,84 @@ section h3 {
 
 code,
 li code {
-  @apply font-mono text-xs px-1 py-1 bg-slate-200 dark:bg-slate-800 leading-5 rounded;
+    @apply font-mono text-xs px-1 py-1 bg-slate-200 dark:bg-slate-800 leading-5 rounded;
 }
 
 .hljs {
-  @apply rounded border border-slate-200 bg-slate-100 dark:border-slate-900 dark:bg-slate-800 dark:text-slate-400;
+    @apply rounded border border-slate-200 bg-slate-100 dark:border-slate-900 dark:bg-slate-800 dark:text-slate-400;
 }
 
 ol {
-  @apply list-decimal;
+    @apply list-decimal;
 }
 
 article:not(#archive_container) ul {
-  @apply list-disc ml-4;
+    @apply list-disc ml-4;
 }
 
 /* disable list-disc for home page list */
 section ul {
-  @apply list-none;
+    @apply list-none;
 }
 
 /* disabled list-disc for archive page list */
 article#archive_container ul {
-  @apply list-none;
+    @apply list-none;
 }
 article#archive_container ul li {
-  /* @apply whitespace-nowrap overflow-x-visible; */
+    /* @apply whitespace-nowrap overflow-x-visible; */
 }
 
 blockquote {
-  @apply border-l-4 border-slate-200 dark:border-slate-600 pl-4 space-y-4 text-slate-500 text-base dark:text-slate-400 leading-relaxed;
+    @apply border-l-4 border-slate-200 dark:border-slate-600 pl-4 space-y-4 text-slate-500 text-base dark:text-slate-400 leading-relaxed;
 }
 
 hr {
-  @apply border-slate-200 dark:border-slate-600;
+    @apply border-slate-200 dark:border-slate-600;
 }
 
 .footnote {
-  @apply text-xs;
+    @apply text-xs;
 }
 
 strong {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 div.separator {
-  @apply my-5 justify-center flex py-8 md:py-10;
+    @apply my-5 justify-center flex py-8 md:py-10;
 }
 div.separator::after {
-  content: "*";
-  @apply block justify-center text-center;
+    content: "*";
+    @apply block justify-center text-center;
 }
 
 a[target="_blank"]::after {
-  content: "↗";
-  @apply text-xs ml-1;
+    content: "↗";
+    @apply text-xs ml-1;
 }
 
 .collection-corner {
-  @apply text-xs italic mt-1;
+    @apply text-xs italic mt-1;
 }
 
 #collection div {
-  @apply mb-1.5;
+    @apply mb-1.5;
 }
 #collection a {
-  @apply border-0!;
+    @apply border-0!;
+}
+
+sup.footnote-ref {
+    @apply text-sm ml-[2px];
+}
+
+section#footnotes {
+    @apply text-[90%];
+}
+ol.footnotes-list {
+    @apply ml-4 text-sm;
+}
+ol.footnotes-list > * + * {
+    @apply mt-3 md:mt-4;
 }

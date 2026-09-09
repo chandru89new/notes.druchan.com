@@ -64,7 +64,7 @@ Because the stakes are so high, the opponent will most certainly expect caution 
 
 > But in this case the enemy's expectations might be unusually precise; ... when a false move blows up the world, he might expect more than normal caution to avoid accidental discharge. The blackmailer, then, must take special steps to remove this influence.
 
-With the dose of schizoid behaviour, Ellsberg recommends the "tactical use of obscurity". In reference to the Chinese position in Quemoy ([Kinmen](https://en.wikipedia.org/wiki/Kinmen))<sup>1</sup>, where the Americans had no strategic response, he writes about how such a non-answer could be misconstrued as indecision unless offset by an obscure threat:
+With the dose of schizoid behaviour, Ellsberg recommends the "tactical use of obscurity". In reference to the Chinese position in Quemoy ([Kinmen](https://en.wikipedia.org/wiki/Kinmen))[^1], where the Americans had no strategic response, he writes about how such a non-answer could be misconstrued as indecision unless offset by an obscure threat:
 
 > The Chinese (March, 1959) are doing new work in the line of inscrutability. What adversary in this generation is going to forget that they have been spending the last six months, shelling the island of Quemoy every other day, excluding holidays?
 > ...
@@ -148,7 +148,7 @@ And with Hitler, Ellsberg writes:
 
 <div class="separator"></div>
 
-Ellsberg, and later McManus, make a case for strategic advantages of the _madman_ theory. McManus, for example, considers a host of leaders who have exhibited varying degrees of madness: Khrushchev<sup>2</sup>, Saddam Hussein, Gaddafi. Of course, no Nixon or Bush.
+Ellsberg, and later McManus, make a case for strategic advantages of the _madman_ theory. McManus, for example, considers a host of leaders who have exhibited varying degrees of madness: Khrushchev, Saddam Hussein, Gaddafi. Of course, no Nixon or Bush.
 
 However, with Trumpian failures, Samuel Seitz and Caitlin Talmadge re-examined the theory in their [_The Predictable Hazards of Unpredictability: Why Madman Behavior Doesn't Work_](https://bpb-us-e1.wpmucdn.com/blogs.gwu.edu/dist/1/2181/files/2024/12/SeitzTalmadge_TWQ.pdf). They write that history says otherwise; madman theory just doesn't work:
 
@@ -164,12 +164,10 @@ And, secondly:
 
 And finally:
 
-> even when such demands and threats are deemed credible, they do not necessarily induce the desired behavior from the targeted country, because madmen have a hard time giving believable assurances of behaving in the future<sup>3</sup>.
+> even when such demands and threats are deemed credible, they do not necessarily induce the desired behavior from the targeted country, because madmen have a hard time giving believable assurances of behaving in the future[^2].
 
 Nevertheless, Ellsberg's paper/lecture (in combination with the whole series, _Art of Coercion_) is a fascinating light into the mechanics of how cold and calculating _political realism_ is, and how academics and military analysts like him tackled the idea of an upper-hand in a world that virtually guaranteed none.
 
-\*
+[^1]: PRC bombed Quemoy (Kinmen) islands (which belong to Taiwan/ROC) during the Second Taiwan Strait crisis. Beijing used a weird strategy of bombing on odd-numbered days and pausing on even-numbered ones; a total of ~500,000 shells were dropped. PRC could not win the island. The metal from shells eventually became a local resource.
 
-<sup>1</sup> PRC bombed Quemoy (Kinmen) islands (which belong to Taiwan/ROC) during the Second Taiwan Strait crisis. Beijing used a weird strategy of bombing on odd-numbered days and pausing on even-numbered ones; a total of ~500,000 shells were dropped. PRC could not win the island. The metal from shells eventually became a local resource.
-
-<sup>2, 3</sup> Here, an interesting anecdote. Ellsberg quotes Khrushchev as having said, in 1959, "The difference between Munich and now is that I am not Adolf Hitler." Khrushchev was referring to the fact that when western powers accepted Hitler's Munich demand (_The Munich Agreement_) where Hitler said that would be the last territorial claim, he did not stick to his word. Khrushchev, in post-war Berlin, had given an ultimatum to the Allies to vacate and demilitarise Berlin or risk a war with the Soviets, and the Allies thought giving-in to this demand had no guarantee that the Soviets would stop demanding more. To which Khrushchev said, "I am not Adolf Hitler." The Allies did not demilitarise, leading straight to the Berlin Wall saga.
+[^2]: Here, an interesting anecdote. Ellsberg quotes Khrushchev as having said, in 1959, "The difference between Munich and now is that I am not Adolf Hitler." Khrushchev was referring to the fact that when western powers accepted Hitler's Munich demand (_The Munich Agreement_) where Hitler said that would be the last territorial claim, he did not stick to his word. Khrushchev, in post-war Berlin, had given an ultimatum to the Allies to vacate and demilitarise Berlin or risk a war with the Soviets, and the Allies thought giving-in to this demand had no guarantee that the Soviets would stop demanding more. To which Khrushchev said, "I am not Adolf Hitler." The Allies did not demilitarise, leading straight to the Berlin Wall saga.
